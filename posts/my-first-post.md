@@ -1,6 +1,7 @@
 ---
 title: "Mi primer Post"
 date: "2020-01-01"
+author: "Nicolás Saporiti"
 ---
 
 # Este es mi título

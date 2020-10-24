@@ -1,6 +1,7 @@
 ---
 title: "Aprender a Programar"
 date: "2020-10-22"
+author: "Nicolás Saporiti"
 ---
 ## Profesional de economía y negocios: ¿Por qué deberías aprender a programar?
 
@@ -8,11 +9,12 @@ date: "2020-10-22"
 
 Si estás buscando trabajo es muy probable que pronto encuentres un aviso que para postular requiera que envíes un POST request a:
 
-```
 Content-Type: application/json a https://empresa.com/jobs/apply
-```
+
 
 Lo anterior es común al proceso de selección de programadores con el fin de identificar habilidades mínimas, pero pronto será transversal a cualquier profesión. **Programar** *es un proceso utilizado para idear y ordenar acciones necesarias para realizar un proyecto. Preparar ciertas máquinas o aparatos para que empiecen a funcionar en el momento y en la forma deseados y  elaborar programas para su empleo en computadoras (1)*. Digamos que el proceso utilizado por un programador para solucionar un problema por medio de una aplicación no es muy distinto al que utiliza un profesional en su propio ámbito. Entonces: ¿ Qué queda para los profesionales que deben "programar "empresas o sus áreas para encontrar soluciones en un ámbito dominado por los datos y la información?
+
+![Imagen](https://picsum.photos/300/200)
 
 Transformación digital no sólo implica "automatizar" procesos utilizando aplicaciones, lo más importante es dominar los datos, generar información y a partir de ello tomar decisiones para encontrar soluciones. "Digitalizar" es entender a toda organización o actividad humana desde un enfoque sistémico como un sistema digital binario que en modo general recibe valores de entrada, posee un circuito transformador y entrega valores de salida.
 
