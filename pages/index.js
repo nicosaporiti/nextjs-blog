@@ -21,16 +21,19 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+          Nací y crecí en Mendoza - Argentina. Vivo en Chile desde el 2005 y soy
+          CEO de{" "}
+          <a href="https:agrominera.cl" target="_blank">
+            Agrominera
+          </a>. Licenciado en Administración y magister en Dirección Financiera.</p>
+          <p>Creo que la tecnología nos hará mejores personas.</p>
+        <p>💻 Dev en formación (Javascript, React, Node, NextJS)</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title}) => (
+          {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
