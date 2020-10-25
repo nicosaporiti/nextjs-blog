@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
         <p>
           Nací y crecí en Mendoza - Argentina. Vivo en Chile desde el 2005 y soy
           CEO de{" "}
-          <a href="https:agrominera.cl" target="_blank">
+          <a href="https://www.agrominera.cl/" target="_blank">
             Agrominera
           </a>. Licenciado en Administración y magister en Dirección Financiera.</p>
           <p>Creo que la tecnología nos hará mejores personas.</p>
