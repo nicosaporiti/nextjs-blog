@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    height: 1.8rem;
+}
+
+.iconStyle {
+    width: 1.3rem;
+    margin: 5px 10px;
+}
+
+.iconStyle:hover {
+    filter: brightness(50%);
+}

@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
+import React from "react";
 import Date from "../components/date";
 
 export async function getStaticProps() {
@@ -22,13 +23,15 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Nací y crecí en Mendoza - Argentina. Vivo en Chile desde el 2005 y soy
+          Nací y crecí en Mendoza - Argentina. Dese el año 2005 vivo en Chile. Soy
           CEO de{" "}
           <a href="https://www.agrominera.cl/" target="_blank">
             Agrominera
-          </a>. Licenciado en Administración y magister en Dirección Financiera.</p>
-          <p>Creo que la tecnología nos hará mejores personas.</p>
-        <p>💻 Dev en formación (Javascript, React, Node, NextJS)</p>
+          </a>
+          , Licenciado en Administración y Magister en Dirección Financiera.
+        </p>
+        <p>Creo que la tecnología nos hará mejores personas.</p>
+        <p>Dev en formación 💻 (Javascript, React, Node, NextJS)</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
