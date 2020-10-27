@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Test from "./navbar"
 
-const name = "Nicolás Saporiti";
+const name = "Notas en {código}.";
 export const siteTitle = "BLOG de Nicolás Saporiti";
 
 export default function Layout({ children, home }) {
