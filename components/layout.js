@@ -3,7 +3,8 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Test from "./navbar"
+import Test from "./navbar";
+import Image from "next/image";
 
 const name = "Notas en {código}.";
 export const siteTitle = "BLOG de Nicolás Saporiti";
@@ -28,10 +29,11 @@ export default function Layout({ children, home }) {
         <header className={styles.header}>
           {home ? (
             <>
-              <img
+              <Image
                 src="/images/profile.jpg"
                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                 alt={name}
+                unsized
               />
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
             </>
@@ -39,10 +41,11 @@ export default function Layout({ children, home }) {
             <>
               <Link href="/">
                 <a>
-                  <img
+                  <Image
                     src="/images/profile.jpg"
                     className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                     alt={name}
+                    unsized
                   />
                 </a>
               </Link>
