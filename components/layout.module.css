@@ -13,6 +13,11 @@
 .headerImage {
   width: 6rem;
   height: 6rem;
+  filter: grayscale(100%);
+}
+
+.headerImage:hover {
+  filter: grayscale(0%);
 }
 
 .headerHomeImage {

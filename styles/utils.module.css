@@ -53,6 +53,29 @@
   margin: 0 0 1.25rem;
 }
 
+.listItem small {
+  margin-left: 0.5rem;
+}
+.listItem a {
+  padding: 0.5rem;
+  transition: all 0.8s;
+}
+
+.listItem a:hover {
+  background: rgb(59, 59, 59);
+  text-decoration: none;
+}
+
 .lightText {
   color: #999;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.inline p {
+  margin: 0;
 }

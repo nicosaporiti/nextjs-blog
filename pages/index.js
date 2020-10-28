@@ -23,25 +23,26 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Mi nombre es <strong>Nicolás Saporiti</strong>. Nací y crecí en Mendoza - Argentina.
-          Dese el año 2005 vivo en Chile. Soy CEO de{" "}
+          Mi nombre es <strong>Nicolás Saporiti</strong>. Nací y crecí en
+          Mendoza - Argentina. Dese el año 2005 vivo en Chile. Soy CEO de{" "}
           <a href="https://www.agrominera.cl/" target="_blank">
             Agrominera
           </a>
           , Licenciado en Administración y Magister en Dirección Financiera.
         </p>
         <p>
-          Creo que la tecnología nos hará mejores personas, por lo que estoy
-          dedicando mi tiempo libre a estudiar programación. Dev en formación 💻
-          (Javascript, React, Node, NextJS).
+          Creo que la tecnología nos hará mejores personas. Actualmente estoy
+          estudiando desarrollo web 💻 Javascript, React, Node y NextJS.
         </p>
         <p>
-          Quiero compartir notas sobre mi experiencia personal estudiando y
-          aplicando tecnología en distintos ámbitos. No pretendo que sean notas
-          técnicas, simplemente reflexiones personales en este largo proceso de
+          Pensé compartir notas sobre mi experiencia personal aplicando
+          tecnología en distintos ámbitos. No pretendo que sean notas técnicas,
+          simplemente reflexiones personales en este largo proceso de
           aprendizaje.
         </p>
-        <p><strong>Quizás sean de tu interés!</strong></p>
+        <p>
+          <strong>Quizás sean de tu interés!</strong>
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
