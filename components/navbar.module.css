@@ -2,14 +2,19 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    height: 1.8rem;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .iconStyle {
     width: 1.3rem;
-    margin: 5px 10px;
+    margin: 0.5rem 1rem;
+    transition: all 0.5s;
 }
 
 .iconStyle:hover {
-    filter: brightness(50%);
+    filter: brightness(60%);
 }

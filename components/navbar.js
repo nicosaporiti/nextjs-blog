@@ -1,10 +1,21 @@
 import React from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const navbar = () => {
   return (
     <div className={styles.navbar}>
+      <Link href="/about">
+        <a>
+          <Image
+            src="/images/about.png"
+            alt="about"
+            unsized
+            className={styles.iconStyle}
+          />
+        </a>
+      </Link>
       <a href="https://github.com/nicosaporiti" target="_blank">
         <Image
           src="/images/github.png"

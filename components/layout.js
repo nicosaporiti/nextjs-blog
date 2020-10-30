@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Test from "./navbar";
+import Navbar from "./navbar";
 import Image from "next/image";
 
 const name = "Notas en {código}.";
@@ -12,11 +12,11 @@ export const siteTitle = "BLOG de Nicolás Saporiti";
 export default function Layout({ children, home }) {
   return (
     <>
-    <Test />
+    <Navbar />
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="Blog Personal Nicolás Saporiti" />
+          <meta name="description" content="Notas en {código}." />
           <meta
             property="og:image"
             content={`https://og-image.now.sh/${encodeURI(
