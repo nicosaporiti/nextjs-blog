@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./navbar.module.css";
-import Image from "next/image";
 import Link from "next/link";
 
 const navbar = () => {
@@ -8,19 +7,17 @@ const navbar = () => {
     <div className={styles.navbar}>
       <Link href="/about">
         <a>
-          <Image
+          <img
             src="/images/about.png"
             alt="about"
-            unsized
             className={styles.iconStyle}
           />
         </a>
       </Link>
       <a href="https://github.com/nicosaporiti" target="_blank">
-        <Image
+        <img
           src="/images/github.png"
           alt="githubIcon"
-          unsized
           className={styles.iconStyle}
         />
       </a>
@@ -28,19 +25,17 @@ const navbar = () => {
         href="https://www.linkedin.com/in/nicolas-jorge-saporiti-1619391a/"
         target="_blank"
       >
-        <Image
+        <img
           src="/images/linkedin.png"
           alt="linkedIN"
-          unsized
           className={styles.iconStyle}
         />
       </a>
       <a href="mailto:nicolas@saporiti.cl?subject=Contacto%20desde%20Blog">
-        <Image
+        <img
           src="/images/email.png"
           alt="email"
           className={styles.iconStyle}
-          unsized
         />
       </a>
     </div>
