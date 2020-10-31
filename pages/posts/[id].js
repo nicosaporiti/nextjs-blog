@@ -13,16 +13,13 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
         <meta property="og:title" content={postData.title} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://blog.saporiti.cl/" />
+        <meta property="og:url" content={`https://blog.saporiti.cl/posts/${postData.id}`} />
         <meta property="og:image" content={postData.image} />
         <meta property="og:description" content={postData.resume} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@publisher_handle" />
         <meta name="twitter:title" content={postData.title} />
-        <meta
-          name="twitter:description"
-          content={postData.resume}
-        />
+        <meta name="twitter:description" content={postData.resume} />
         <meta name="twitter:creator" content="@author_handle" />
       </Head>
       <article>
