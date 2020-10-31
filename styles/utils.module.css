@@ -63,6 +63,13 @@
   .listItem {
     font-size: small;
   }
+  .listItem a {
+    padding: 0;
+    border-radius: none;
+  }
+  .listItem a:hover {
+    background: none;
+  }
 }
 
 .listItem small {
