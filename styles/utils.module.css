@@ -70,13 +70,16 @@
 }
 .listItem a {
   padding: 0.5rem;
-  transition: all 0.8s;
   border-radius: 5px;
 }
 
 .listItem a:hover {
   background: rgb(59, 59, 59);
   text-decoration: none;
+}
+
+.listItem a {
+  transition: background 0.8s;
 }
 
 .lightText {
