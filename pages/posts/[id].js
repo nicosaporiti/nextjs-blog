@@ -11,13 +11,11 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
-        <meta name="og:title" content={postData.title} />
-        <meta name="description" content={postData.description} />
-        <meta
-          property="og:image"
-          content={postData.image}
-        />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:title" content={postData.title} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://blog.saporiti.cl/" />
+        <meta property="og:image" content={postData.image} />
+        <meta property="og:description" content={postData.resume} />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
