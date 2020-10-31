@@ -11,12 +11,21 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <meta name="description" content="Notas en {código}." />
+        <meta
+          property="og:image"
+          content={postData.image}
+        />
+        <meta name="og:title" content={postData.title} />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={`${utilStyles.lightText} ${utilStyles.inline}`}>
           <p>Por {postData.author} /&nbsp;</p>
-          <p><Date dateString={postData.date}/></p>
+          <p>
+            <Date dateString={postData.date} />
+          </p>
         </div>
         <p className={utilStyles.lightText}>Lectura de {readingTime} min</p>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

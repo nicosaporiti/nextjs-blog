@@ -2,6 +2,7 @@
 title: "Mi primer Post"
 date: "2020-01-01"
 author: "Nicolás Saporiti"
+image: "https://i.imgur.com/0txPX12.jpg"
 ---
 
 Hola 👋 Estás leyendo mi primer Post! Este Blog lo desarrollé en React + Next.js utilizando el siguiente [tutorial](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website).
@@ -11,7 +12,7 @@ Si te interesa, puedes ver el repositorio en mi [GitHub](https://github.com/nico
 
 Esta es una imagen aleatoria.
 
-![Imagen](https://picsum.photos/300/200)    
+![Imagen](https://picsum.photos/300/200)  
 
 Escribir en markdown es muy entretenido y hay que ponerlo en práctica.
 # Encabezado 1
