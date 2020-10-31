@@ -61,14 +61,19 @@
 
 @media (max-width: 600px) {
   .listItem {
-    font-size: small;
+    font-size: smaller;
   }
+
   .listItem a {
-    padding: 0;
-    border-radius: none;
+    padding: 0 !important;
   }
+
   .listItem a:hover {
-    background: none;
+    background: none !important;
+    text-decoration: none;
+  }
+  .listItem small {
+    margin-left: 0 !important;
   }
 }
 
