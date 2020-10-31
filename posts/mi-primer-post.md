@@ -3,6 +3,7 @@ title: "Mi primer Post"
 date: "2020-01-01"
 author: "Nicolás Saporiti"
 image: "https://i.imgur.com/0txPX12.jpg"
+description: "Primer post de este Blog que he creado en React + Next.js"
 ---
 
 Hola 👋 Estás leyendo mi primer Post! Este Blog lo desarrollé en React + Next.js utilizando el siguiente [tutorial](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website).
