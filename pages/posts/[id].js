@@ -16,6 +16,14 @@ export default function Post({ postData }) {
         <meta property="og:url" content="https://blog.saporiti.cl/" />
         <meta property="og:image" content={postData.image} />
         <meta property="og:description" content={postData.resume} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@publisher_handle" />
+        <meta name="twitter:title" content={postData.title} />
+        <meta
+          name="twitter:description"
+          content={postData.resume}
+        />
+        <meta name="twitter:creator" content="@author_handle" />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
