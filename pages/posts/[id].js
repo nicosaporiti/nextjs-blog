@@ -13,13 +13,29 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
         <meta property="og:title" content={postData.title} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://blog.saporiti.cl/posts/${postData.id}`} />
+        <meta
+          property="og:url"
+          content={`https://blog.saporiti.cl/posts/${postData.id}`}
+        />
         <meta property="og:image" content={postData.image} />
         <meta property="og:description" content={postData.resume} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={postData.title} />
         <meta name="twitter:description" content={postData.resume} />
         <meta name="twitter:creator" content="@author_handle" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6T4LER1TV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6T4LER1TV2');
+</script>`,
+          }}
+        />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
