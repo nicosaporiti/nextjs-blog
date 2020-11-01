@@ -15,19 +15,6 @@ export default function Layout({ children, home }) {
       <div className={styles.container}>
         {home ? (
           <Head>
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6T4LER1TV2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6T4LER1TV2');
-</script>`,
-              }}
-            />
             <link rel="icon" href="/favicon.ico" />
             <meta name="description" content="Notas en {código}." />
             <meta
@@ -37,6 +24,21 @@ export default function Layout({ children, home }) {
               )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
             />
             <meta name="og:title" content={siteTitle} />
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=G-PXKER2TTH1"
+            ></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+            window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PXKER2TTH1');
+              `,
+              }}
+            />
           </Head>
         ) : (
           <Head>
