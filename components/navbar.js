@@ -14,7 +14,11 @@ const navbar = () => {
           />
         </a>
       </Link>
-      <a href="https://github.com/nicosaporiti" target="_blank">
+      <a
+        href="https://github.com/nicosaporiti"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="/images/github.png"
           alt="githubIcon"
@@ -24,6 +28,7 @@ const navbar = () => {
       <a
         href="https://www.linkedin.com/in/nicolas-jorge-saporiti-1619391a/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           src="/images/linkedin.png"
@@ -32,11 +37,7 @@ const navbar = () => {
         />
       </a>
       <a href="mailto:nicolas@saporiti.cl?subject=Contacto%20desde%20Blog">
-        <img
-          src="/images/email.png"
-          alt="email"
-          className={styles.iconStyle}
-        />
+        <img src="/images/email.png" alt="email" className={styles.iconStyle} />
       </a>
     </div>
   );
