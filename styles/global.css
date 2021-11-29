@@ -16,8 +16,14 @@ blockquote {
 }
 
 code {
-  background: lightslategrey;
-  color: black;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+  line-height: 1.5;
+  font-size: 13px;
+  display: block;
+  background-color: slategray;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 img {
