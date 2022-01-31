@@ -4,6 +4,7 @@ import Head from "next/head";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
 import wordCounter from "../../components/wordCounter";
+import { tipButton as TipButton } from "../../components/tipButton";
 
 export default function Post({ postData }) {
   const readingTime = wordCounter(postData.contentHtml);
@@ -47,7 +48,10 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </p>
         </div>
-        <p className={utilStyles.lightText}>Lectura de {readingTime} min</p>
+        <div>
+        <TipButton post={postData.title} />
+          <p className={utilStyles.lightText}>Lectura de {readingTime} min</p>
+        </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

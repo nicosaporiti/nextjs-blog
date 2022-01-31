@@ -1,0 +1,17 @@
+.btc_button {
+    cursor: pointer;
+    color: white;
+    background: peru;
+    padding: 0.78571429em 1.5em;
+    float: right;
+    border-radius: 0.28571429rem;
+    text-decoration: none;
+    font-size: 0.60rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btc_button:hover{
+    background: orange;
+    text-decoration: none;
+}
