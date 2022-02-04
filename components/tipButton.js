@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./tipButton.module.css";
 
-export const tipButton = ({ post }) => {
-  const url = process.env.NEXT_PUBLIC_BTC_URL + "Blog Post: " +  post;
+export const tipButton = () => {
+  const url = process.env.NEXT_PUBLIC_BTC_URL;
 
   return (
     <div>
