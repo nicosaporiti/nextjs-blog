@@ -8,8 +8,8 @@ resume: "Si recién empiezas, te explico como puedes tener gratis tus primeros s
 
 Lo primero que aclaro que esto no es un scam. De todos modos, te recomiendo que hagas tus propias verificaciones del procedimiento que  voy a explicar para tener tus primeros sats, la unidad mínima de Bitcoin.
 
-Al pie de esta nota se mostrará un QR el cuál se renueva cada 1 hora y te permite cobrar 5 sats. La tecnología que utiliza es **Lightning Network** (LN) y necesitas una wallet (billetera) que soporte retiros utilizando LNurl.
-Lo único que debes hacer es seleccionar RECIBIR en tu wallet y escanear el código. Luego recibirás una confirmación de que cobraste 5 sats.
+Al pie de esta nota se mostrará un QR el cuál se renueva cada 1 hora y te permite cobrar 10 sats. La tecnología que utiliza es **Lightning Network** (LN) y necesitas una wallet (billetera) que soporte retiros utilizando LNurl.
+Lo único que debes hacer es seleccionar RECIBIR en tu wallet y escanear el código. Luego recibirás una confirmación de que cobraste 10 sats.
 
 **Si el código te emite un error, es porque el QR fue cobrado y debes intentar nuevamente en una hora**
 
