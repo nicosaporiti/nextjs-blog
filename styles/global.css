@@ -30,7 +30,8 @@ img {
   display: block;
   margin: auto;
   width: 80%;
-  border-radius: 3%;
+  border-radius: 25px;
+  background: white;
 }
 
 * {
@@ -44,4 +45,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.qr {
+  background: white;
 }

@@ -19,6 +19,7 @@
 .iconStyle {
     width: 1.3rem;
     margin: 0.5rem 1rem;
+    background: none !important;
 }
 
 .iconStyle:hover {
