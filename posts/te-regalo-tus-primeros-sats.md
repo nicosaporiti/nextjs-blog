@@ -29,5 +29,7 @@ Recuerda el bitcoin pizza day, una persona pagó fortunas al día de hoy por una
 
 El QR estará vigente por 90 días. Si en un futuro los sats que te regalo valen una fortuna, quizás me recuerdes como el bitcoin pizza day y me alegrará enormemente haber contribuído a distribuir valor. Me cuentas!
 
+## SE AGOTARON LOS FONDOS DESTINADOS AL FAUCET.
+
 
 ![QR](https://legend.lnbits.com/withdraw/img/TySyGFGnmnwcavK8r5xzJn)
