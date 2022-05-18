@@ -6,7 +6,7 @@ export const tipButton = () => {
 
   return (
     <div>
-      <a className={styles.btc_button} href={"lightning: nicolas.saporiti@rayito.app"} target="_blank">
+      <a className={styles.btc_button} href={"lightning:nicolas.saporiti@rayito.app"} target="_blank">
         Donar BTC con Rayito.app ⚡ 
       </a>
     </div>
