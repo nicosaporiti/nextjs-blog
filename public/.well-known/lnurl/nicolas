@@ -1,0 +1,8 @@
+{
+  "tag": "payRequest",
+  "callback": "https://ln.rayito.app/lnurlp/api/v1/lnurl/cb/7",
+  "minSendable": 1000,
+  "maxSendable": 100000000,
+  "metadata": "[[\"text/plain\", \"PayLink de Nicolas Saporiti\"]]",
+  "commentAllowed": 140
+}
