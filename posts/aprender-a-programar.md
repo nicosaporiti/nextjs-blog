@@ -2,6 +2,7 @@
 title: "Aprender a programar"
 date: "2020-12-02"
 author: "Nicolás Saporiti"
+lnurl: "LNURL1DP68GURN8GHJ7MRW9EEXZ7TFW3HJUCTSWQHKCMN4WFK8QTMPWP5J7A339AKXUATJDSHNW2VYZ00"
 image: "https://i.imgur.com/fXBA89c.jpg"
 resume: "Si quieres vender, emplearte o crear, necesitas aunque sea conocimientos básicos de programación que permitan generar ese activo digital que represente todo lo que ofreces para alcanzar tus objetivos."
 ---
