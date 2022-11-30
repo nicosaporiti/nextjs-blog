@@ -8,7 +8,7 @@ resume: "Todos reconocen la importancia de custodiar bitcoin, pero muchos delega
 
 # No delegar tu lightning address
 
-Todos reconocen la importancia de custodiar bitcoin, pero muchos delegan su lightning address (LA) en terceros. Si operas tu propio nodo, disponer de una propia LA bajo tu dominio es muy sencillo y **necesario**.
+Todos reconocen la importancia de custodiar bitcoin, pero muchos delegan su lightning address (LA) en terceros. Si operas tu propio nodo, disponer de una propia dirección bajo tu dominio es muy sencillo y **necesario**.
 
 ## ¿Qué es Lightning Address?
 
@@ -18,7 +18,7 @@ Lo importante es analizar como funciona LA. Aquí hay un diagrama sencillo sobre
 
 ![](https://camo.githubusercontent.com/268abc621585b68fbf1229eab51c3c9344870ec3f227a1ff237c7423ba3ba28e/68747470733a2f2f692e696d6775722e636f6d2f444956357138712e706e67)
 
-Básicamente un usuario al pagar con una billetera que soporta lightning address genera un GET request y recibe como respuesta un json con la siguiente estructura:
+Básicamente un usuario al pagar con una billetera que soporta lightning address genera un GET request para recibir como respuesta un json con la siguiente estructura:
 
 ```
 {
@@ -37,12 +37,13 @@ Lo más importe en este punto es que identifiquemos cuál es nuestro callback, e
 ## Haciendo decoder a lightning address
 Hay varias formas de decodificar una LA. La primera puede ser utilizando un decodificador en línea como [Lightning Decoder](https://lightningdecoder.com/)
 
-La segunfa forma es hacerlo manualmente. Como vimos en el diagrama anterior una LA se compone de username@domain.com entonces por ejemplo para una dirección de GetAlby el json lo podemos obtener en el siguiente link
+La segunda forma es hacerlo manualmente. Como vimos en el diagrama anterior una LA se compone de username@domain.com entonces por ejemplo para una dirección de GetAlby el json lo podemos obtener en el siguiente link
 
 https://getalby.com/.well-known/lnurlp/username
+
 Por ejemplo este sería el json para mi dirección de GetAlby [Mi Json](https://getalby.com/.well-known/lnurlp/saporiti)
 
-Una vez decodificado nuestro json podemos obtener nuestro callback que recibirá las peticiones para generar facturas lightning network. El endpoint que recibe los llamados toma dos parámetros query que son amount (obligatorio) y memo (opcional). Por ejemplo el siguiente link genera con callback un invoice para mi address en Alby (lo configuré para 1 sats): [Invoice por 1 sat](https://getalby.com/lnurlp/saporiti/callback?amount=1000)
+Una vez decodificado el json podemos obtener nuestro callback que recibirá las peticiones para generar facturas lightning network. El endpoint que recibe los llamados toma dos parámetros query que son amount (obligatorio) y memo (opcional). Por ejemplo el siguiente link genera un invoice para mi address en Alby (lo configuré para 1 sats): [Invoice por 1 sat](https://getalby.com/lnurlp/saporiti/callback?amount=1000)
 
 > Debes tener en cuenta que el parámetro amount se indica en mstas en donde 1 sat equivale a 1.000 msats.
 
@@ -70,20 +71,20 @@ Luego seleccionas LNURLp y das click en NEW PAY LINK, carga los datos como muest
 
 ![PayLink](https://i.ibb.co/Bn5hG7H/Screenshot-2022-11-29-at-14-57-17.png)
 
-Una vez que terminas de crear tu PayLink pruebas que funcione correctamente con cualquier wallet que de soporte a LNurl. Si todo funciona correcto, debes decodificar el LNurl. Para ello copias su dirección (COPY LNURL) como muestra la imagen.
+Cuando terminas de crear tu PayLink, prueba que funcione correctamente con cualquier wallet que de soporte a LNurl. Si todo funciona bien, debes decodificar el LNurl. Para ello copias su dirección (COPY LNURL) como muestra la imagen.
 
 ![Copy LNurl](https://i.ibb.co/CB3tSYc/Screenshot-2022-11-29-at-15-01-43.png)
 
-Una vez que copiaste tu LNurl debes decodificarlo, para ello te diriges a esta página [lnurl decoder](https://lnurl.fiatjaf.com/codec/) y obtienes tu callback.
+Copiada tu LNurl debes decodificarla, para ello te diriges a esta página [lnurl decoder](https://lnurl.fiatjaf.com/codec/) y obtienes tu callback.
 
 En el ejemplo sería el siguiente [callback](https://legend.lnbits.com/lnurlp/api/v1/lnurl/9392) y si le das click obtienes los datos para pegar en tu json.
 
 Ya con los datos de tu json los guardas en un archivo txt con el nombre de usuario que deseas, recuerda eliminar la extensión txt y subirlo a la carpeta de tu dominio en https://dominio.com/.well-known/lnurlp/
 
-Ahora queda solo probar tu lightning address con cualquier wallet que lo soporte y si la decodificas con [Lightning Decoder](https://lightningdecoder.com/) podrás ver que se indica el callback al dominio de tu servicio LNbits.
+Ahora queda solo probar tu lightning address con cualquier wallet que soporte el protocolo y si la decodificas con [Lightning Decoder](https://lightningdecoder.com/) podrás ver que se indica el callback al dominio de tu servicio LNbits.
 
 Cada vez que recibas sats a tu lightning address se depositarán en tu billetera de LNbits. Recuerda no perder el acceso a tu dirección de lnbits.
 
 Ejecutando cualquiera de los dos métodos tendrás custodia total de tus fondos y direcciones lightning address.
 
-Otra ventaja es que puedes tener una dirección de correo que reciba sats y también correos electrónicos por ejemplo, escríbeme a nicolas@saporiti.cl o enviarme sats a [nicolas@saporiti.cl](lightning:nicolas@saporiti.cl) para probar.
+Otra ventaja es que puedes tener una dirección de correo que reciba sats y también correos electrónicos. Puedes escríbeme a nicolas@saporiti.cl o enviarme sats a [nicolas@saporiti.cl](lightning:nicolas@saporiti.cl) para probar.
