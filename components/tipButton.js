@@ -8,10 +8,10 @@ export const tipButton = () => {
     <div>
       <a
         className={styles.btc_button}
-        href={'https://rayito.app/nicolas'}
+        href={'https://payments.saporiti.cl/'}
         target='_blank'
       >
-        Donar BTC con Rayito.app⚡
+        Donar Sats con LN ⚡
       </a>
     </div>
   );
