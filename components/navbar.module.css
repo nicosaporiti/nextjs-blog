@@ -18,6 +18,7 @@
 
 .iconStyle {
     width: 1.3rem;
+    height: auto;
     margin: 0.5rem 1rem;
     background: none !important;
 }
