@@ -26,7 +26,7 @@ code {
   padding: 2px;
 }
 
-img {
+.post-content img {
   display: block;
   margin: auto;
   width: 80%;

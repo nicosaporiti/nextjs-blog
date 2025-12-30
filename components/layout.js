@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
@@ -13,64 +14,48 @@ export default function Layout({ children, home }) {
     <>
       <Navbar />
       <div className={styles.container}>
-        {home ? (
-          <Head>
-            <link rel="icon" href="/favicon.ico" />
-            <meta name="description" content="Notas en {código}." />
-            <meta
-              property="og:image"
-              content={`https://og-image.now.sh/${encodeURI(
-                siteTitle
-              )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-            />
-            <meta name="og:title" content={siteTitle} />
-            <script
-              async
-              src="https://www.googletagmanager.com/gtag/js?id=G-PXKER2TTH1"
-            ></script>
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-            window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-PXKER2TTH1');
-              `,
-              }}
-            />
-          </Head>
-        ) : (
-          <Head>
-            <link rel="icon" href="/favicon.ico" />
-          </Head>
-        )}
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          {home && (
+            <>
+              <meta name="description" content="Notas en {código}." />
+              <meta
+                property="og:image"
+                content={`https://og-image.now.sh/${encodeURI(
+                  siteTitle
+                )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+              />
+              <meta name="og:title" content={siteTitle} />
+            </>
+          )}
+        </Head>
 
         <header className={styles.header}>
           {home ? (
             <>
-              <img
+              <Image
                 src="/images/profile.jpg"
                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                 alt={name}
+                width={96}
+                height={96}
+                priority
               />
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
             </>
           ) : (
             <>
               <Link href="/">
-                <a>
-                  <img
+                  <Image
                     src="/images/profile.jpg"
                     className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                     alt={name}
+                    width={96}
+                    height={96}
                   />
-                </a>
               </Link>
               <h2 className={utilStyles.headingLg}>
-                <Link href="/">
-                  <a className={utilStyles.colorInherit}>{name}</a>
-                </Link>
+                <Link href="/" className={utilStyles.colorInherit}>{name}</Link>
               </h2>
             </>
           )}
@@ -78,9 +63,7 @@ export default function Layout({ children, home }) {
         <main>{children}</main>
         {!home && (
           <div className={styles.backToHome}>
-            <Link href="/">
-              <a>← Volver al Home</a>
-            </Link>
+            <Link href="/">← Volver al Home</Link>
           </div>
         )}
       </div>
