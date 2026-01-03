@@ -21,9 +21,11 @@ code {
   font-size: 13px;
   display: block;
   background-color: slategray;
-  overflow: hidden;
+  overflow-x: auto;
   border-radius: 5px;
-  padding: 2px;
+  padding: 8px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .post-content img {
@@ -32,6 +34,58 @@ code {
   width: 80%;
   border-radius: 25px;
   background: white;
+}
+
+.post-content {
+  line-height: 1.8;
+}
+
+.post-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.post-content h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.post-content p {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 600px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .post-content {
+    line-height: 1.7;
+  }
+
+  .post-content img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .post-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.15rem;
+  }
+
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+  }
 }
 
 * {
