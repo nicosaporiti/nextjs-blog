@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 
@@ -6,23 +7,25 @@ const navbar = () => {
   return (
     <div className={styles.navbar}>
       <Link href="/about">
-        <a>
-          <img
+          <Image
             src="/images/about.png"
             alt="about"
             className={styles.iconStyle}
+            width={24}
+            height={24}
           />
-        </a>
       </Link>
       <a
         href="https://github.com/nicosaporiti"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
+        <Image
           src="/images/github.png"
           alt="githubIcon"
           className={styles.iconStyle}
+          width={24}
+          height={24}
         />
       </a>
       <a
@@ -30,14 +33,22 @@ const navbar = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
+        <Image
           src="/images/linkedin.png"
           alt="linkedIN"
           className={styles.iconStyle}
+          width={24}
+          height={24}
         />
       </a>
       <a href="mailto:nicolas@saporiti.cl?subject=Contacto%20desde%20Blog">
-        <img src="/images/email.png" alt="email" className={styles.iconStyle} />
+        <Image
+          src="/images/email.png"
+          alt="email"
+          className={styles.iconStyle}
+          width={24}
+          height={24}
+        />
       </a>
     </div>
   );

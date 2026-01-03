@@ -24,21 +24,6 @@ export default function Post({ postData }) {
         <meta name="twitter:title" content={postData.title} />
         <meta name="twitter:description" content={postData.resume} />
         <meta name="twitter:creator" content="@author_handle" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-PXKER2TTH1"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-PXKER2TTH1');
-              `,
-          }}
-        />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
@@ -52,7 +37,7 @@ export default function Post({ postData }) {
         <TipButton post={postData.title} />
           <p className={utilStyles.lightText}>Lectura de {readingTime} min</p>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className="post-content" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   );
