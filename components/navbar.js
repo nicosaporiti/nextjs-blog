@@ -6,13 +6,11 @@ const navbar = () => {
   return (
     <div className={styles.navbar}>
       <Link href="/about">
-        <a>
-          <img
-            src="/images/about.png"
-            alt="about"
-            className={styles.iconStyle}
-          />
-        </a>
+        <img
+          src="/images/about.png"
+          alt="about"
+          className={styles.iconStyle}
+        />
       </Link>
       <a
         href="https://github.com/nicosaporiti"

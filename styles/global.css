@@ -8,6 +8,7 @@ body {
   font-size: 18px;
   background: #303135;
   color: white;
+  overflow-x: hidden;
 }
 
 blockquote {
@@ -21,9 +22,33 @@ code {
   font-size: 13px;
   display: block;
   background-color: slategray;
-  overflow: hidden;
+  overflow-x: auto;
   border-radius: 5px;
   padding: 2px;
+}
+
+.post-content table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid #555;
+  padding: 8px 12px;
+  text-align: left;
+  min-width: 120px;
+}
+
+.post-content th {
+  background-color: #404040;
+}
+
+.post-content tr:nth-child(even) {
+  background-color: #3a3a3a;
 }
 
 .post-content img {
@@ -49,4 +74,21 @@ a:hover {
 
 .qr {
   background: white;
+}
+
+@media (max-width: 600px) {
+  .post-content img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
