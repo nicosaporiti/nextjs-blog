@@ -4,13 +4,6 @@
   margin: 3rem auto 6rem;
 }
 
-@media (max-width: 600px) {
-  .container {
-    padding: 0 1.25rem;
-    margin: 2rem auto 5rem;
-  }
-}
-
 .header {
   display: flex;
   flex-direction: column;

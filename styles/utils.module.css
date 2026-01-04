@@ -20,13 +20,6 @@
   margin: 1rem 0;
 }
 
-@media (max-width: 600px) {
-  .headingXl {
-    font-size: 1.5rem;
-    line-height: 1.25;
-  }
-}
-
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
@@ -109,15 +102,8 @@
   display: flex;
   flex-direction: row;
   justify-content: left;
-  flex-wrap: wrap;
 }
 
 .inline p {
   margin: 0;
-}
-
-@media (max-width: 600px) {
-  .inline {
-    font-size: 0.9rem;
-  }
 }
