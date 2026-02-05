@@ -1,34 +1,49 @@
 .navbar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #303135;
-    width: 100%;
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
-    padding-bottom: env(safe-area-inset-bottom);
-}
-
-@media (max-width: 800px) {
-    .navbar {
-        justify-content: center;
-    }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #303135;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .iconStyle {
-    width: 1.3rem;
-    margin: 0.5rem 1rem;
-    background: none !important;
+  width: 1.3rem;
+  margin: 0.5rem 1rem;
+  background: none !important;
+  transition: filter 0.5s;
 }
 
 .iconStyle:hover {
-    filter: brightness(60%);
+  filter: brightness(60%);
 }
 
-.iconStyle {
-    transition: filter 0.5s;
+/* Back arrow: hidden on desktop, shown on mobile */
+.backArrow {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .backArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    transition: color 0.2s ease;
+  }
+
+  .backArrow:hover {
+    color: peru;
+    text-decoration: none;
+  }
 }

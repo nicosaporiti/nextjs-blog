@@ -4,6 +4,12 @@
   margin: 3rem auto 6rem;
 }
 
+.containerHome {
+  max-width: 44rem;
+  padding: 0 1rem;
+  margin: 1rem auto 3.5rem;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -21,10 +27,40 @@
 }
 
 .headerHomeImage {
-  width: 6rem;
-  height: 6rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.backButton {
+  position: fixed;
+  left: max(0.8rem, calc(25% - 11rem));
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #999;
+  transition: color 0.2s ease, background 0.2s ease;
+  z-index: 50;
+}
+
+.backButton:hover {
+  color: peru;
+  background: rgba(205, 133, 63, 0.1);
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .backButton {
+    display: none;
+  }
 }

@@ -1,0 +1,227 @@
+.timelineSection {
+  margin-top: 0.5rem;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.timelineScroller {
+  margin-top: 0.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem 0 0.25rem;
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+}
+
+.timelineScroller::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline {
+  position: relative;
+  display: inline-flex;
+  padding: 0 1rem;
+  margin: 0;
+  list-style: none;
+  width: max-content;
+  height: 24rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #4a4a4a;
+}
+
+.timelineItem {
+  position: relative;
+  width: 15rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.timelineDot {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 0.75rem);
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #999;
+  border: 3px solid #303135;
+  z-index: 2;
+}
+
+.timelineContent {
+  position: absolute;
+  left: 0;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.timelineItem:nth-child(odd) .timelineContent {
+  bottom: 50%;
+  padding-bottom: 1.3rem;
+  justify-content: flex-end;
+}
+
+.timelineItem:nth-child(even) .timelineContent {
+  top: 50%;
+  padding-top: 1.3rem;
+}
+
+.timelineThumb {
+  width: 100%;
+  height: 3rem;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  margin-top: 0.45rem;
+  order: 1;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.timelineItem:hover .timelineThumb {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.timelineText {
+  min-width: 0;
+}
+
+.timelineDate {
+  display: block;
+  color: peru;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+}
+
+.timelineLink {
+  display: block;
+  color: white;
+  font-weight: 600;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  transition: color 0.2s ease;
+}
+
+.timelineLink:hover {
+  color: peru;
+  text-decoration: none;
+}
+
+.timelineResume {
+  margin: 0.3rem 0 0;
+  color: #999;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  /* Remove full-width breakout */
+  .timelineSection {
+    width: auto;
+    margin-left: 0;
+  }
+
+  /* Remove horizontal scroll and fade */
+  .timelineScroller {
+    overflow: visible;
+    -webkit-mask-image: none;
+    mask-image: none;
+    padding: 0;
+  }
+
+  /* Vertical column layout */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 2rem;
+  }
+
+  /* Vertical line on the left */
+  .timeline::before {
+    top: 0;
+    bottom: 0;
+    left: 1rem;
+    right: auto;
+    width: 2px;
+    height: auto;
+  }
+
+  /* Items stack vertically, full width */
+  .timelineItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Dot on the vertical line, centered on the card */
+  .timelineDot {
+    left: -1rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Reset all positioning — cards flow normally in column */
+  .timelineItem:nth-child(odd) .timelineContent,
+  .timelineItem:nth-child(even) .timelineContent {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    padding: 0;
+    justify-content: flex-start;
+    background: #25262a;
+    border: 1px solid #3d3d3d;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* Text padding inside card */
+  .timelineText {
+    padding: 0.85rem 1rem;
+  }
+
+  /* Image always at bottom, wider */
+  .timelineThumb,
+  .timelineItem:nth-child(odd) .timelineThumb {
+    order: 1;
+    height: 9rem;
+    margin: 0;
+    border-radius: 0;
+    opacity: 0.6;
+  }
+
+  .timelineDate {
+    font-size: 0.82rem;
+  }
+
+  .timelineLink {
+    font-size: 0.92rem;
+  }
+
+  .timelineResume {
+    font-size: 0.75rem;
+    -webkit-line-clamp: 3;
+  }
+}
