@@ -7,29 +7,15 @@
 .containerHome {
   max-width: 44rem;
   padding: 0 1rem;
-  margin: 1rem auto 3.5rem;
+  margin: 8rem auto 5rem;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (max-width: 600px) {
+  .containerHome {
+    margin: 1.5rem auto 4rem;
+  }
 }
 
-.headerImage {
-  width: 6rem;
-  height: 6rem;
-  filter: grayscale(100%);
-}
-
-.headerImage:hover {
-  filter: grayscale(0%);
-}
-
-.headerHomeImage {
-  width: 3.5rem;
-  height: 3.5rem;
-}
 
 .backToHome {
   margin: 3rem 0 0;
