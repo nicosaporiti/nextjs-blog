@@ -13,6 +13,7 @@ export default function Layout({ children, home }) {
       <div className={home ? styles.containerHome : styles.container}>
         <Head>
           <link rel='icon' href='/favicon.ico' />
+          <link rel='alternate' type='application/rss+xml' title='RSS Feed' href='/rss.xml' />
           {home && (
             <>
               <meta name='description' content='Blog de Nicolás Saporiti.' />

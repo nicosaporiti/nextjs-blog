@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BLOG de Nicolás Saporiti</title>
+    <link>https://blog.saporiti.cl</link>
+    <description>Blog de Nicolás Saporiti</description>
+    <language>es</language>
+    <atom:link href="https://blog.saporiti.cl/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Préstamos con Garantía de Bitcoin</title>
+      <link>https://blog.saporiti.cl/posts/prestamos-en-bitcoin</link>
+      <guid>https://blog.saporiti.cl/posts/prestamos-en-bitcoin</guid>
+      <description>Este informe presenta un análisis exhaustivo para validar la hipótesis de que los préstamos que utilizan bitcoin como colateral alcanzarán un estatus institucional en los próximos años.</description>
+      <content:encoded><![CDATA[<h1><strong>La Institucionalización de los Préstamos con Garantía de Bitcoin: Validación de un Nuevo Primitivo Financiero</strong></h1>
+<h2><strong>Resumen Ejecutivo</strong></h2>
+<p>Este informe presenta un análisis exhaustivo para validar la hipótesis de que los préstamos que utilizan bitcoin como colateral alcanzarán un estatus institucional en los próximos años. La investigación indica que, si bien el mercado de préstamos de criptomonedas se está recuperando de las turbulentas implosiones de 2022-2023, su estructura subyacente ha experimentado una transformación fundamental, sentando una base más sólida y resistente para la adopción institucional. El colapso de prestamistas centralizados opacos y mal gestionados ha servido como una purga de mercado, demostrando la resiliencia de los protocolos de finanzas descentralizadas (DeFi) transparentes y sobrecolateralizados, que ahora dominan el panorama.</p>
+<p>La propuesta de valor para los préstamos con garantía de bitcoin es sólida y multifacética. Para los prestatarios, ofrece acceso a liquidez sin necesidad de vender sus activos, lo que les permite mantener su exposición al potencial de apreciación del bitcoin y, de manera crucial, evitar eventos fiscales de ganancias de capital. Para los prestamistas institucionales, representa una nueva frontera de rendimiento, con tasas de interés atractivas y la oportunidad de captar a un grupo demográfico de clientes valioso y experto en tecnología. Bitcoin mismo, con su liquidez 24/7, su naturaleza global y su programabilidad, se presenta como una forma de "colateral prístino" inherentemente adaptado a la era digital.</p>
+<p>El camino hacia la institucionalización no está exento de obstáculos significativos. La volatilidad de los precios sigue siendo el principal riesgo, creando la posibilidad de cascadas de liquidación que preocupan a los reguladores de la estabilidad financiera. La infraestructura para la custodia de grado institucional, aunque está madurando rápidamente con soluciones como la computación multipartita (MPC), sigue siendo un área de intenso escrutinio. Sin embargo, estos impedimentos se están abordando activamente a través de la innovación tecnológica, marcos de gestión de riesgos sofisticados y, lo que es más importante, un cambio decisivo y positivo en el panorama regulatorio global, liderado notablemente por Estados Unidos. La retirada de orientaciones restrictivas por parte de la Reserva Federal y la OCC, junto con la derogación del Boletín de Contabilidad del Personal No. 121 de la SEC, ha despejado el camino para que los bancos estadounidenses entren en el espacio de manera más significativa.</p>
+<p>En consecuencia, este informe valida con alta confianza la hipótesis de que los préstamos respaldados por bitcoin se volverán institucionales en un horizonte de tres a cinco años. Esta institucionalización no será monolítica, sino que se manifestará como un ecosistema de múltiples capas que incluye bancos regulados, prestamistas especializados no bancarios y protocolos DeFi. El ritmo será desigual a nivel mundial, con Estados Unidos a la cabeza, pero la trayectoria general es clara. La convergencia de la demanda institucional, la maduración de la infraestructura y la creciente claridad regulatoria está preparada para transformar los préstamos respaldados por bitcoin de un producto de nicho a un componente estándar del sistema financiero moderno.</p>
+<h2><strong>Sección 1: El Panorama en Evolución de los Préstamos con Garantía de Criptomonedas</strong></h2>
+<p>Para evaluar la trayectoria futura de los préstamos respaldados por bitcoin, es imperativo comprender primero el estado actual y la evolución reciente del mercado más amplio de préstamos con garantía de criptomonedas. Este mercado ha superado una fase de contracción severa, emergiendo con una estructura fundamentalmente alterada que es, en muchos aspectos, más propicia para la participación institucional que en su apogeo anterior.</p>
+<h3><strong>1.1. Dinámica del Mercado: Del Auge y la Caída a una Recuperación Resiliente</strong></h3>
+<p>El mercado de préstamos de criptomonedas experimentó un crecimiento parabólico durante el mercado alcista de 2020-2021, alcanzando un tamaño máximo de $64.4 mil millones en préstamos pendientes en el cuarto trimestre de 2021.1 Este período se caracterizó por un exuberante apetito por el riesgo y la rápida expansión de plataformas de préstamos que ofrecían rendimientos aparentemente atractivos. Sin embargo, este auge resultó insostenible. A partir de 2022, el mercado sufrió un colapso catastrófico, con una contracción estimada del 78% hasta un mínimo de $14.2 mil millones en el tercer trimestre de 2023.2</p>
+<p>La causa principal de esta implosión fue la quiebra de varios de los prestamistas centralizados (CeFi) más grandes del sector, incluidos Genesis, Celsius Network, BlockFi y Voyager.1 Es crucial para la percepción institucional que estas quiebras no se debieron a un defecto inherente en el concepto de préstamos sobrecolateralizados, sino que se atribuyeron en gran medida a la "mala gestión del riesgo y la aceptación de colaterales tóxicos por parte de los prestatarios", junto con el colapso general del mercado de criptomonedas.2 Estas empresas a menudo se involucraban en préstamos subcolateralizados o no colateralizados a contrapartes de alto riesgo, operando con una opacidad que ocultaba la verdadera naturaleza de su exposición.</p>
+<p>Desde ese punto más bajo, el mercado ha demostrado una notable resiliencia. Para el cuarto trimestre de 2024, el tamaño total del mercado de préstamos de criptomonedas se había recuperado en un 157% desde su mínimo, alcanzando los $36.5 mil millones.2 A pesar de esta fuerte recuperación, el mercado general todavía se encuentra un 43% por debajo de su máximo histórico, lo que indica una recuperación en curso en lugar de un retorno completo a la exuberancia anterior.1 Esta recuperación, sin embargo, no ha sido uniforme en todos los segmentos del mercado, revelando un cambio estructural profundo en el panorama de los préstamos.</p>
+<h3><strong>1.2. La Gran División: Consolidación de CeFi vs. Crecimiento Explosivo de DeFi</strong></h3>
+<p>La crisis crediticia de las criptomonedas de 2022-2023 ha provocado una clara divergencia en las trayectorias de los dos principales paradigmas de préstamos: las finanzas centralizadas (CeFi) y las finanzas descentralizadas (DeFi).</p>
+<p><strong>El Mercado CeFi:</strong> El segmento CeFi fue el epicentro del colapso, perdiendo un 82% de sus préstamos pendientes desde un pico de $34.8 mil millones a un mínimo de $6.4 mil millones.1 La recuperación ha sido gradual, alcanzando los $11.2 mil millones a finales de 2024 y los $13.51 mil millones a finales del primer trimestre de 2025.2 El cambio más significativo en el mercado CeFi es una drástica consolidación. En el pico del mercado en el primer trimestre de 2022, los tres principales prestamistas (Genesis, BlockFi y Celsius) representaban el 76% del mercado. Hoy, los tres principales prestamistas supervivientes (Tether, Galaxy y Ledn) dominan el 89% del mercado CeFi.1 Tether, en particular, ha surgido como el actor dominante, representando aproximadamente el 73% de los préstamos CeFi pendientes a finales de 2024.5 Si bien esta consolidación puede ofrecer una apariencia de estabilidad con menos actores más grandes, también introduce un riesgo de concentración significativo.</p>
+<p><strong>El Mercado DeFi:</strong> En marcado contraste, los préstamos DeFi han experimentado lo que los analistas describen como una "fuerte recuperación".2 Los préstamos abiertos en cadena (on-chain) crecieron un asombroso 959% desde un mínimo de $1.8 mil millones en el cuarto trimestre de 2022 hasta alcanzar los $19.1 mil millones a finales del cuarto trimestre de 2024.1 De manera reveladora, a finales de 2024, el mercado de préstamos DeFi era un 18% más grande que su pico anterior durante el mercado alcista de 2020-2021.1</p>
+<p>Esta resiliencia superior se atribuye a la "naturaleza sin permisos de las aplicaciones basadas en blockchain y la supervivencia de las aplicaciones de préstamos a través del caos del mercado bajista que derribó a los principales prestamistas CeFi".2 A diferencia de las empresas CeFi que quebraron y dejaron de operar, los principales protocolos de préstamos DeFi, como Aave y Compound, continuaron funcionando de manera algorítmica y transparente durante toda la recesión.3 Para el primer trimestre de 2025, las aplicaciones de préstamos DeFi y las stablecoins con garantía de criptomonedas (CDP) representaban un 65.43% combinado de todo el mercado de préstamos con garantía de criptomonedas, consolidando las finanzas en cadena como el paradigma dominante.4</p>
+<p>El colapso de CeFi puede considerarse una característica positiva para la institucionalización a largo plazo. La caída de prestamistas centralizados mal gestionados y opacos eliminó a los actores más débiles del mercado y, al mismo tiempo, demostró la robustez de los protocolos DeFi transparentes, sobrecolateralizados y automatizados. Este evento funcionó como una prueba de estrés a gran escala y en el mundo real. Demostró que el mecanismo subyacente de los préstamos sobrecolateralizados es sólido, pero que la gestión de riesgos opaca y dirigida por humanos es un punto crítico de fallo. Esta dolorosa lección acelera la preferencia institucional por modelos de finanzas tradicionales (TradFi) totalmente regulados o por protocolos en cadena transparentes y auditables, que es la esencia misma de la institucionalización.</p>
+<p><strong>Tabla 1: Tamaño y Recuperación del Mercado de Préstamos de Criptomonedas (CeFi vs. DeFi)</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Métrica</th>
+<th align="left">Préstamos CeFi</th>
+<th align="left">Préstamos DeFi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Tamaño Máximo del Mercado</strong></td>
+<td align="left">$34.8 mil millones (T1 2022)</td>
+<td align="left">$16.2 mil millones (T4 2021)</td>
+</tr>
+<tr>
+<td align="left"><strong>Mínimo del Mercado Bajista</strong></td>
+<td align="left">$6.4 mil millones (T3 2023)</td>
+<td align="left">$1.8 mil millones (T4 2022)</td>
+</tr>
+<tr>
+<td align="left"><strong>Tamaño Actual del Mercado</strong></td>
+<td align="left">$13.51 mil millones (T1 2025)</td>
+<td align="left">$19.1 mil millones (T4 2024)</td>
+</tr>
+<tr>
+<td align="left"><strong>Crecimiento desde el Mínimo</strong></td>
+<td align="left">+111%</td>
+<td align="left">+959%</td>
+</tr>
+<tr>
+<td align="left"><strong>Dominancia del Mercado (T1 2025)</strong></td>
+<td align="left">34.57%</td>
+<td align="left">45.31% (solo apps de préstamo)</td>
+</tr>
+<tr>
+<td align="left"><strong>Jugadores Clave (Pasado)</strong></td>
+<td align="left">Genesis, Celsius, BlockFi</td>
+<td align="left">Aave, Compound, MakerDAO</td>
+</tr>
+<tr>
+<td align="left"><strong>Jugadores Clave (Presente)</strong></td>
+<td align="left">Tether, Galaxy, Ledn</td>
+<td align="left">Aave, Compound, MakerDAO</td>
+</tr>
+</tbody>
+</table>
+<p>Fuentes: 1</p>
+<h3><strong>1.3. Dimensionamiento del Mercado de Préstamos con Garantía de Bitcoin: Valoraciones Actuales y Proyecciones de Crecimiento</strong></h3>
+<p>Dentro del mercado más amplio de préstamos de criptomonedas, el segmento específico de préstamos garantizados por bitcoin está atrayendo una atención particular y muestra proyecciones de crecimiento sólidas. Aunque las cifras específicas varían entre los informes de los analistas, lo cual es típico de un mercado emergente, existe un fuerte consenso direccional sobre una trayectoria de alto crecimiento.</p>
+<p>Los informes de dimensionamiento del mercado sitúan el valor del mercado global de préstamos de bitcoin en 2024 entre $8.5 mil millones y $8.89 mil millones.6 Las proyecciones de crecimiento son consistentemente optimistas, impulsadas por una creciente demanda de los usuarios por finanzas no tradicionales, la insatisfacción con los sistemas bancarios convencionales y el deseo de los tenedores de bitcoin de acceder a liquidez sin incurrir en eventos fiscales.6 Las previsiones apuntan a que el mercado se expandirá significativamente en los próximos años, con tasas de crecimiento anual compuesto (CAGR) que oscilan entre el 26% y más del 31%.</p>
+<p>Este crecimiento proyectado no se basa únicamente en la especulación, sino en la utilidad fundamental del producto. La financiación de capital de riesgo (VC) en el sector refleja una maduración del mercado. La financiación de VC para aplicaciones de préstamos ha disminuido drásticamente, representando solo el 0.62% de la financiación total de VC en criptomonedas para el cuarto trimestre de 2024.2 Esto sugiere que los inversores de capital de riesgo ya no ven una oportunidad a escala de riesgo en la creación de nuevas plataformas de préstamos independientes. En cambio, la oportunidad de inversión se ha desplazado hacia la infraestructura que da servicio al creciente mercado de préstamos institucionales: soluciones de custodia, análisis de gestión de riesgos, software de cumplimiento y puentes de interoperabilidad. Este cambio de la financiación de aplicaciones a la financiación de infraestructura es un fuerte indicador de la maduración del mercado.</p>
+<p><strong>Tabla 2: Previsiones de Crecimiento del Mercado de Préstamos con Garantía de Bitcoin (Comparación de Analistas)</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Firma de Investigación</th>
+<th align="left">Tamaño del Mercado 2024 (USD)</th>
+<th align="left">Horizonte de Previsión</th>
+<th align="left">Tamaño Previsto (USD)</th>
+<th align="left">CAGR Implícito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Extrapolate.com</td>
+<td align="left">$8.89 mil millones</td>
+<td align="left">2024-2031</td>
+<td align="left">$59.44 mil millones</td>
+<td align="left">31.2%</td>
+</tr>
+<tr>
+<td align="left">HTF Market Intelligence</td>
+<td align="left">$8.58 mil millones</td>
+<td align="left">2024-2030</td>
+<td align="left">$45.27 mil millones</td>
+<td align="left">26.4%</td>
+</tr>
+<tr>
+<td align="left">Osler / HFT Market Intelligence</td>
+<td align="left">$8.5 mil millones</td>
+<td align="left">2024-2030</td>
+<td align="left">~$45 mil millones</td>
+<td align="left">~26.9%</td>
+</tr>
+</tbody>
+</table>
+<p>Fuentes: 6</p>
+<h2><strong>Sección 2: El Argumento Institucional a Favor de Bitcoin como Colateral</strong></h2>
+<p>La creciente institucionalización de los préstamos respaldados por bitcoin no es un fenómeno espontáneo, sino que está impulsada por una poderosa confluencia de incentivos económicos tanto para los prestatarios como para los prestamistas. Bitcoin posee un conjunto único de características que lo están posicionando como una forma de colateral potencialmente superior para una economía cada vez más digital. Este argumento fundamental, combinado con un cambio positivo en el sentimiento institucional, está sentando las bases para su adopción generalizada.</p>
+<h3><strong>2.1. Desbloqueo de Capital Latente: La Propuesta de Valor del Prestatario</strong></h3>
+<p>Para los tenedores de bitcoin, la propuesta de valor de los préstamos con garantía de criptomonedas es clara y convincente. El principal impulsor es la capacidad de acceder a liquidez, ya sea en forma de moneda fiduciaria o de stablecoins, sin necesidad de vender sus tenencias de bitcoin.10 Esto permite a los prestatarios mantener la propiedad de un activo que creen que se apreciará a largo plazo, al tiempo que satisfacen sus necesidades de capital a corto plazo.</p>
+<p>Una ventaja crítica, y a menudo el catalizador principal, es la eficiencia fiscal. En la mayoría de las jurisdicciones, la obtención de un préstamo no se considera un evento imponible. Por el contrario, la venta de bitcoin para obtener liquidez desencadenaría un impuesto sobre las ganancias de capital, lo que reduciría significativamente los fondos netos disponibles.9 Este arbitraje fiscal es un incentivo especialmente poderoso para los inversores a largo plazo y las personas de alto patrimonio neto que han acumulado ganancias significativas no realizadas.</p>
+<p>La utilidad de estos préstamos se está demostrando en casos de uso del mundo real que van más allá de la especulación. Un ejemplo destacado es el uso de préstamos respaldados por bitcoin para financiar la compra de bienes inmuebles, lo que permite a los inversores "ricos en bitcoin" diversificarse en activos duros sin liquidar sus posiciones en criptomonedas.9 El prestamista Ledn, por ejemplo, informó haber emitido más de $300 millones en este tipo de préstamos minoristas solo en el primer trimestre de 2025, lo que subraya una demanda tangible.9</p>
+<p>Además, estos préstamos democratizan el acceso al crédito. El proceso de suscripción se basa en el valor del colateral, no en la solvencia del prestatario. Esto elimina la necesidad de verificaciones de crédito tradicionales, abriendo vías de financiación para personas que son "ricas en activos pero pobres en efectivo", como empresarios, autónomos o inversores globales que pueden no cumplir con los criterios de suscripción convencionales.9 Este cambio fundamental de un modelo de crédito basado en la confianza a uno basado en los activos es un cambio de paradigma. Los préstamos tradicionales se basan en gran medida en puntuaciones de crédito, verificación de ingresos y el historial de un prestatario, que son todos indicadores de la confianza en la capacidad y voluntad de pago del prestatario.16 Los préstamos respaldados por bitcoin ignoran explícitamente estos factores.17 Todo el modelo de riesgo se basa en el valor líquido y verificable del propio colateral digital. Esto implica que la competencia clave para un prestamista pasa de evaluar la solvencia del prestatario a evaluar y gestionar la volatilidad y liquidez del colateral. Se trata de un cambio profundo que favorece a las instituciones con sólidos modelos cuantitativos de riesgo y capacidades de negociación en tiempo real por encima de aquellas con departamentos de análisis de crédito tradicionales.</p>
+<h3><strong>2.2. Una Nueva Frontera de Rendimiento: La Oportunidad de Ingresos del Prestamista</strong></h3>
+<p>Para las instituciones financieras, la entrada en el mercado de préstamos con garantía de bitcoin ofrece una nueva y potencialmente lucrativa fuente de ingresos. El principal atractivo es la oportunidad de generar ingresos por intereses y comisiones en un mercado en crecimiento.7 Los informes indican que las Tasas de Porcentaje Anual (APR) para estos préstamos pueden ser "superiores al 10%" 7, un rendimiento considerablemente más alto que el que se ofrece en muchos productos de préstamos garantizados tradicionales.</p>
+<p>Estratégicamente, ofrecer estos productos permite a los bancos y otras instituciones financieras atraer y retener a una base de clientes más joven, experta en tecnología y a menudo adinerada, que de otro modo podría verse atraída por las FinTechs especializadas.20 Al entrar en este espacio, las instituciones se posicionan "a la vanguardia de la innovación financiera", obteniendo una ventaja competitiva en un mercado emergente.7 Además, la incorporación de préstamos respaldados por bitcoin a sus carteras de préstamos permite a las instituciones diversificar sus fuentes de ingresos y, potencialmente, cubrirse contra los riesgos del mercado tradicional.7</p>
+<h3><strong>2.3. Bitcoin como "Colateral Prístino": ¿Un Cambio de Paradigma en los Préstamos Basados en Activos?</strong></h3>
+<p>Los defensores de los préstamos respaldados por bitcoin argumentan que el activo posee cualidades únicas que lo convierten en "el colateral más prístino del mundo".9 Esta afirmación se basa en varias propiedades fundamentales que lo distinguen de los activos de garantía tradicionales como los bienes inmuebles o los valores:</p>
+<ul>
+<li><strong>Liquidez 24/7/365:</strong> A diferencia de los mercados tradicionales que operan en horarios fijos, bitcoin se negocia de forma continua en un mercado global. Esto permite la valoración y liquidación del colateral en tiempo real y en cualquier momento, lo que reduce drásticamente el riesgo de no poder liquidar el colateral durante las horas de cierre del mercado o los fines de semana.9</li>
+<li><strong>Global y sin Fronteras:</strong> Como activo digital, bitcoin puede transferirse y liquidarse a nivel mundial casi instantáneamente. Esto lo convierte en un colateral verdaderamente sin fronteras, una ventaja significativa sobre activos como los bienes inmuebles, que están geográficamente limitados y sujetos a jurisdicciones legales locales.9</li>
+<li><strong>Nativo Digital y Programable:</strong> La naturaleza digital de bitcoin permite que su propiedad y transferencia se gestionen mediante código a través de contratos inteligentes. Esto facilita la automatización de los procesos de liquidación y una gestión de colateral altamente eficiente.20</li>
+<li><strong>Estandarizado y Fungible:</strong> Cada bitcoin es idéntico a otro, a diferencia de los bienes inmuebles o el capital privado, que son únicos y requieren valoraciones complejas. Esta fungibilidad simplifica enormemente los procesos de valoración y legales para los prestamistas.20</li>
+</ul>
+<p>En conjunto, estas características permiten a los prestamistas responder rápidamente a los movimientos del mercado, gestionando el riesgo del colateral de forma más eficaz y reduciendo el riesgo de impago.20</p>
+<h3><strong>2.4. Sentimiento Institucional: Análisis de la Demanda de Gestores de Activos y Bancos</strong></h3>
+<p>La institucionalización de bitcoin como clase de activo es un precursor directo de su institucionalización como colateral. Los dos fenómenos están inextricablemente ligados: para que un activo pueda ser utilizado como garantía de grado institucional, primero debe ser considerado un activo de grado institucional.</p>
+<p>Los datos de encuestas confirman un fuerte viento de cola de interés institucional. Una encuesta de EY realizada en enero de 2025 reveló que el 86% de los inversores institucionales ya tienen exposición a activos digitales o planean tenerla, y el 83% tiene la intención de aumentar sus asignaciones en 2025.24 Es importante destacar que los impulsores de este interés están cambiando hacia la utilidad. Si bien los "mayores rendimientos" siguen siendo un motivador clave (59%), la "generación de rendimiento" (35%) y la "conveniencia transaccional" (71% para las stablecoins) están ganando importancia.24 Una vez que una institución posee un activo, su deber fiduciario de maximizar su valor crea un poderoso incentivo para hacerlo productivo, y el préstamo es el método más directo para generar rendimiento sobre un activo en cartera.24</p>
+<p>La aprobación de los fondos cotizados (ETFs) de bitcoin al contado a principios de 2024 fue un catalizador fundamental, ya que validó a bitcoin como una clase de activo legítima y proporcionó un vehículo de inversión regulado y familiar para las instituciones.7 Este fue el primer paso. El préstamo es el siguiente paso lógico, pasando de la tenencia pasiva al uso activo y productivo del activo.</p>
+<p>La evidencia más concreta de la institucionalización proviene de las acciones de los principales actores de las finanzas tradicionales. Goldman Sachs comenzó a aceptar bitcoin como garantía ya en 2022. Más recientemente, JPMorgan ha comenzado a ofrecer préstamos contra ETFs de bitcoin. El gigante de la inversión Cantor Fitzgerald ha anunciado un programa de préstamos de bitcoin de $2 mil millones.5 Estas no son acciones especulativas, sino movimientos estratégicos de algunas de las instituciones financieras más grandes del mundo, lo que indica que la institucionalización de los préstamos respaldados por bitcoin ya está en marcha.</p>
+<h2><strong>Sección 3: Superando los Obstáculos: Riesgos Críticos e Impedimentos para la Institucionalización</strong></h2>
+<p>A pesar del convincente argumento a favor de los préstamos con garantía de bitcoin y del creciente interés institucional, el camino hacia la adopción generalizada está plagado de riesgos significativos y obstáculos estructurales. La institucionalización requiere no solo oportunidades, sino también marcos sólidos para gestionar los riesgos inherentes. Los tres desafíos más críticos que deben superarse son la volatilidad intrínseca de bitcoin, la necesidad de una infraestructura de custodia de grado institucional y las posibles implicaciones para la estabilidad del sistema financiero en general.</p>
+<h3><strong>3.1. El Dilema de la Volatilidad: Gestión del Riesgo de Precios y las Cascadas de Liquidación</strong></h3>
+<p>El principal y más citado desafío para los préstamos respaldados por bitcoin es la volatilidad de su precio.10 A diferencia de los valores tradicionales o los bienes inmuebles, el valor de bitcoin puede experimentar fluctuaciones drásticas en períodos muy cortos. Esta volatilidad introduce un riesgo fundamental tanto para el prestatario como para el prestamista.</p>
+<p>Para el prestamista, el riesgo es que el valor del colateral caiga por debajo del valor del préstamo pendiente. Para mitigar esto, los préstamos están sobrecolateralizados. El ratio préstamo-valor (LTV, por sus siglas en inglés) es la métrica clave utilizada para gestionar este riesgo. Un LTV más bajo significa que el prestatario debe depositar un colateral significativamente mayor que el valor del préstamo, creando un colchón de seguridad. Si el precio de bitcoin cae, el LTV del préstamo aumenta. Si supera un umbral predefinido (el umbral de liquidación), se produce una "llamada de margen" (margin call), que requiere que el prestatario deposite más colateral o pague parte del préstamo.30 Si el prestatario no cumple, el prestamista tiene derecho a liquidar forzosamente el colateral para recuperar el importe del préstamo.30</p>
+<p>Este mecanismo, aunque protege al prestamista individual, crea un riesgo sistémico potencial conocido como "bucles de retroalimentación negativa" o "cascadas de liquidación".28 Una caída de precios significativa puede desencadenar una oleada de liquidaciones, lo que añade más presión de venta al mercado, haciendo que los precios bajen aún más y desencadenando liquidaciones adicionales. Esta dinámica es una de las principales preocupaciones de los reguladores de la estabilidad financiera, como la Reserva Federal de EE. UU. y el Banco Central Europeo (BCE), que han señalado explícitamente este riesgo.28</p>
+<p>El enfoque institucional no consiste en eliminar la volatilidad, sino en gestionarla a través de marcos de riesgo sofisticados:</p>
+<ul>
+<li><strong>LTVs Conservadores:</strong> Los prestamistas institucionales suelen ofrecer LTVs en un rango conservador, típicamente entre el 20% y el 70%, para crear un colchón de seguridad sustancial contra las caídas de precios.16</li>
+<li><strong>Monitorización en Tiempo Real y Llamadas de Margen Automatizadas:</strong> Las plataformas de grado institucional deben contar con sistemas para la valoración del colateral en tiempo real y alertas/llamadas de margen automatizadas para una gestión proactiva del riesgo.7</li>
+<li><strong>Mecanismos de Liquidación Sofisticados:</strong> Los protocolos DeFi utilizan liquidaciones automatizadas con penalizaciones o bonificaciones para incentivar a terceros liquidadores a intervenir rápidamente.1 Algunos protocolos más avanzados, como se ha observado en el análisis de datos de la blockchain de Ethereum, utilizan subastas para vender el colateral, lo que puede aumentar la competencia entre los liquidadores y mitigar el impacto negativo en el precio del activo.40</li>
+<li><strong>Cobertura (Hedging):</strong> Las instituciones pueden utilizar los mercados de derivados de criptomonedas (futuros y opciones) para cubrir la exposición a la volatilidad del colateral que mantienen.41</li>
+</ul>
+<h3><strong>3.2. El Enigma de la Custodia: Construyendo una Infraestructura de Grado Institucional</strong></h3>
+<p>Para las instituciones financieras, la custodia segura de los activos de los clientes es un imperativo fiduciario y regulatorio. A diferencia de los inversores minoristas, las instituciones no pueden permitirse el riesgo operativo y de seguridad de la autocustodia o de dejar activos significativos en un exchange.42 Por lo tanto, el desarrollo de soluciones de "custodia cualificada" es una condición previa para la adopción institucional a gran escala.43</p>
+<p>Una solución de custodia de grado institucional se define por un conjunto de características que van mucho más allá del simple almacenamiento de claves:</p>
+<ul>
+<li><strong>Seguridad:</strong> La base es una seguridad de múltiples capas. Esto incluye el almacenamiento en frío (cold storage), que mantiene las claves privadas completamente fuera de línea, y tecnologías como las carteras multifirma (multi-sig) o la Computación Multipartita (MPC), que distribuyen el control de las claves para eliminar los puntos únicos de fallo.43</li>
+<li><strong>Cumplimiento Regulatorio:</strong> Adhesión estricta a las regulaciones contra el blanqueo de capitales (AML) y de conocimiento del cliente (KYC), así como a marcos emergentes como MiCA en Europa.43</li>
+<li><strong>Seguro:</strong> Pólizas de seguro especializadas que cubren riesgos como el robo por parte de actores externos, la colusión interna y la pérdida de claves privadas. El mercado de seguros ha madurado hasta el punto de que se dispone de límites de hasta $1 mil millones.43 Si bien el seguro es una condición necesaria, no es suficiente. Es un respaldo final, pero las instituciones priorizarán la seguridad demostrable de la tecnología subyacente, ya que una pérdida catastrófica de colateral es un desastre reputacional y regulatorio que el dinero del seguro no puede reparar por completo.</li>
+<li><strong>Eficiencia Operativa:</strong> Capacidades como integraciones de API para la negociación y la presentación de informes, registros listos para auditorías y soporte para actividades generadoras de rendimiento como el staking y la gobernanza son cruciales para las operaciones institucionales.43</li>
+</ul>
+<p>La elección de la tecnología de custodia es una decisión estratégica que define el modelo de negocio de una institución. Las dos principales tecnologías, el almacenamiento en frío y la MPC, ofrecen diferentes contrapartidas.</p>
+<p><strong>Tabla 4: Comparación de Soluciones de Custodia Institucional (Almacenamiento en Frío vs. MPC)</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Característica</th>
+<th align="left">Almacenamiento en Frío (Cold Storage)</th>
+<th align="left">Computación Multipartita (MPC)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Mecanismo Central</strong></td>
+<td align="left">Las claves privadas se generan y almacenan en un dispositivo completamente fuera de línea.</td>
+<td align="left">La clave privada se divide en múltiples "fragmentos" criptográficos distribuidos. La firma se realiza sin reconstruir nunca la clave completa.</td>
+</tr>
+<tr>
+<td align="left"><strong>Seguridad (vs. Hackeos Remotos)</strong></td>
+<td align="left">Muy alta. Inmune a ataques en línea ya que las claves están desconectadas.</td>
+<td align="left">Muy alta. No hay una clave completa que robar; comprometer un fragmento no compromete los fondos.</td>
+</tr>
+<tr>
+<td align="left"><strong>Seguridad (vs. Amenazas Físicas/Internas)</strong></td>
+<td align="left">Vulnerable al robo físico del dispositivo o a la coacción de un solo custodio.</td>
+<td align="left">Alta. Requiere el compromiso de múltiples partes/sistemas distribuidos geográficamente.</td>
+</tr>
+<tr>
+<td align="left"><strong>Velocidad de Transacción/Accesibilidad</strong></td>
+<td align="left">Baja. Requiere procesos manuales y físicos para acceder a las claves y firmar transacciones.</td>
+<td align="left">Alta. Permite transacciones casi instantáneas y automatizadas basadas en políticas.</td>
+</tr>
+<tr>
+<td align="left"><strong>Escalabilidad</strong></td>
+<td align="left">Baja. Limitada por la logística del hardware y los procesos manuales.</td>
+<td align="left">Alta. Escala fácilmente con la infraestructura en la nube y la automatización.</td>
+</tr>
+<tr>
+<td align="left"><strong>Costo Operativo</strong></td>
+<td align="left">Alto. Requiere hardware especializado, almacenamiento seguro, seguros y personal.</td>
+<td align="left">Más bajo. La automatización reduce los costos operativos y la necesidad de intervención manual.</td>
+</tr>
+<tr>
+<td align="left"><strong>Soporte para Estrategias Activas (DeFi, Staking)</strong></td>
+<td align="left">Nulo o muy limitado. La lentitud de acceso hace que la interacción con protocolos en tiempo real sea inviable.</td>
+<td align="left">Ideal. Permite la integración directa y segura con aplicaciones DeFi, plataformas de staking y bots de trading.</td>
+</tr>
+</tbody>
+</table>
+<p>Fuentes: 43</p>
+<h3><strong>3.3. Implicaciones Sistémicas: Evaluación del Riesgo de Contagio entre las Criptomonedas y las Finanzas Tradicionales</strong></h3>
+<p>A medida que las instituciones financieras tradicionales aumentan su participación en los préstamos con garantía de bitcoin, los reguladores centran cada vez más su atención en el potencial de riesgo sistémico. Reguladores como el BCE y la Reserva Federal de Nueva York han identificado que el riesgo sistémico aumenta en proporción a la interconexión entre las criptomonedas y el sector financiero tradicional.36</p>
+<p>Actualmente, el impacto directo se considera limitado. El mercado de criptoactivos representa menos del 1% del sistema financiero mundial, y sus vínculos directos con la economía real siguen siendo incipientes.36 La crisis de CeFi de 2022, aunque devastadora para el ecosistema de las criptomonedas, tuvo efectos de contagio limitados en el sistema financiero tradicional, lo que corrobora la evaluación actual de bajo riesgo.</p>
+<p>Sin embargo, los reguladores advierten que el ecosistema de las criptomonedas exhibe vulnerabilidades (alto apalancamiento, riesgo de financiación, interconexiones) que <em>podrían</em> desestabilizar el sistema financiero más amplio si las criptomonedas se vuelven más sistémicas.56 La crisis de CeFi sirvió como un estudio de caso sobre el contagio nativo de las criptomonedas, demostrando cómo las interconexiones entre las "Instituciones de Criptomonedas Sistémicamente Importantes" (SICIs) pueden llevar a fallos en cascada.57</p>
+<p>El principal canal de transmisión del riesgo al sistema tradicional es a través de la creciente participación institucional. A medida que los bancos y los grandes fondos de inversión aumentan su exposición a través de los préstamos y otras actividades, cualquier shock importante en los mercados de criptomonedas podría propagarse al sistema tradicional.36 Por lo tanto, si bien el riesgo sistémico no es una barrera inmediata, es el horizonte de riesgo a largo plazo que los reguladores están vigilando de cerca y que informará la naturaleza y el rigor de la futura regulación.</p>
+<h2><strong>Sección 4: El Camino Regulatorio hacia la Adopción Generalizada</strong></h2>
+<p>La claridad regulatoria es, sin duda, el catalizador más importante para la institucionalización de los préstamos con garantía de bitcoin. Para las instituciones financieras tradicionales, que operan en un entorno de estricto cumplimiento, la ambigüedad regulatoria es sinónimo de riesgo inaceptable. Los acontecimientos recientes, especialmente en Estados Unidos, junto con la maduración de los marcos globales, están comenzando a proporcionar la claridad necesaria para transformar esta actividad de un nicho especulativo a un producto financiero regulado.</p>
+<h3><strong>4.1. Un Nuevo Amanecer en los EE. UU.: El Deshielo Regulatorio Post-2025</strong></h3>
+<p>El año 2025 ha marcado un cambio fundamental en la política estadounidense hacia los activos digitales, impulsado por una nueva administración con una postura explícitamente pro-cripto.27 Este cambio ha dado lugar a una serie de acciones coordinadas por parte de los principales reguladores financieros que reducen significativamente las barreras para la participación de los bancos.</p>
+<ul>
+<li><strong>Reserva Federal y FDIC:</strong> Estas agencias han retirado las restrictivas declaraciones conjuntas de 2023 y cartas de supervisión anteriores (como SR 22-6 y SR 23-8) que creaban un entorno de cautela regulatoria e imponían requisitos de notificación previa para las actividades relacionadas con criptoactivos de los bancos. La nueva postura consiste en supervisar estas actividades a través del "proceso de supervisión normal", lo que supone una normalización de las actividades con criptoactivos y una reducción de la carga para los bancos que deseen entrar en el mercado.58</li>
+<li><strong>Oficina del Contralor de la Moneda (OCC):</strong> La OCC ha sido particularmente proactiva, rescindiendo orientaciones restrictivas anteriores (como la Carta Interpretativa 1179) y reafirmando explícitamente la autoridad de los bancos nacionales para proporcionar servicios de custodia y ejecución de criptoactivos (Cartas Interpretativas 1170, 1183 y 1184).58 Esto proporciona una base legal sólida para que los bancos construyan servicios en torno a los activos digitales, incluyendo la tenencia de colateral.</li>
+<li><strong>Comisión de Bolsa y Valores (SEC):</strong> Bajo un nuevo liderazgo, la SEC está señalando un cambio de la "regulación por la fuerza" hacia la modernización de las leyes de valores para dar cabida a los activos digitales.58 La derogación del Boletín de Contabilidad del Personal No. 121 (SAB 121) es un catalizador especialmente importante. El SAB 121 exigía de forma onerosa que los bancos mantuvieran los criptoactivos de los clientes como pasivos en sus propios balances, lo que hacía que la custodia a escala fuera prohibitivamente cara desde el punto de vista del capital. Su eliminación abre la puerta a que los bancos actúen como custodios cualificados de forma rentable.44</li>
+</ul>
+<p>Este cambio coordinado en la política estadounidense crea una ventaja de primer movimiento para los bancos estadounidenses. Mientras que sus homólogos europeos y asiáticos pueden seguir enfrentándose a la incertidumbre, los bancos estadounidenses tienen ahora una vía más clara para desarrollar y ofrecer productos de préstamo respaldados por bitcoin bajo su marco de supervisión existente.</p>
+<h3><strong>4.2. El Marco MiCA de Europa: Un Modelo con Lagunas</strong></h3>
+<p>La Unión Europea ha dado un paso significativo hacia la claridad regulatoria con su reglamento de Mercados de Criptoactivos (MiCA), que es plenamente aplicable desde el 30 de diciembre de 2024.65 MiCA establece un marco armonizado para los emisores de criptoactivos y los Proveedores de Servicios de Criptoactivos (CASP), que abarca la transparencia, la divulgación, la autorización y la supervisión.68 Esto es crucial para construir un ecosistema de confianza.</p>
+<p>Sin embargo, MiCA tiene una laguna significativa en su forma actual: no contempla ni regula explícitamente el préstamo y el empréstito de criptoactivos.71 La Autoridad Bancaria Europea (EBA) y la Autoridad Europea de Valores y Mercados (ESMA) están analizando el sector y sus riesgos, pero aún no existe un marco regulatorio específico para los préstamos.72 Esta falta de normas específicas podría ralentizar la adopción por parte de los bancos tradicionales de la UE en comparación con sus homólogos estadounidenses, que están recibiendo señales más claras de sus reguladores bancarios.</p>
+<h3><strong>4.3. Esfuerzos de Armonización Global: La Influencia de Basilea y el GAFI</strong></h3>
+<p>A nivel mundial, dos organismos están estableciendo normas que darán forma al tratamiento institucional de los préstamos respaldados por bitcoin.</p>
+<ul>
+<li><strong>Comité de Supervisión Bancaria de Basilea (BCBS):</strong> El marco de Basilea III, que los miembros se han comprometido a aplicar para enero de 2026, establece estrictos requisitos de capital prudencial para las exposiciones de los bancos a los criptoactivos.60
+<ul>
+<li>El marco clasifica los criptoactivos en dos grupos. El Grupo 1 incluye los activos tradicionales tokenizados y ciertas stablecoins que cumplen estrictos criterios de estabilidad. El Grupo 2, que incluye a bitcoin, está sujeto a un tratamiento de capital mucho más conservador.</li>
+<li>Las exposiciones a activos del Grupo 2 como bitcoin reciben una ponderación de riesgo muy elevada del 1,250%, lo que hace que sea muy intensivo en capital para los bancos mantenerlos directamente en sus balances.74</li>
+<li>Este marco no impedirá que los bancos participen en los préstamos de bitcoin, pero sí determinará <em>cómo</em> lo hacen. Incentivará fuertemente a los bancos a favorecer modelos de negocio con poco capital, como la custodia, los préstamos de agencia (donde el banco conecta a prestatarios con proveedores de capital no bancarios) y la estructuración de vehículos fuera de balance, en lugar de los préstamos directos con cargo a su propio capital.</li>
+</ul>
+</li>
+<li><strong>Grupo de Acción Financiera Internacional (GAFI):</strong> Las normas del GAFI exigen que las jurisdicciones concedan licencias o registren a los Proveedores de Servicios de Activos Virtuales (VASP) y les apliquen las mismas normas contra el blanqueo de capitales y la financiación del terrorismo (AML/CFT) que a las instituciones financieras tradicionales. Esto incluye la "Regla de Viaje", que exige el intercambio de información sobre el originador y el beneficiario en las transferencias de activos virtuales.78 El cumplimiento de estas normas mundiales es un requisito básico para cualquier actor institucional que entre en el espacio.</li>
+</ul>
+<h3><strong>4.4. Fundamentos Jurídicos: Conciliación del Colateral de Criptomonedas con el Derecho Mercantil Vigente</strong></h3>
+<p>Más allá de la regulación financiera, el estatus legal del cripto como colateral bajo el derecho mercantil es fundamental para los préstamos garantizados. En Estados Unidos, un avance fundamental es la adopción por parte de los estados de las enmiendas al Código de Comercio Uniforme (UCC).81</p>
+<p>Estas enmiendas crean una nueva categoría de activos digitales denominados "registros electrónicos controlables" (CERs).81 Esta nueva clasificación proporciona la tan necesaria claridad jurídica sobre cómo "perfeccionar" un interés de seguridad en criptomonedas como bitcoin. Anteriormente, bitcoin se incluía en la categoría inadecuada de "activos intangibles generales", lo que creaba ambigüedad sobre cómo un prestamista podía establecer un derecho legalmente defendible sobre el colateral. Bajo las nuevas normas, un interés de seguridad puede perfeccionarse a través del "control", que es el método preferido, ya que otorga prioridad sobre otras reclamaciones en caso de quiebra o impago.81 Esta evolución legal es una pieza de infraestructura crítica, aunque menos visible, que es tan importante como la luz verde regulatoria para la concesión de préstamos institucionales a escala.</p>
+<p><strong>Tabla 5: Panorama Regulatorio (EE. UU., UE, Centros Asiáticos Clave)</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Área Regulatoria</th>
+<th align="left">Estados Unidos</th>
+<th align="left">Unión Europea</th>
+<th align="left">Centros Asiáticos Clave (Hong Kong, Singapur)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Postura General (Post-2025)</strong></td>
+<td align="left">Pro-innovación, con un deshielo regulatorio activo.</td>
+<td align="left">Estructurado y completo, pero con lagunas específicas.</td>
+<td align="left">Proactivos en la creación de marcos, pero con enfoques variados y a veces estrictos.</td>
+</tr>
+<tr>
+<td align="left"><strong>Normas de Custodia</strong></td>
+<td align="left">La OCC ha reafirmado la autoridad de los bancos. La derogación del SAB 121 facilita la custodia bancaria.</td>
+<td align="left">MiCA establece normas para los CASP, incluidos los custodios.</td>
+<td align="left">Hong Kong y Singapur tienen regímenes de licencia para los VASP con estrictos requisitos de custodia.</td>
+</tr>
+<tr>
+<td align="left"><strong>Normas Específicas sobre Préstamos</strong></td>
+<td align="left">No hay normas específicas, pero los reguladores bancarios lo permiten bajo los marcos de supervisión existentes.</td>
+<td align="left">MiCA no contempla ni regula explícitamente los préstamos. Se espera una futura evaluación.</td>
+<td align="left">Singapur está endureciendo las normas para los servicios transfronterizos. Hong Kong se centra en los exchanges.</td>
+</tr>
+<tr>
+<td align="left"><strong>Requisitos de Capital (Basilea)</strong></td>
+<td align="left">Se aplicarán las normas de Basilea III, lo que probablemente favorecerá los modelos de bajo consumo de capital.</td>
+<td align="left">Se aplicarán las normas de Basilea III, lo que probablemente favorecerá los modelos de bajo consumo de capital.</td>
+<td align="left">Los bancos activos a nivel internacional estarán sujetos a las normas de Basilea III.</td>
+</tr>
+<tr>
+<td align="left"><strong>Marco AML/CFT (GAFI)</strong></td>
+<td align="left">Cumplimiento total de las normas del GAFI, incluida la Regla de Viaje.</td>
+<td align="left">Cumplimiento total a través de la TFR (Reglamento sobre Transferencia de Fondos) y MiCA.</td>
+<td align="left">Fuerte cumplimiento de las normas del GAFI como parte de los regímenes de licencia de VASP.</td>
+</tr>
+</tbody>
+</table>
+<p>Fuentes: 1</p>
+<h2><strong>Sección 5: El Plan de Institucionalización: Un Análisis Comparativo y Prospectivo</strong></h2>
+<p>Con el contexto del mercado, los impulsores de la demanda y el panorama regulatorio establecidos, esta sección sintetiza el análisis para construir un modelo concreto de cómo se está produciendo la institucionalización de los préstamos con garantía de bitcoin. Esto se logra mediante una comparación directa con su equivalente más cercano en las finanzas tradicionales, el perfil del ecosistema emergente de actores institucionales y un análisis de la rentabilidad para las instituciones financieras.</p>
+<h3><strong>5.1. Préstamos con Garantía de Bitcoin vs. Préstamos con Garantía de Valores: Una Comparación Directa</strong></h3>
+<p>Para que una institución financiera tradicional evalúe la oportunidad de los préstamos respaldados por bitcoin, es esencial compararlos con un producto familiar: los préstamos respaldados por valores (SBL, por sus siglas en inglés). Si bien ambos son formas de préstamos basados en activos, sus características subyacentes presentan oportunidades y desafíos distintos.</p>
+<p><strong>Tabla 3: Análisis Comparativo: Préstamos con Garantía de Bitcoin vs. Préstamos con Garantía de Valores</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Característica</th>
+<th align="left">Préstamos con Garantía de Valores (SBL)</th>
+<th align="left">Préstamos con Garantía de Bitcoin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Tipo de Colateral y Volatilidad</strong></td>
+<td align="left">Acciones, bonos, ETFs. Generalmente de baja a moderada volatilidad.</td>
+<td align="left">Bitcoin. Activo digital nativo de alta volatilidad.</td>
+</tr>
+<tr>
+<td align="left"><strong>Proceso de Suscripción</strong></td>
+<td align="left">Requiere verificaciones de crédito, análisis de la cartera de valores y un proceso de suscripción manual.</td>
+<td align="left">No requiere verificación de crédito; la suscripción se basa puramente en el valor del colateral.</td>
+</tr>
+<tr>
+<td align="left"><strong>Tiempo de Originación y Cierre</strong></td>
+<td align="left">Días o semanas, debido a los procesos manuales y a la necesidad de coordinar con los custodios.</td>
+<td align="left">Horas o incluso minutos, gracias a la automatización, los contratos inteligentes y la valoración en tiempo real.</td>
+</tr>
+<tr>
+<td align="left"><strong>Ratios LTV Típicos</strong></td>
+<td align="left">Generalmente más altos (p. ej., 70-95%) para carteras diversificadas de valores estables.</td>
+<td align="left">Más conservadores (p. ej., 20-70%) para compensar la alta volatilidad del colateral.</td>
+</tr>
+<tr>
+<td align="left"><strong>Perfil de Tasas de Interés</strong></td>
+<td align="left">Generalmente más bajas, debido a la menor volatilidad del colateral y a la existencia de un mercado secundario maduro.</td>
+<td align="left">Actualmente más altas para compensar el riesgo de volatilidad y la falta de un mercado secundario.</td>
+</tr>
+<tr>
+<td align="left"><strong>Mecanismo de Liquidación</strong></td>
+<td align="left">Llamadas de margen seguidas de una liquidación ordenada a través de un bróker durante el horario de mercado.</td>
+<td align="left">Llamadas de margen automatizadas y liquidación potencialmente instantánea 24/7, a menudo a través de protocolos.</td>
+</tr>
+<tr>
+<td align="left"><strong>Marco Regulatorio</strong></td>
+<td align="left">Madurado y bien establecido (leyes de valores, regulaciones bancarias).</td>
+<td align="left">En evolución, pero con una claridad creciente (UCC, OCC, MiCA, etc.).</td>
+</tr>
+<tr>
+<td align="left"><strong>Infraestructura de Mercado</strong></td>
+<td align="left">Infraestructura madura con custodios establecidos, mercados secundarios y marcos legales claros.</td>
+<td align="left">Infraestructura en desarrollo con custodios especializados, sin mercado secundario formal para los préstamos.</td>
+</tr>
+</tbody>
+</table>
+<p>Fuentes: 16</p>
+<p>Esta comparación revela que los préstamos respaldados por bitcoin no son simplemente una versión más arriesgada de los SBL. Representan un producto fundamentalmente diferente, que cambia la velocidad, la accesibilidad y la gestión de riesgos por unas tasas más altas y un mayor riesgo de volatilidad. El modelo institucional ganador no tratará de hacer que los préstamos de bitcoin se ajusten al molde de los SBL, sino que construirá un nuevo modelo operativo que aproveche las ventajas nativas del colateral digital (velocidad, automatización, acceso global) mientras gestiona rigurosamente sus riesgos únicos.</p>
+<h3><strong>5.2. El Ecosistema Emergente: Perfiles de los Actores Institucionales Clave</strong></h3>
+<p>La institucionalización es visible en el ecosistema de empresas que se está formando para dar servicio a este mercado. Este ecosistema se puede segmentar en cuatro categorías principales:</p>
+<ul>
+<li><strong>Participantes de las Finanzas Tradicionales (TradFi):</strong> Los principales bancos de inversión y empresas financieras están entrando en el espacio, validando la oportunidad. <strong>JPMorgan</strong> y <strong>Goldman Sachs</strong> ya ofrecen préstamos con garantía de criptoactivos, a menudo utilizando los ETFs como un punto de entrada regulado y familiar.28<br>
+<strong>Cantor Fitzgerald</strong>, una firma de servicios financieros globales, ha anunciado un programa de préstamos de bitcoin de $2 mil millones, lo que indica un compromiso de capital significativo.5</li>
+<li><strong>Prestamistas de Criptomonedas Especializados (CeFi):</strong> Se trata de las empresas nativas de criptomonedas que sobrevivieron a la crisis de 2022 y que ahora están adoptando estándares institucionales para generar confianza. <strong>Ledn</strong>, <strong>Galaxy</strong> y <strong>Nexo</strong> son los líderes de este grupo, y hacen hincapié en la transparencia a través de auditorías de prueba de reservas, una gestión de riesgos más conservadora y el cumplimiento de la normativa.1</li>
+<li><strong>Protocolos de Finanzas Descentralizadas (DeFi):</strong> Estos protocolos forman la capa de infraestructura descentralizada. <strong>Aave</strong>, <strong>Compound</strong> y <strong>MakerDAO</strong> operan como mercados de dinero algorítmicos donde los préstamos y los empréstitos se rigen por contratos inteligentes en lugar de por una empresa centralizada. Ofrecen una transparencia y una eficiencia sin precedentes, y las instituciones pueden interactuar con ellos directamente (aunque a menudo a través de un intermediario que gestiona la complejidad técnica).89</li>
+<li><strong>Proveedores de Infraestructura (Picks and Shovels):</strong> Este es el segmento crítico y de más rápido crecimiento que permite la participación institucional.
+<ul>
+<li><em><strong>Custodios Cualificados:</strong></em> Empresas como <strong>Anchorage Digital</strong> (un banco de criptomonedas con estatuto federal), <strong>BitGo</strong>, <strong>Copper</strong> y <strong>Coinbase Custody</strong> proporcionan la infraestructura de almacenamiento seguro y cumplimiento que exigen las instituciones.43</li>
+<li><em><strong>Análisis de Riesgo y Datos:</strong></em> Empresas como <strong>Amberdata</strong> y <strong>Chainalysis</strong> proporcionan las herramientas para supervisar la actividad en la cadena, evaluar el riesgo de las contrapartes y garantizar el cumplimiento de las normas AML.93</li>
+</ul>
+</li>
+</ul>
+<h3><strong>5.3. La Ecuación de la Rentabilidad: Un Análisis de Costo-Beneficio para las Instituciones Financieras</strong></h3>
+<p>Para que una institución financiera se comprometa plenamente con los préstamos respaldados por bitcoin, los beneficios potenciales deben superar los costos y riesgos significativos.</p>
+<p><strong>Beneficios (Ingresos y Estrategia):</strong></p>
+<ul>
+<li><strong>Margen de Interés Neto (NIM):</strong> La principal fuente de ingresos es el diferencial entre la tasa cobrada a los prestatarios y el costo de capital de la institución o la tasa pagada a los depositantes.95 Dadas las tasas más altas que se cobran actualmente por los préstamos de criptomonedas (a menudo por encima del 10%), este diferencial puede ser muy atractivo en comparación con los márgenes de los préstamos tradicionales.7</li>
+<li><strong>Ingresos por Comisiones:</strong> Las comisiones de originación, las comisiones de servicio y, en particular, las comisiones de liquidación (que pueden ser un porcentaje significativo del colateral liquidado) pueden proporcionar flujos de ingresos adicionales y lucrativos.26</li>
+<li><strong>Adquisición y Retención de Clientes:</strong> Ofrecer productos innovadores como este atrae a un nuevo y valioso segmento demográfico de clientes (jóvenes, con conocimientos de tecnología y, a menudo, de alto patrimonio neto) y evita que los clientes existentes trasladen sus activos a competidores nativos de criptomonedas.20</li>
+<li><strong>Ventaja Competitiva e Innovación:</strong> Ser uno de los primeros en moverse en un mercado de alto crecimiento puede establecer el liderazgo de la marca y una ventaja competitiva a largo plazo, posicionando a la institución como un innovador financiero.7</li>
+</ul>
+<p><strong>Costos (Operativos y de Capital):</strong></p>
+<ul>
+<li><strong>Tecnología e Infraestructura:</strong> Se requiere una inversión significativa en la construcción o licencia de la tecnología necesaria para la valoración en tiempo real, la gestión de riesgos automatizada y la custodia segura. La mayoría de las instituciones optarán por asociarse con proveedores especializados en lugar de construir desde cero.20</li>
+<li><strong>Cumplimiento y Legal:</strong> Altos costos asociados con la navegación por regulaciones en evolución, la implementación de procedimientos robustos de AML/KYC y la obtención de las licencias necesarias.31</li>
+<li><strong>Requisitos de Capital:</strong> Según Basilea III, mantener la exposición a bitcoin en el balance es intensivo en capital. Esto empuja a las empresas hacia modelos de negocio con menor intensidad de capital, como la agencia o la custodia, lo que puede limitar el potencial de ingresos por intereses directos.60</li>
+<li><strong>Costos Operativos:</strong> La contratación de talento especializado (por ejemplo, ingenieros de blockchain, analistas de riesgo de criptomonedas) y la formación continua del personal existente representan gastos operativos significativos.7</li>
+</ul>
+<p>Un análisis de la rentabilidad revela que el factor determinante del éxito no será simplemente la originación de préstamos, sino la capacidad de gestionar el riesgo del colateral a escala. Una institución que pueda construir o integrar un motor de riesgo superior en tiempo real —uno que pueda gestionar eficientemente los LTVs, ejecutar liquidaciones con un deslizamiento mínimo y, potencialmente, ofrecer a los clientes opciones de cobertura sofisticadas— tendrá un menor costo de riesgo. Este menor costo de riesgo puede trasladarse a los clientes en forma de tasas de interés más bajas, creando una ventaja competitiva, o mantenerse como un mayor margen de beneficio. La batalla por la cuota de mercado se ganará en el departamento de gestión de riesgos, no solo en el de ventas.</p>
+<h2><strong>Sección 6: Conclusión y Recomendaciones Estratégicas: Validación de la Hipótesis</strong></h2>
+<p>Tras un análisis exhaustivo de la dinámica del mercado, los impulsores de la demanda, los riesgos críticos y el panorama regulatorio, este informe llega a una conclusión matizada pero definitiva sobre la institucionalización de los préstamos con garantía de bitcoin. La convergencia de múltiples factores indica una trayectoria clara hacia la adopción generalizada, aunque el camino estará marcado por desafíos y una evolución continua.</p>
+<h3><strong>6.1. Síntesis de los Hallazgos: El Camino hacia la Institucionalización</strong></h3>
+<p>La narrativa de los préstamos con garantía de criptomonedas ha pasado de ser una historia de auge y caída a una de resiliencia y reestructuración. El mercado ha madurado desde un espacio dominado por CeFi, opaco y de alto riesgo, a un ecosistema bifurcado más resistente, donde los protocolos DeFi auditables y los actores consolidados centrados en las instituciones están liderando una recuperación sostenible. Esta purga del mercado, aunque dolorosa, ha fortalecido los cimientos para la entrada institucional al demostrar la viabilidad de los modelos transparentes y sobrecolateralizados.</p>
+<p>La propuesta de valor fundamental para este producto financiero es sólida. Para los prestatarios, la capacidad de obtener liquidez de forma fiscalmente eficiente sin renunciar a la propiedad de un activo con un importante potencial de revalorización es un poderoso incentivo. Para los prestamistas, la oportunidad de obtener rendimientos superiores a los tradicionales y de captar una nueva clase de clientes es estratégicamente atractiva. Bitcoin, con sus características únicas de liquidez 24/7 y naturaleza global, se está estableciendo como una forma de garantía digitalmente nativa que resuelve algunas de las ineficiencias de los activos tradicionales.</p>
+<p>Los principales impedimentos para la adopción —volatilidad, custodia y regulación— no se están ignorando, sino que se están abordando activamente. La innovación tecnológica, en particular la custodia mediante MPC, está resolviendo el dilema entre seguridad y accesibilidad. Se están desarrollando marcos de gestión de riesgos cada vez más sofisticados para gestionar la volatilidad. Y, lo que es más importante, un cambio tectónico en el panorama regulatorio, liderado por Estados Unidos, está proporcionando la claridad y el permiso que las instituciones financieras han estado esperando.</p>
+<h3><strong>6.2. Validación de la Hipótesis: Una Afirmación Cualificada con un Horizonte Plurianual</strong></h3>
+<p>Con base en la evidencia analizada, la hipótesis de que los préstamos que utilizan bitcoin como colateral se volverán institucionales en pocos años <strong>se valida con un alto grado de confianza.</strong></p>
+<p>Esta validación, sin embargo, debe ser matizada con las siguientes cualificaciones:</p>
+<ul>
+<li><strong>La "institucionalización" no será monolítica.</strong> No surgirá un único mercado, sino un ecosistema de múltiples capas. Este ecosistema incluirá a los bancos tradicionales regulados que ofrecen productos de bajo riesgo y con un alto nivel de cumplimiento; a los prestamistas especializados no bancarios que ofrecen más flexibilidad; y a los protocolos DeFi en cadena que proporcionan la infraestructura subyacente. Las instituciones elegirán su modelo de participación en función de su apetito por el riesgo, su capacidad tecnológica y sus objetivos estratégicos.</li>
+<li><strong>El horizonte temporal de "pocos años" (3-5 años) es realista para una adopción significativa.</strong> En este plazo, es muy probable que los préstamos con garantía de bitcoin se conviertan en un producto estándar ofrecido por los principales bancos y gestores de patrimonio. Sin embargo, la plena madurez del mercado, que incluiría un mercado secundario líquido y robusto para estos préstamos, probablemente llevará más tiempo, más cerca del final de la década. El desarrollo de un mercado secundario, que permitiría la titulización y venta de estos préstamos, será el catalizador final para una institucionalización completa, atrayendo a una nueva clase de inversores institucionales (como fondos de pensiones y aseguradoras) que buscan exposición al rendimiento sin participar en la originación.</li>
+<li><strong>El ritmo de adopción será geográficamente desigual.</strong> Estados Unidos está posicionado para liderar la adopción institucional debido a su reciente y decisivo deshielo regulatorio. Europa y Asia seguirán, pero su ritmo puede ser más lento hasta que sus propios marcos, como MiCA, se amplíen para cubrir explícitamente las actividades de préstamo y empréstito con la misma claridad que se está viendo en Estados Unidos.</li>
+<li><strong>La trayectoria no está exenta de riesgos.</strong> El camino hacia la institucionalización podría verse retrasado por un evento de "cisne negro", como una brecha de seguridad a gran escala en un custodio clave, un fallo sistémico en un protocolo DeFi importante o un cambio político adverso que revierta la actual tendencia regulatoria positiva. Sin embargo, el impulso actual en la tecnología, la demanda institucional y la regulación hace que la dirección general del viaje sea inequívoca.</li>
+</ul>
+<h3><strong>6.3. Recomendaciones Estratégicas para los Participantes del Mercado</strong></h3>
+<p>Para navegar con éxito en este panorama en evolución, los diferentes actores del mercado deberían considerar las siguientes recomendaciones estratégicas:</p>
+<p><strong>Para las Instituciones Financieras Tradicionales (Bancos, Gestores de Activos):</strong></p>
+<ul>
+<li><strong>Participar, no ignorar:</strong> El mercado se está moviendo con demasiada rapidez como para permanecer al margen. Ignorar este producto supone el riesgo de perder un valioso segmento de clientes en favor de competidores más ágiles.</li>
+<li><strong>Asociarse, no construir (inicialmente):</strong> Aprovechar los proveedores externos especializados en custodia y gestión de riesgos. La experiencia operativa y técnica necesaria es demasiado especializada como para crearla desde cero rápidamente. La estrategia correcta es asociarse con custodios cualificados y proveedores de tecnología para reducir el tiempo de comercialización y el riesgo de ejecución.</li>
+<li><strong>Comenzar con modelos de bajo consumo de capital:</strong> Dados los requisitos de capital de Basilea III, centrarse en los préstamos de agencia, los servicios de custodia y la oferta de préstamos contra ETFs de bitcoin en lugar de los préstamos directos con cargo al balance. Esto permite a las instituciones entrar en el mercado y generar ingresos por comisiones sin incurrir en una carga de capital prohibitiva.</li>
+</ul>
+<p><strong>Para las Empresas Nativas de Criptomonedas (Prestamistas, Exchanges):</strong></p>
+<ul>
+<li><strong>Priorizar el cumplimiento normativo y la transparencia:</strong> Este es el precio de la entrada al mundo institucional. Adoptar auditorías, pruebas de reservas y buscar las licencias adecuadas para generar confianza es fundamental.</li>
+<li><strong>Invertir en infraestructura de grado institucional:</strong> Actualizar la seguridad a la custodia basada en MPC, proporcionar APIs robustas y ofrecer informes transparentes y auditables para satisfacer las demandas de las contrapartes institucionales.</li>
+<li><strong>Definir claramente el modelo de riesgo:</strong> Diferenciarse siendo transparente sobre prácticas como la rehipotecación del colateral. Ofrecer a los clientes opciones claras entre productos de mayor seguridad/mayor tasa y productos de menor tasa/mayor riesgo.</li>
+</ul>
+<p><strong>Para los Inversores Institucionales (Hedge Funds, Family Offices):</strong></p>
+<ul>
+<li><strong>Realizar una debida diligencia rigurosa:</strong> El colapso de los prestamistas de CeFi en 2022 subraya la importancia crítica del riesgo de contraparte. Es esencial examinar la seguridad, la transparencia (prueba de reservas) y el estatus regulatorio de cualquier socio prestamista.</li>
+<li><strong>Comprender el riesgo del colateral:</strong> No subestimar el riesgo de la volatilidad y la liquidación. Pedir prestado de forma conservadora con bajos LTVs y tener una estrategia clara para gestionar las llamadas de margen.</li>
+<li><strong>Exigir transparencia:</strong> Insistir en comprender cómo se mantiene su colateral (por ejemplo, almacenamiento en frío frente a MPC) y si se está rehipotecando. La tasa de interés ofrecida es un indicador clave del riesgo subyacente.</li>
+</ul>
+<h4><strong>Obras citadas</strong></h4>
+<ol>
+<li>The State of Crypto Lending and Borrowing | Galaxy Research, fecha de acceso: junio 25, 2025, <a href="https://www.galaxy.com/insights/research/the-state-of-crypto-lending">https://www.galaxy.com/insights/research/the-state-of-crypto-lending</a></li>
+<li>Crypto lending market declines 43% to $36.5B in Q4 2024: Galaxy report - Mitrade, fecha de acceso: junio 25, 2025, <a href="https://www.mitrade.com/insights/news/live-news/article-3-760742-20250415">https://www.mitrade.com/insights/news/live-news/article-3-760742-20250415</a></li>
+<li>Crypto lending down 43% from 2021 highs, DeFi borrowing surges 959% - Cointelegraph, fecha de acceso: junio 25, 2025, <a href="https://cointelegraph.com/news/crypto-lending-down-43-2021-highs-defi-borrowing-recovers-959">https://cointelegraph.com/news/crypto-lending-down-43-2021-highs-defi-borrowing-recovers-959</a></li>
+<li>The State of Crypto Leverage Q1 2025 – Galaxy Research, fecha de acceso: junio 25, 2025, <a href="https://www.galaxy.com/insights/research/the-state-of-crypto-leverage-q1-2025">https://www.galaxy.com/insights/research/the-state-of-crypto-leverage-q1-2025</a></li>
+<li>Tether provides around 73% of centralized crypto lending - report - Ledger Insights, fecha de acceso: junio 25, 2025, <a href="https://www.ledgerinsights.com/tether-provides-around-73-of-centralized-crypto-lending-report/">https://www.ledgerinsights.com/tether-provides-around-73-of-centralized-crypto-lending-report/</a></li>
+<li>Bitcoin Loan Market Size, Share and Forecast 2031 - Extrapolate, fecha de acceso: junio 25, 2025, <a href="https://extrapolate.com/Information-Technology-Communication-IoT/Bitcoin-Loan-Market-Size-Share-and/22820">https://extrapolate.com/Information-Technology-Communication-IoT/Bitcoin-Loan-Market-Size-Share-and/22820</a></li>
+<li>Bitcoin-backed lending: opportunities and considerations for financial institutions - Osler, Hoskin &#x26; Harcourt LLP, fecha de acceso: junio 25, 2025, <a href="https://www.osler.com/en/insights/updates/bitcoin-backed-lending-opportunities-considerations-financial-institutions/">https://www.osler.com/en/insights/updates/bitcoin-backed-lending-opportunities-considerations-financial-institutions/</a></li>
+<li>Bitcoin Loan Market Is Set To Fly High Growth In Years To Come | YouHolder, Uniswap, SALT Lending - EIN Presswire, fecha de acceso: junio 25, 2025, <a href="https://www.einpresswire.com/article/733128761/bitcoin-loan-market-is-set-to-fly-high-growth-in-years-to-come-youholder-uniswap-salt-lending">https://www.einpresswire.com/article/733128761/bitcoin-loan-market-is-set-to-fly-high-growth-in-years-to-come-youholder-uniswap-salt-lending</a></li>
+<li>Bitcoin-backed loans open the real estate market to crypto-rich, tax-free - Cointelegraph, fecha de acceso: junio 25, 2025, <a href="https://cointelegraph.com/news/bitcoin-backed-loans-real-estate-capital-gains">https://cointelegraph.com/news/bitcoin-backed-loans-real-estate-capital-gains</a></li>
+<li>Bitcoin Loans and Crypto-Backed Loans: Modern Asset Control in the Digital Age, fecha de acceso: junio 25, 2025, <a href="https://www.entrepreneur.com/en-in/news-and-trends/bitcoin-loans-and-crypto-backed-loans-modern-asset-control/492310">https://www.entrepreneur.com/en-in/news-and-trends/bitcoin-loans-and-crypto-backed-loans-modern-asset-control/492310</a></li>
+<li>Borrow Against your Bitcoin Without Selling it | Get Liquidity - Enness Global, fecha de acceso: junio 25, 2025, <a href="https://www.ennessglobal.com/insights/blog/how-borrow-against-your-bitcoin-without-selling-it">https://www.ennessglobal.com/insights/blog/how-borrow-against-your-bitcoin-without-selling-it</a></li>
+<li>How Are Institutional Investors Using Crypto-Backed Loans to Optimize Treasury Management? - Open UGA, fecha de acceso: junio 25, 2025, <a href="https://open.online.uga.edu/inspire/part/how-are-institutional-investors-using-crypto-backed-loans-to-optimize-treasury-management/">https://open.online.uga.edu/inspire/part/how-are-institutional-investors-using-crypto-backed-loans-to-optimize-treasury-management/</a></li>
+<li>How Bitcoin Loans Let You Keep Your Crypto – and Still Access Cash, fecha de acceso: junio 25, 2025, <a href="https://signalscv.com/2025/05/how-bitcoin-loans-let-you-keep-your-crypto-and-still-access-cash/">https://signalscv.com/2025/05/how-bitcoin-loans-let-you-keep-your-crypto-and-still-access-cash/</a></li>
+<li>How to Borrow Against Bitcoin: A Complete Guide to Crypto Loans - Bulldog Law, fecha de acceso: junio 25, 2025, <a href="https://www.thebulldog.law/how-to-borrow-against-bitcoin-a-complete-guide">https://www.thebulldog.law/how-to-borrow-against-bitcoin-a-complete-guide</a></li>
+<li>Best Bitcoin Loan Rates In 2025: Comparing Leading Providers | Ledn Blog, fecha de acceso: junio 25, 2025, <a href="https://www.ledn.io/post/bitcoin-loan-rates">https://www.ledn.io/post/bitcoin-loan-rates</a></li>
+<li>Comparing Crypto Loans and Traditional Loans - Cryptohopper, fecha de acceso: junio 25, 2025, <a href="https://www.cryptohopper.com/blog/comparing-crypto-loans-and-traditional-loans-11356">https://www.cryptohopper.com/blog/comparing-crypto-loans-and-traditional-loans-11356</a></li>
+<li>Crypto lending: How it works and different types - CoinTracker, fecha de acceso: junio 25, 2025, <a href="https://www.cointracker.io/blog/crypto-lending">https://www.cointracker.io/blog/crypto-lending</a></li>
+<li>How Do Crypto-Backed Loans Compare to Traditional Lending Options?, fecha de acceso: junio 25, 2025, <a href="https://websites.umass.edu/ellarose/how-do-crypto-backed-loans-compare/">https://websites.umass.edu/ellarose/how-do-crypto-backed-loans-compare/</a></li>
+<li>Crypto Loans vs. Traditional Loans | Ledn Blog, fecha de acceso: junio 25, 2025, <a href="https://www.ledn.io/post/crypto-loans-vs--traditional-loans">https://www.ledn.io/post/crypto-loans-vs--traditional-loans</a></li>
+<li>Bitcoin as loan collateral: why banks are now turning to crypto-lending, fecha de acceso: junio 25, 2025, <a href="https://www.sopra-financial-technology.com/en/insights/news/bitcoin-as-security-for-loans-why-banks-are-now-banking-on-crypto-lending-m391.html">https://www.sopra-financial-technology.com/en/insights/news/bitcoin-as-security-for-loans-why-banks-are-now-banking-on-crypto-lending-m391.html</a></li>
+<li>Bitcoin's Role As Collateral In Real Estate Development Financing, fecha de acceso: junio 25, 2025, <a href="https://bitcoinmagazine.com/markets/bitcoins-role-as-collateral-in-real-estate-development-financing">https://bitcoinmagazine.com/markets/bitcoins-role-as-collateral-in-real-estate-development-financing</a></li>
+<li>The Investor's Guide to Bitcoin-Backed Lending - Blockworks, fecha de acceso: junio 25, 2025, <a href="https://blockworks.co/news/investors-guide-to-bitcoin-backed-lending">https://blockworks.co/news/investors-guide-to-bitcoin-backed-lending</a></li>
+<li>Blockchain and banking: Key benefits and challenges | Regions Bank, fecha de acceso: junio 25, 2025, <a href="https://www.regions.com/insights/commercial/article/blockchain-and-banking">https://www.regions.com/insights/commercial/article/blockchain-and-banking</a></li>
+<li>Growing enthusiasm and adoption of digital assets | EY - US, fecha de acceso: junio 25, 2025, <a href="https://www.ey.com/en_us/insights/financial-services/growing-enthusiasm-and-adoption-of-digital-assets">https://www.ey.com/en_us/insights/financial-services/growing-enthusiasm-and-adoption-of-digital-assets</a></li>
+<li>2025 Institutional Investor Digital Assets Survey, fecha de acceso: junio 25, 2025, <a href="https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/insights/financial-services/documents/ey-growing-enthusiasm-propels-digital-assets-into-the-mainstream.pdf">https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/insights/financial-services/documents/ey-growing-enthusiasm-propels-digital-assets-into-the-mainstream.pdf</a></li>
+<li>The Lending Landscape - Coinbase Institutional Market Intelligence, fecha de acceso: junio 25, 2025, <a href="https://www.coinbase.com/institutional/research-insights/research/market-intelligence/the-lending-landscape">https://www.coinbase.com/institutional/research-insights/research/market-intelligence/the-lending-landscape</a></li>
+<li>The Destiny of Decentralization: Can Bitcoin Keep Its Soul in a World of Institutions and Politics? - FTW Sunday Editorial, fecha de acceso: junio 25, 2025, <a href="https://www.fintechweekly.com/magazine/articles/bitcoin-institutionalization-decentralization-challenge">https://www.fintechweekly.com/magazine/articles/bitcoin-institutionalization-decentralization-challenge</a></li>
+<li>Risks Loom as Crypto Collateral Gains Ground in Traditional Lending | PYMNTS.com, fecha de acceso: junio 25, 2025, <a href="https://www.pymnts.com/loans/2025/risks-loom-as-crypto-collateral-gains-ground-in-traditional-lending/">https://www.pymnts.com/loans/2025/risks-loom-as-crypto-collateral-gains-ground-in-traditional-lending/</a></li>
+<li>Cryptocurrency: Risks and Opportunities - United Community Bank, fecha de acceso: junio 25, 2025, <a href="https://ucbbank.com/resource-library/cryptocurrency/cryptocurrency-digital-revolution-risks-and-opportunities">https://ucbbank.com/resource-library/cryptocurrency/cryptocurrency-digital-revolution-risks-and-opportunities</a></li>
+<li>Pros and Cons of Bitcoin Loans | Ledn Blog, fecha de acceso: junio 25, 2025, <a href="https://www.ledn.io/post/bitcoin-loans-pros-and-cons">https://www.ledn.io/post/bitcoin-loans-pros-and-cons</a></li>
+<li>How Cryptocurrencies May Impact the Banking Industry - Wolf &#x26; Company, P.C., fecha de acceso: junio 25, 2025, <a href="https://www.wolfandco.com/resources/insights/how-cryptocurrencies-may-impact-the-banking-industry/">https://www.wolfandco.com/resources/insights/how-cryptocurrencies-may-impact-the-banking-industry/</a></li>
+<li>Crypto Borrowing: How to Get Liquidity Without Selling Your Crypto - OSL, fecha de acceso: junio 25, 2025, <a href="https://www.osl.com/hk-en/academy/article/crypto-borrowing-how-to-get-liquidity-without-selling-your-crypto">https://www.osl.com/hk-en/academy/article/crypto-borrowing-how-to-get-liquidity-without-selling-your-crypto</a></li>
+<li>How Do Crypto-Backed Loans Work And Who Are They For? | Learner - NUSites, fecha de acceso: junio 25, 2025, <a href="https://sites.northwestern.edu/learner/how-do-crypto-backed-loans-work/">https://sites.northwestern.edu/learner/how-do-crypto-backed-loans-work/</a></li>
+<li>Everything You Need to Know About Crypto Loans - Figure Markets, fecha de acceso: junio 25, 2025, <a href="https://www.figuremarkets.com/resources/insights/everything-you-need-to-know-about-crypto-loans/">https://www.figuremarkets.com/resources/insights/everything-you-need-to-know-about-crypto-loans/</a></li>
+<li>Liquidations in Crypto: How to Anticipate Volatile Market Moves - Amberdata Blog, fecha de acceso: junio 25, 2025, <a href="https://blog.amberdata.io/liquidations-in-crypto-how-to-anticipate-volatile-market-moves">https://blog.amberdata.io/liquidations-in-crypto-how-to-anticipate-volatile-market-moves</a></li>
+<li>Decrypting financial stability risks in crypto-asset markets - European Central Bank, fecha de acceso: junio 25, 2025, <a href="https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202205_02~1cc6b111b4.en.html">https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202205_02~1cc6b111b4.en.html</a></li>
+<li>Crypto-Backed Loans: What Financial Institutions Need to Know - Fuze Blog, fecha de acceso: junio 25, 2025, <a href="https://fuze.finance/blog/crypto-backed-loans/">https://fuze.finance/blog/crypto-backed-loans/</a></li>
+<li>Unlock Liquidity Without Selling Your Bitcoin–Borrow Against It | Xapo Bank, fecha de acceso: junio 25, 2025, <a href="https://www.xapobank.com/en/blog/unlock-liquidity-without-selling-your-bitcoin-borrow-against-it">https://www.xapobank.com/en/blog/unlock-liquidity-without-selling-your-bitcoin-borrow-against-it</a></li>
+<li>Maximising Property Investment with Crypto and Securities-Backed Financing, fecha de acceso: junio 25, 2025, <a href="https://www.ennessglobal.com/insights/blog/maximising-property-investment-crypto-and-securities-backed-financing">https://www.ennessglobal.com/insights/blog/maximising-property-investment-crypto-and-securities-backed-financing</a></li>
+<li>Liquidation Mechanisms and Price Impacts in DeFi - Bank of Canada, fecha de acceso: junio 25, 2025, <a href="https://www.bankofcanada.ca/wp-content/uploads/2025/03/swp2025-12.pdf">https://www.bankofcanada.ca/wp-content/uploads/2025/03/swp2025-12.pdf</a></li>
+<li>Lessons in Digital Asset Risk Management | Deloitte US, fecha de acceso: junio 25, 2025, <a href="https://www.deloitte.com/us/en/services/audit-assurance/articles/blockchain-digital-assets-risk-management.html">https://www.deloitte.com/us/en/services/audit-assurance/articles/blockchain-digital-assets-risk-management.html</a></li>
+<li><a href="http://www.bitgo.com">www.bitgo.com</a>, fecha de acceso: junio 25, 2025, <a href="https://www.bitgo.com/resources/blog/what-to-look-for-in-an-institutional-crypto-custody-provider/#:~:text=Institutional%20crypto%20custody%20refers%20to,retail%20investors%20on%20regular%20exchanges.">https://www.bitgo.com/resources/blog/what-to-look-for-in-an-institutional-crypto-custody-provider/#:~:text=Institutional%20crypto%20custody%20refers%20to,retail%20investors%20on%20regular%20exchanges.</a></li>
+<li>What to Look for in an Institutional Crypto Custody Provider | BitGo, fecha de acceso: junio 25, 2025, <a href="https://www.bitgo.com/resources/blog/what-to-look-for-in-an-institutional-crypto-custody-provider/">https://www.bitgo.com/resources/blog/what-to-look-for-in-an-institutional-crypto-custody-provider/</a></li>
+<li>Investors Eye Potential Solutions to Crypto Custody Quandaries, fecha de acceso: junio 25, 2025, <a href="https://www.institutionalinvestor.com/article/2e4pxvgcyt99tn7nmk074/corner-office/investors-eye-potential-solutions-to-crypto-custody-quandaries">https://www.institutionalinvestor.com/article/2e4pxvgcyt99tn7nmk074/corner-office/investors-eye-potential-solutions-to-crypto-custody-quandaries</a></li>
+<li>Institutional Custody Solutions and Risk Management - Archax, fecha de acceso: junio 25, 2025, <a href="https://archax.com/academy/institutional-custody-solutions-and-risk-management">https://archax.com/academy/institutional-custody-solutions-and-risk-management</a></li>
+<li>Evaluating crypto custody as a strategic move for banks - Elliptic, fecha de acceso: junio 25, 2025, <a href="https://www.elliptic.co/blog/evaluating-crypto-custody-as-a-strategic-move-for-banks">https://www.elliptic.co/blog/evaluating-crypto-custody-as-a-strategic-move-for-banks</a></li>
+<li><a href="http://www.bitgo.com">www.bitgo.com</a>, fecha de acceso: junio 25, 2025, <a href="https://www.bitgo.com/resources/blog/the-importance-of-crypto-custody-insurance/#:~:text=Crypto%20custody%20insurance%20is%20specialized,Insider%20collusion">https://www.bitgo.com/resources/blog/the-importance-of-crypto-custody-insurance/#:~:text=Crypto%20custody%20insurance%20is%20specialized,Insider%20collusion</a></li>
+<li>The Importance of Crypto Custody Insurance - BitGo, fecha de acceso: junio 25, 2025, <a href="https://www.bitgo.com/resources/blog/the-importance-of-crypto-custody-insurance/">https://www.bitgo.com/resources/blog/the-importance-of-crypto-custody-insurance/</a></li>
+<li>Digital Assets Insurance - WTW, fecha de acceso: junio 25, 2025, <a href="https://www.wtwco.com/en-us/solutions/services/digital-assets-insurance">https://www.wtwco.com/en-us/solutions/services/digital-assets-insurance</a></li>
+<li>Cryptocurrency Insurance Solutions | Canopius, fecha de acceso: junio 25, 2025, <a href="https://www.canopius.com/insurance/cryptocurrency-insurance/">https://www.canopius.com/insurance/cryptocurrency-insurance/</a></li>
+<li>Cobo vs. Fireblocks: Choosing the Right Digital Asset Custody Provider, fecha de acceso: junio 25, 2025, <a href="https://www.cobo.com/post/cobo-vs-fireblocks-choosing-the-right-digital-asset-custody-provider-for-your-business">https://www.cobo.com/post/cobo-vs-fireblocks-choosing-the-right-digital-asset-custody-provider-for-your-business</a></li>
+<li>What is the Difference Between MPC and Cold Wallets? - Safeheron, fecha de acceso: junio 25, 2025, <a href="https://safeheron.com/blog/mpc-and-cold-wallets/">https://safeheron.com/blog/mpc-and-cold-wallets/</a></li>
+<li>Cold Storage vs. MPC: How Vaultody's Institutional-Grade Custody Balances Security and Efficiency, fecha de acceso: junio 25, 2025, <a href="https://vaultody.com/blog/284-cold-storage-vs-mpc-how-vaultodys-institutional-grade-custody-balances-security-and-efficiency">https://vaultody.com/blog/284-cold-storage-vs-mpc-how-vaultodys-institutional-grade-custody-balances-security-and-efficiency</a></li>
+<li>Cold Wallets vs Multi-Sigs vs MPC: The Ultimate Crypto Security Breakdown - CCN.com, fecha de acceso: junio 25, 2025, <a href="https://www.ccn.com/education/crypto/cold-wallet-vs-multi-sig-vs-mpc/">https://www.ccn.com/education/crypto/cold-wallet-vs-multi-sig-vs-mpc/</a></li>
+<li>Cold Wallet vs Hot Wallet: Key Differences Explained (2025 Guide) - Cobo, fecha de acceso: junio 25, 2025, <a href="https://www.cobo.com/post/cold-wallet-vs-hot-wallet-what-crypto-exchanges-and-users-need-to-know-in-2025">https://www.cobo.com/post/cold-wallet-vs-hot-wallet-what-crypto-exchanges-and-users-need-to-know-in-2025</a></li>
+<li>The Financial Stability Implications of Digital Assets - Federal Reserve Bank of New York, fecha de acceso: junio 25, 2025, <a href="https://www.newyorkfed.org/medialibrary/media/research/epr/2024/EPR_2024_digital-assets_azar.pdf">https://www.newyorkfed.org/medialibrary/media/research/epr/2024/EPR_2024_digital-assets_azar.pdf</a></li>
+<li>Centralization in Decentralized Finance: Systemic Risk in the Crypto Ecosystem and Crypto's Future as a Regulated Industry - Duke Law Scholarship Repository, fecha de acceso: junio 25, 2025, <a href="https://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=5163&#x26;context=lcp">https://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=5163&#x26;context=lcp</a></li>
+<li>US Financial Regulators Chart New Path Forward for the Crypto Industry | BakerHostetler, fecha de acceso: junio 25, 2025, <a href="https://www.bakerlaw.com/insights/us-financial-regulators-chart-new-path-forward-for-the-crypto-industry/">https://www.bakerlaw.com/insights/us-financial-regulators-chart-new-path-forward-for-the-crypto-industry/</a></li>
+<li>Federal Reserve Board announces the withdrawal of guidance for banks related to their crypto-asset and dollar token activities and related changes to its expectations for these activities, fecha de acceso: junio 25, 2025, <a href="https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250424a.htm">https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250424a.htm</a></li>
+<li>U.S. Regulators Give Banks the Green Light for Digital Asset Activities - Chainalysis, fecha de acceso: junio 25, 2025, <a href="https://www.chainalysis.com/blog/us-banks-digital-assets/">https://www.chainalysis.com/blog/us-banks-digital-assets/</a></li>
+<li>US Crypto Policy Tracker Regulatory Developments, fecha de acceso: junio 25, 2025, <a href="https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments">https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments</a></li>
+<li>OCC Reiterates Full Scope of Crypto Custody Authority of Banks It Regulates - Mayer Brown, fecha de acceso: junio 25, 2025, <a href="https://www.mayerbrown.com/en/insights/publications/2025/05/occ-reiterates-full-scope-of-crypto-custody-authority-of-banks-it-regulates">https://www.mayerbrown.com/en/insights/publications/2025/05/occ-reiterates-full-scope-of-crypto-custody-authority-of-banks-it-regulates</a></li>
+<li>OCC Clarifies Bank Authority to Engage in Crypto-Asset Custody and Execution Services, fecha de acceso: junio 25, 2025, <a href="https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html">https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html</a></li>
+<li>US home mortgage regulator considers Bitcoin amid housing crisis - Cointelegraph, fecha de acceso: junio 25, 2025, <a href="https://cointelegraph.com/news/us-home-mortgage-regulator-bitcoin-amid-housing-crisis">https://cointelegraph.com/news/us-home-mortgage-regulator-bitcoin-amid-housing-crisis</a></li>
+<li>MiCA Regulation: How the EU is Shaping the Future of Crypto Asset Compliance?, fecha de acceso: junio 25, 2025, <a href="https://amlwatcher.com/blog/mica-regulation-how-the-eu-is-shaping-the-future-of-crypto-asset-compliance/">https://amlwatcher.com/blog/mica-regulation-how-the-eu-is-shaping-the-future-of-crypto-asset-compliance/</a></li>
+<li>New Rules for Crypto-Assets in the EU - eucrim, fecha de acceso: junio 25, 2025, <a href="https://eucrim.eu/news/new-rules-for-crypto-assets-in-the-eu/">https://eucrim.eu/news/new-rules-for-crypto-assets-in-the-eu/</a></li>
+<li>MiCA &#x26; TFR: the two new pillars of the EU crypto-assets regulatory framework | DLA Piper, fecha de acceso: junio 25, 2025, <a href="https://www.dlapiper.com/en/insights/publications/2023/06/mica-tfr-the-two-new-pillars-of-the-eu-cryptoassets-regulatory-framework">https://www.dlapiper.com/en/insights/publications/2023/06/mica-tfr-the-two-new-pillars-of-the-eu-cryptoassets-regulatory-framework</a></li>
+<li>Markets in Crypto-Assets Regulation (MiCA) - | European Securities and Markets Authority, fecha de acceso: junio 25, 2025, <a href="https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica">https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica</a></li>
+<li>The European regulation Markets in Crypto-Assets (MiCA) - Autorité des marchés financiers, fecha de acceso: junio 25, 2025, <a href="https://www.amf-france.org/en/news-publications/depth/mica">https://www.amf-france.org/en/news-publications/depth/mica</a></li>
+<li>What is MiCA (Markets in Crypto Assets Regulation)? - Coinbase, fecha de acceso: junio 25, 2025, <a href="https://www.coinbase.com/learn/your-crypto/what-is-mica-markets-in-crypto-assets-regulation">https://www.coinbase.com/learn/your-crypto/what-is-mica-markets-in-crypto-assets-regulation</a></li>
+<li>Markets in Crypto-Assets Regulation (MICA) - ISLA, fecha de acceso: junio 25, 2025, <a href="https://www.islaemea.org/regulation-and-policy/markets-in-crypto-assets-regulation-mica">https://www.islaemea.org/regulation-and-policy/markets-in-crypto-assets-regulation-mica</a></li>
+<li>The EBA and ESMA analyse recent developments in crypto-assets, fecha de acceso: junio 25, 2025, <a href="https://www.eba.europa.eu/publications-and-media/press-releases/eba-and-esma-analyse-recent-developments-crypto-assets">https://www.eba.europa.eu/publications-and-media/press-releases/eba-and-esma-analyse-recent-developments-crypto-assets</a></li>
+<li>The EBA and ESMA analyse recent developments in crypto-assets - European Union, fecha de acceso: junio 25, 2025, <a href="https://www.esma.europa.eu/press-news/esma-news/eba-and-esma-analyse-recent-developments-crypto-assets">https://www.esma.europa.eu/press-news/esma-news/eba-and-esma-analyse-recent-developments-crypto-assets</a></li>
+<li>CRR III – Prudential treatment of crypto exposures | White &#x26; Case LLP, fecha de acceso: junio 25, 2025, <a href="https://www.whitecase.com/insight-alert/crr-iii-prudential-treatment-crypto-exposures">https://www.whitecase.com/insight-alert/crr-iii-prudential-treatment-crypto-exposures</a></li>
+<li>Capital and Liquidity Treatment of Crypto-asset Exposures (Banking) – Guideline - OSFI, fecha de acceso: junio 25, 2025, <a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-liquidity-treatment-crypto-asset-exposures-banking-guideline">https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/capital-liquidity-treatment-crypto-asset-exposures-banking-guideline</a></li>
+<li>Key Basel III Requirements for Banks and Crypto Assets - PixelPlex, fecha de acceso: junio 25, 2025, <a href="https://pixelplex.io/blog/basel-iii-requirements/">https://pixelplex.io/blog/basel-iii-requirements/</a></li>
+<li>Prudential treatment of cryptoasset exposures - Bank for International Settlements, fecha de acceso: junio 25, 2025, <a href="https://www.bis.org/bcbs/publ/d545.pdf">https://www.bis.org/bcbs/publ/d545.pdf</a></li>
+<li>Virtual Assets - FATF, fecha de acceso: junio 25, 2025, <a href="https://www.fatf-gafi.org/en/topics/virtual-assets.html">https://www.fatf-gafi.org/en/topics/virtual-assets.html</a></li>
+<li>Updated Guidance for a Risk-Based Approach to Virtual Assets and Virtual Asset Service Providers - FATF, fecha de acceso: junio 25, 2025, <a href="https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html">https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html</a></li>
+<li>What is the Crypto Travel Rule? - Notabene, fecha de acceso: junio 25, 2025, <a href="https://notabene.id/crypto-travel-rule-101/what-is-the-crypto-travel-rule">https://notabene.id/crypto-travel-rule-101/what-is-the-crypto-travel-rule</a></li>
+<li>How Lenders Should Prepare for Crypto as Collateral - Frost Brown Todd, fecha de acceso: junio 25, 2025, <a href="https://frostbrowntodd.com/how-lenders-should-prepare-for-crypto-as-collateral/">https://frostbrowntodd.com/how-lenders-should-prepare-for-crypto-as-collateral/</a></li>
+<li>UK Crypto Regulations: An Essential Guide for 2025 - KYC Hub, fecha de acceso: junio 25, 2025, <a href="https://www.kychub.com/blog/uk-crypto-regulations/">https://www.kychub.com/blog/uk-crypto-regulations/</a></li>
+<li>Basel III: What It Is, Capital Requirements, and Implementation - Investopedia, fecha de acceso: junio 25, 2025, <a href="https://www.investopedia.com/terms/b/basell-iii.asp">https://www.investopedia.com/terms/b/basell-iii.asp</a></li>
+<li>websites.umass.edu, fecha de acceso: junio 25, 2025, <a href="https://websites.umass.edu/ellarose/how-do-crypto-backed-loans-compare/#:~:text=When%20comparing%20traditional%20and%20crypto,provides%20higher%20flexibility%20regarding%20collateral.">https://websites.umass.edu/ellarose/how-do-crypto-backed-loans-compare/#:~:text=When%20comparing%20traditional%20and%20crypto,provides%20higher%20flexibility%20regarding%20collateral.</a></li>
+<li>Crypto loans vs. traditional financing: key differences explained - Milo Credit, fecha de acceso: junio 25, 2025, <a href="https://www.milo.io/blog/crypto-loans-vs-traditional-financing-key-differences-explained/">https://www.milo.io/blog/crypto-loans-vs-traditional-financing-key-differences-explained/</a></li>
+<li>Securities Lending Explained - PASLA, fecha de acceso: junio 25, 2025, <a href="https://www.paslaonline.com/securities-lending-explained.aspx">https://www.paslaonline.com/securities-lending-explained.aspx</a></li>
+<li>Crypto &#x26; Bitcoin-backed Loans | Borrow against your crypto today with Ledn, fecha de acceso: junio 25, 2025, <a href="https://www.ledn.io/borrowing">https://www.ledn.io/borrowing</a></li>
+<li>Bespoke Crypto Lending | Digital Asset Lending Solutions - Galaxy, fecha de acceso: junio 25, 2025, <a href="https://www.galaxy.com/global-markets/lending">https://www.galaxy.com/global-markets/lending</a></li>
+<li>Top Borrowing Crypto Coins Today By Market Cap - Forbes, fecha de acceso: junio 25, 2025, <a href="https://www.forbes.com/digital-assets/categories/lending-borrowing-crypto/">https://www.forbes.com/digital-assets/categories/lending-borrowing-crypto/</a></li>
+<li>Top Defi Lending Platforms in 2025 - SoluLab, fecha de acceso: junio 25, 2025, <a href="https://www.solulab.com/top-defi-lending-platforms/">https://www.solulab.com/top-defi-lending-platforms/</a></li>
+<li>Anchorage Digital: Crypto Bank for Institutions, fecha de acceso: junio 25, 2025, <a href="https://www.anchorage.com/">https://www.anchorage.com/</a></li>
+<li>Best Crypto Custody Providers - Comparison - MooLoo, fecha de acceso: junio 25, 2025, <a href="https://mooloo.net/articles/news/crypto-custody-providers-comparison/">https://mooloo.net/articles/news/crypto-custody-providers-comparison/</a></li>
+<li>DeFi Activity, Stablecoins, and the Impact on Price Volatility: Part 1 - Amberdata Blog, fecha de acceso: junio 25, 2025, <a href="https://blog.amberdata.io/defi-activity-stablecoins-and-the-impact-on-price-volatility-part-1">https://blog.amberdata.io/defi-activity-stablecoins-and-the-impact-on-price-volatility-part-1</a></li>
+<li>2025 Crypto Crime Trends from Chainalysis, fecha de acceso: junio 25, 2025, <a href="https://www.chainalysis.com/blog/2025-crypto-crime-report-introduction/">https://www.chainalysis.com/blog/2025-crypto-crime-report-introduction/</a></li>
+<li>Crypto lending: How to earn passive income with your digital assets - Mintos, fecha de acceso: junio 25, 2025, <a href="https://www.mintos.com/blog/crypto-lending/">https://www.mintos.com/blog/crypto-lending/</a></li>
+<li>BOPCOM 24/07 - Issue Note: Recording of Crypto Lending/Borrowing in Macroeconomic Statistics, fecha de acceso: junio 25, 2025, <a href="https://www.imf.org/external/Pubs/FT/BOP/2024/pdf/44/BOPCOM%2024-07%20-%20Issue%20Note-Recording%20of%20Crypto%20Lending_Borrowing%20in%20Macroeconomic%20Statistics.pdf">https://www.imf.org/external/Pubs/FT/BOP/2024/pdf/44/BOPCOM%2024-07%20-%20Issue%20Note-Recording%20of%20Crypto%20Lending_Borrowing%20in%20Macroeconomic%20Statistics.pdf</a></li>
+<li>Risk Management Programs for Cryptoasset and Blockchain - ACAMS, fecha de acceso: junio 25, 2025, <a href="https://www.acams.org/en/training/certificates/risk-management-programs-for-cryptoasset-and-blockchain">https://www.acams.org/en/training/certificates/risk-management-programs-for-cryptoasset-and-blockchain</a></li>
+<li>Crypto Risk Management for Exchanges: A Guide - AlphaPoint, fecha de acceso: junio 25, 2025, <a href="https://alphapoint.com/blog/crypto-risk-management/">https://alphapoint.com/blog/crypto-risk-management/</a></li>
+<li>Client-level Exposure to Cryptocurrency and Auditor Responses - Bayes Business School, fecha de acceso: junio 25, 2025, <a href="https://www.bayes.city.ac.uk/__data/assets/pdf_file/0006/756177/cryptocurrency_and_auditor_responses.pdf">https://www.bayes.city.ac.uk/__data/assets/pdf_file/0006/756177/cryptocurrency_and_auditor_responses.pdf</a></li>
+</ol>
+]]></content:encoded>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+    <item>
+      <title>Widget YTD - Indicadores Financieros</title>
+      <link>https://blog.saporiti.cl/posts/widget-indicadores-financieros</link>
+      <guid>https://blog.saporiti.cl/posts/widget-indicadores-financieros</guid>
+      <description>Widget para Scriptable (iOS) que muestra indicadores financieros con su rendimiento Year-to-Date (YTD). </description>
+      <content:encoded><![CDATA[<h1>Widget YTD - Indicadores Financieros</h1>
+<p>Widget para Scriptable (iOS) que muestra indicadores financieros con su rendimiento Year-to-Date (YTD).
+<img src="https://i.imgur.com/qXHuxAX.png" alt=""></p>
+<h2>Indicadores</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Fuente</th>
+<th>Endpoint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UF</td>
+<td>mindicador.cl</td>
+<td><code>/api/uf/{año}</code></td>
+</tr>
+<tr>
+<td>Dólar</td>
+<td>mindicador.cl</td>
+<td><code>/api/dolar/{año}</code></td>
+</tr>
+<tr>
+<td>Cobre</td>
+<td>mindicador.cl</td>
+<td><code>/api/libra_cobre/{año}</code></td>
+</tr>
+<tr>
+<td>Bitcoin</td>
+<td>CoinGecko</td>
+<td><code>/simple/price</code> y <code>/coins/bitcoin/history</code></td>
+</tr>
+<tr>
+<td>Nasdaq</td>
+<td>Yahoo Finance</td>
+<td><code>/v8/finance/chart/%5EIXIC</code></td>
+</tr>
+<tr>
+<td>S&#x26;P 500</td>
+<td>Yahoo Finance</td>
+<td><code>/v8/finance/chart/%5EGSPC</code></td>
+</tr>
+<tr>
+<td>IPC</td>
+<td>mindicador.cl</td>
+<td><code>/api</code></td>
+</tr>
+<tr>
+<td>TPM</td>
+<td>mindicador.cl</td>
+<td><code>/api</code></td>
+</tr>
+</tbody>
+</table>
+<h2>Cálculo YTD</h2>
+<pre><code>YTD% = ((valor_actual / valor_inicial) - 1) * 100
+</code></pre>
+<ul>
+<li><strong>Valor inicial</strong>: Último valor disponible de diciembre del año anterior</li>
+<li><strong>Valor actual</strong>: Precio en tiempo real</li>
+</ul>
+<h2>Flujo de datos</h2>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│                    createWidget()                       │
+├─────────────────────────────────────────────────────────┤
+│                          │                              │
+│    fetchInitialValues()  │  fetchCurrentValues()        │
+│           │              │           │                  │
+│           ▼              │           ▼                  │
+│   ┌───────────────┐      │   ┌───────────────┐          │
+│   │ mindicador.cl │      │   │ mindicador.cl │          │
+│   │ (año completo)│      │   │ (valores hoy) │          │
+│   └───────────────┘      │   └───────────────┘          │
+│           │              │           │                  │
+│           ▼              │           ▼                  │
+│   getLastDecemberValue() │   Extrae .valor              │
+│           │              │           │                  │
+│           ▼              │           ▼                  │
+│   ┌───────────────┐      │   ┌───────────────┐          │
+│   │   CoinGecko   │      │   │   CoinGecko   │          │
+│   │  /history     │      │   │ /simple/price │          │
+│   └───────────────┘      │   └───────────────┘          │
+│           │              │           │                  │
+│           ▼              │           ▼                  │
+│   ┌───────────────┐      │   ┌───────────────┐          │
+│   │ Yahoo Finance │      │   │ Yahoo Finance │          │
+│   │ (últimos días │      │   │ (precio actual)│         │
+│   │  de diciembre)│      │   └───────────────┘          │
+│   └───────────────┘      │                              │
+│                          │                              │
+└─────────────────────────────────────────────────────────┘
+</code></pre>
+<h2>Funciones principales</h2>
+<h3><code>getYahooYearEndTimestamps()</code></h3>
+<p>Genera timestamps Unix para consultar Yahoo Finance (30 dic - 2 ene).</p>
+<h3><code>getLastDecemberValue(serie, year)</code></h3>
+<p>Filtra el array de datos de mindicador y retorna el último valor de diciembre. La API retorna datos ordenados de forma descendente, por lo que <code>find()</code> obtiene el más reciente.</p>
+<h3><code>fetchInitialValues()</code></h3>
+<p>Obtiene valores de cierre del año anterior:</p>
+<ul>
+<li>mindicador: <code>/api/{indicador}/{año}</code> → filtra diciembre</li>
+<li>CoinGecko: <code>/history?date=31-12-{año}</code></li>
+<li>Yahoo: rango de fechas fin de año → último cierre</li>
+</ul>
+<h3><code>fetchCurrentValues()</code></h3>
+<p>Obtiene valores actuales en tiempo real de todas las fuentes.</p>
+<h3><code>createWidget()</code></h3>
+<p>Construye el widget con:</p>
+<ul>
+<li>Header: "YTD {año}" + IPC/TPM</li>
+<li>Lista de indicadores con valor actual y % YTD</li>
+<li>Colores: verde (+) / rojo (-)</li>
+</ul>
+<h2>APIs utilizadas</h2>
+<h3>mindicador.cl</h3>
+<pre><code>GET https://mindicador.cl/api                    # Valores actuales
+GET https://mindicador.cl/api/{indicador}/{año}  # Histórico anual
+</code></pre>
+<h3>CoinGecko</h3>
+<pre><code>GET https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&#x26;vs_currencies=usd
+GET https://api.coingecko.com/api/v3/coins/bitcoin/history?date=DD-MM-YYYY
+</code></pre>
+<h3>Yahoo Finance</h3>
+<pre><code>GET https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&#x26;range=1d
+GET https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?period1={unix}&#x26;period2={unix}&#x26;interval=1d
+</code></pre>
+<p>Símbolos: <code>%5EIXIC</code> (Nasdaq), <code>%5EGSPC</code> (S&#x26;P 500)</p>
+<h2>Instalación</h2>
+<ol>
+<li>Instalar <a href="https://apps.apple.com/app/scriptable/id1405459188">Scriptable</a> en iOS</li>
+<li>Copiar contenido de <code>Código</code> en un nuevo script</li>
+<li>Agregar widget de Scriptable al home screen</li>
+<li>Seleccionar el script creado</li>
+</ol>
+<h2>Código</h2>
+<pre><code>
+const MINDICADOR_URL = 'https://mindicador.cl/api';
+const COINGECKO_PRICE_URL = 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&#x26;vs_currencies=usd';
+const COINGECKO_HISTORY_URL = 'https://api.coingecko.com/api/v3/coins/bitcoin/history';
+
+// Yahoo: último día de trading del año anterior
+function getYahooYearEndTimestamps() {
+  const year = new Date().getFullYear() - 1;
+  const dec30 = new Date(year, 11, 30);
+  const jan2 = new Date(year + 1, 0, 2);
+  return {
+    period1: Math.floor(dec30.getTime() / 1000),
+    period2: Math.floor(jan2.getTime() / 1000)
+  };
+}
+
+// Calcular YTD con formato y color
+const calculateYTD = (initial, current) => {
+  if (!initial || !current) return { value: 'N/A', positive: null };
+  const ytd = ((current / initial) - 1) * 100;
+  return {
+    value: ytd.toFixed(2),
+    positive: ytd >= 0
+  };
+};
+
+// Formatear número con separador de miles
+const formatNumber = (num, decimals = 2) => {
+  if (!num) return 'N/A';
+  return num.toLocaleString('es-CL', {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals
+  });
+};
+
+// Obtener último valor de diciembre (la API ya viene ordenada desc)
+function getLastDecemberValue(serie, year) {
+  return serie.find(item => {
+    const d = new Date(item.fecha);
+    return d.getFullYear() === year &#x26;&#x26; d.getMonth() === 11;
+  })?.valor;
+}
+
+async function fetchInitialValues() {
+  const prevYear = new Date().getFullYear() - 1;
+  const yahoo = getYahooYearEndTimestamps();
+  const btcDate = `31-12-${prevYear}`;
+
+  try {
+    const [ufData, dolarData, cobreData, nasdaqData, sp500Data, btcData] = await Promise.all([
+      new Request(`https://mindicador.cl/api/uf/${prevYear}`).loadJSON(),
+      new Request(`https://mindicador.cl/api/dolar/${prevYear}`).loadJSON(),
+      new Request(`https://mindicador.cl/api/libra_cobre/${prevYear}`).loadJSON(),
+      new Request(`https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?period1=${yahoo.period1}&#x26;period2=${yahoo.period2}&#x26;interval=1d`).loadJSON(),
+      new Request(`https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=${yahoo.period1}&#x26;period2=${yahoo.period2}&#x26;interval=1d`).loadJSON(),
+      new Request(`${COINGECKO_HISTORY_URL}?date=${btcDate}`).loadJSON()
+    ]);
+
+    const nasdaqCloses = nasdaqData.chart?.result?.[0]?.indicators?.quote?.[0]?.close || [];
+    const sp500Closes = sp500Data.chart?.result?.[0]?.indicators?.quote?.[0]?.close || [];
+
+    return {
+      uf: getLastDecemberValue(ufData.serie || [], prevYear),
+      dolar: getLastDecemberValue(dolarData.serie || [], prevYear),
+      cobre: getLastDecemberValue(cobreData.serie || [], prevYear),
+      nasdaq: nasdaqCloses[nasdaqCloses.length - 1],
+      sp500: sp500Closes[sp500Closes.length - 1],
+      btc: btcData.market_data?.current_price?.usd
+    };
+  } catch (e) {
+    console.log('Error: ' + e);
+    return null;
+  }
+}
+
+async function fetchCurrentValues() {
+  const [dataBtc, dataIndicador, dataNasdaq, dataSp500] = await Promise.all([
+    new Request(COINGECKO_PRICE_URL).loadJSON(),
+    new Request(MINDICADOR_URL).loadJSON(),
+    new Request('https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&#x26;range=1d').loadJSON(),
+    new Request('https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&#x26;range=1d').loadJSON()
+  ]);
+
+  return {
+    uf: dataIndicador.uf?.valor,
+    dolar: dataIndicador.dolar?.valor,
+    cobre: dataIndicador.libra_cobre?.valor,
+    btc: dataBtc.bitcoin?.usd,
+    ipc: dataIndicador.ipc?.valor,
+    tpm: dataIndicador.tpm?.valor,
+    nasdaq: dataNasdaq.chart?.result?.[0]?.meta?.regularMarketPrice,
+    sp500: dataSp500.chart?.result?.[0]?.meta?.regularMarketPrice
+  };
+}
+
+async function createWidget() {
+  const [initValues, currentValues] = await Promise.all([
+    fetchInitialValues(),
+    fetchCurrentValues()
+  ]);
+
+  let widget = new ListWidget();
+
+  if (!initValues || !currentValues) {
+    widget.addText("Error al cargar datos");
+    return widget;
+  }
+  widget.backgroundColor = new Color("#FFFFFF");
+  widget.setPadding(12, 14, 12, 14);
+
+  // Header compacto
+  let headerStack = widget.addStack();
+  headerStack.layoutHorizontally();
+
+  let title = headerStack.addText("YTD " + new Date().getFullYear());
+  title.font = Font.boldSystemFont(11);
+  title.textColor = new Color("#666666");
+
+  headerStack.addSpacer();
+
+  let ipcTpm = headerStack.addText(`IPC ${currentValues.ipc || '-'}%  TPM ${currentValues.tpm || '-'}%`);
+  ipcTpm.font = Font.systemFont(9);
+  ipcTpm.textColor = new Color("#999999");
+
+  widget.addSpacer(6);
+
+  // Indicadores
+  const indicators = [
+    { name: "UF", current: currentValues.uf, initial: initValues.uf, prefix: "$", decimals: 0 },
+    { name: "USD", current: currentValues.dolar, initial: initValues.dolar, prefix: "$", decimals: 0 },
+    { name: "Cobre", current: currentValues.cobre, initial: initValues.cobre, prefix: "$", decimals: 2 },
+    { name: "BTC", current: currentValues.btc, initial: initValues.btc, prefix: "", decimals: 0 },
+    { name: "Nasdaq", current: currentValues.nasdaq, initial: initValues.nasdaq, prefix: "", decimals: 0 },
+    { name: "S&#x26;P500", current: currentValues.sp500, initial: initValues.sp500, prefix: "", decimals: 0 }
+  ];
+
+  for (const ind of indicators) {
+    let row = widget.addStack();
+    row.layoutHorizontally();
+    row.centerAlignContent();
+
+    let nameText = row.addText(ind.name);
+    nameText.font = Font.mediumSystemFont(12);
+    nameText.textColor = new Color("#333333");
+    nameText.lineLimit = 1;
+
+    row.addSpacer();
+
+    let valueText = row.addText(ind.prefix + formatNumber(ind.current, ind.decimals));
+    valueText.font = Font.systemFont(11);
+    valueText.textColor = new Color("#666666");
+
+    row.addSpacer(6);
+
+    const ytd = calculateYTD(ind.initial, ind.current);
+    const sign = ytd.positive ? "+" : "";
+    let ytdText = row.addText(`${sign}${ytd.value}%`);
+    ytdText.font = Font.boldSystemFont(11);
+    ytdText.textColor = ytd.positive === null
+      ? new Color("#999999")
+      : ytd.positive
+        ? new Color("#22c55e")
+        : new Color("#ef4444");
+
+    widget.addSpacer(2);
+  }
+
+  return widget;
+}
+
+// Ejecutar
+let widget = await createWidget();
+if (config.runsInWidget) {
+  Script.setWidget(widget);
+  Script.complete();
+} else {
+  widget.presentMedium();
+}
+</code></pre>
+<h2>Notas</h2>
+<ul>
+<li>El widget se actualiza según la frecuencia configurada en iOS</li>
+<li>Si falla alguna API, muestra "Error al cargar datos"</li>
+<li>IPC y TPM se muestran sin cálculo YTD (son tasas, no precios)</li>
+</ul>
+]]></content:encoded>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+    <item>
+      <title>No delegar tu lightning address</title>
+      <link>https://blog.saporiti.cl/posts/no-delegar-tu-lightning-address</link>
+      <guid>https://blog.saporiti.cl/posts/no-delegar-tu-lightning-address</guid>
+      <description>Todos reconocen la importancia de custodiar bitcoin, pero muchos delegan su lightning address (LA) en terceros.</description>
+      <content:encoded><![CDATA[<h1>No delegar tu lightning address</h1>
+<p>Todos reconocen la importancia de custodiar bitcoin, pero muchos delegan su lightning address (LA) en terceros. Si operas tu propio nodo, disponer de una propia dirección bajo tu dominio es muy sencillo y <strong>necesario</strong>.</p>
+<h2>¿Qué es Lightning Address?</h2>
+<p>Según <a href="https://lightningaddress.com/">https://lightningaddress.com/</a> es ¡Como una dirección de correo electrónico, pero para Bitcoin! Una forma enormemente más simple para que cualquiera pueda enviarle Bitcoin instantáneamente en Lightning Network.</p>
+<p>Lo importante es analizar como funciona LA. Aquí hay un diagrama sencillo sobre cómo funciona Lightning Address y se basa en el protocolo <a href="https://github.com/lnurl/luds/blob/legacy/lnurl-pay.md">LNURL Pay</a>.</p>
+<p><img src="https://camo.githubusercontent.com/268abc621585b68fbf1229eab51c3c9344870ec3f227a1ff237c7423ba3ba28e/68747470733a2f2f692e696d6775722e636f6d2f444956357138712e706e67" alt=""></p>
+<p>Básicamente un usuario al pagar con una billetera que soporta lightning address genera un GET request para recibir como respuesta un json con la siguiente estructura:</p>
+<pre><code>{
+  "tag": "payRequest",
+  "callback": "https://tudominio.com/lnurlp/api/v1/lnurl/cb/7",
+  "minSendable": 1000,
+  "maxSendable": 100000000,
+  "metadata": "[[\"text/plain\", \"PayLink de Nicolas Saporiti\"]]",
+  "commentAllowed": 140
+}
+</code></pre>
+<p>Al recibir estos datos la billetera aplica flujo de pago indicado para protocolo LNurl.
+Lo más importe en este punto es que identifiquemos cuál es nuestro callback, es decir la función que permite al generar un request obtener la factura para realizar un pago lightning network. En el json anterior podemos ver que se encuentra indicado en el campo callback.</p>
+<h2>Haciendo decoder a lightning address</h2>
+<p>Hay varias formas de decodificar una LA. La primera puede ser utilizando un decodificador en línea como <a href="https://lightningdecoder.com/">Lightning Decoder</a></p>
+<p>La segunda forma es hacerlo manualmente. Como vimos en el diagrama anterior una LA se compone de <a href="mailto:username@domain.com">username@domain.com</a> entonces por ejemplo para una dirección de GetAlby el json lo podemos obtener en el siguiente link</p>
+<p><a href="https://getalby.com/.well-known/lnurlp/username">https://getalby.com/.well-known/lnurlp/username</a></p>
+<p>Por ejemplo este sería el json para mi dirección de GetAlby <a href="https://getalby.com/.well-known/lnurlp/saporiti">Mi Json</a></p>
+<p>Una vez decodificado el json podemos obtener nuestro callback que recibirá las peticiones para generar facturas lightning network. El endpoint que recibe los llamados toma dos parámetros query que son amount (obligatorio) y memo (opcional). Por ejemplo el siguiente link genera un invoice para mi address en Alby (lo configuré para 1 sats): <a href="https://getalby.com/lnurlp/saporiti/callback?amount=1000">Invoice por 1 sat</a></p>
+<blockquote>
+<p>Debes tener en cuenta que el parámetro amount se indica en mstas en donde 1 sat equivale a 1.000 msats.</p>
+</blockquote>
+<blockquote>
+<p><strong>Tip:</strong> si copias el contenido de tu json, lo guardas en un archivo txt con el username que deseas  (recuerda eliminar la extensión txt) y lo subes a la carpeta <a href="https://tudomino/.well-known/lnurlp/">https://tudomino/.well-known/lnurlp/</a> ya tendrás una lightning address operativa con tu propio dominio, por ejemplo <a href="mailto:carlos@midominio.com">carlos@midominio.com</a></p>
+</blockquote>
+<h2>Custodiando tu lightning address</h2>
+<p>Hay varias maneras de custodiar LA, las más sencillas son:</p>
+<h4>Generando nuestro propio servidor</h4>
+<p>Si eres dev y corres tu propio full node, puedes tomar el siguiente repositorio y montarlo en un servidor con el dominio que desees para generar tus propias direcciones. Realmente es muy sencillo de configurar o puedes tenerlo de referencia para crear tu propio desarrollo.</p>
+<p><a href="https://github.com/nbd-wtf/satdress">Servidor Satdress</a></p>
+<p>Aquí puedes ver un ejemplo ejecutando el repositorio anterior <a href="https://payaddress.co/">PayAddress</a></p>
+<h3>Configuración manual con LNbits</h3>
+<p>Para el siguiente método requieres correr un full node y LNbits. Además necesitas que LNbits corra en un dominio https, es decir con protocolo seguro de transferencia de hipertexto. Si no sabes como hacerlo, te dejo la guía de instalación de <a href="https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md">LNbits</a></p>
+<p>Si utilizas Umbrel puedes leer la siguiente <a href="https://community.getumbrel.com/t/how-to-configure-umbrel-lnbits-app-without-tor/604">guía</a></p>
+<p>Una vez que tenemos corriendo nuestro nodo y configurado LNbits debemos crear una wallet. Una vez que la creamos, debemos agregar la extensión LNURLp tal como se muestra en las imágenes.</p>
+<p><img src="https://i.ibb.co/BLVLFXT/Screenshot-2022-11-29-at-14-46-36.png" alt="LNbits"></p>
+<p>Luego seleccionas LNURLp y das click en NEW PAY LINK, carga los datos como muestra la imagen</p>
+<p><img src="https://i.ibb.co/Bn5hG7H/Screenshot-2022-11-29-at-14-57-17.png" alt="PayLink"></p>
+<p>Cuando terminas de crear tu PayLink, prueba que funcione correctamente con cualquier wallet que de soporte a LNurl. Si todo funciona bien, debes decodificar el LNurl. Para ello copias su dirección (COPY LNURL) como muestra la imagen.</p>
+<p><img src="https://i.ibb.co/CB3tSYc/Screenshot-2022-11-29-at-15-01-43.png" alt="Copy LNurl"></p>
+<p>Copiada tu LNurl debes decodificarla, para ello te diriges a esta página <a href="https://lnurl.fiatjaf.com/codec/">lnurl decoder</a> y obtienes tu callback.</p>
+<p>En el ejemplo sería el siguiente <a href="https://legend.lnbits.com/lnurlp/api/v1/lnurl/9392">callback</a> y si le das click obtienes los datos para pegar en tu json.</p>
+<p>Ya con los datos de tu json los guardas en un archivo txt con el nombre de usuario que deseas, recuerda eliminar la extensión txt y subirlo a la carpeta de tu dominio en <a href="https://dominio.com/.well-known/lnurlp/">https://dominio.com/.well-known/lnurlp/</a></p>
+<p>Ahora queda solo probar tu lightning address con cualquier wallet que soporte el protocolo y si la decodificas con <a href="https://lightningdecoder.com/">Lightning Decoder</a> podrás ver que se indica el callback al dominio de tu servicio LNbits.</p>
+<p>Cada vez que recibas sats a tu lightning address se depositarán en tu billetera de LNbits. Recuerda no perder el acceso a tu dirección de lnbits.</p>
+<p>Ejecutando cualquiera de los dos métodos tendrás custodia total de tus fondos y direcciones lightning address.</p>
+<p>Otra ventaja es que puedes tener una dirección de correo que reciba sats y también correos electrónicos. Puedes escríbeme a <a href="mailto:nicolas@saporiti.cl">nicolas@saporiti.cl</a> o enviarme sats a <a>nicolas@saporiti.cl</a> para probar.</p>
+]]></content:encoded>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+    <item>
+      <title>Recibir pagos web en Bitcoin con LN</title>
+      <link>https://blog.saporiti.cl/posts/recibe-pagos-web-en-bitcoin</link>
+      <guid>https://blog.saporiti.cl/posts/recibe-pagos-web-en-bitcoin</guid>
+      <description>Te explico como implementar un sistema sencillo para recibir pagos web en Bitcoin utilizando lightning network.</description>
+      <content:encoded><![CDATA[<h1>Recibir pagos web en Bitcoin con Lightning Network</h1>
+<p>Antes de comenzar es importante saber que es Lightning Network y por qué día a día crece en adopción.</p>
+<p>La <strong>red Lightning</strong>, en inglés <strong>Lightning Network</strong> (LN), es una <a href="https://es.wikipedia.org/wiki/Red_de_computadoras">red</a> <a href="https://es.wikipedia.org/wiki/P2P">entre pares</a> (P2P) concebida como sistema de segunda capa para <a href="https://es.wikipedia.org/wiki/Bitcoin">Bitcoin</a> (BTC) que permite hacer micropagos de forma casi instantánea.</p>
+<p>Su diseño original fue publicado en enero de 2016 por Joseph Poon y Thaddeus Dryja.<a href="https://es.wikipedia.org/wiki/Lightning_Network#cite_note-lightning-2">2</a></p>
+<p>Además de permitir transacciones casi inmediatas, LN posee otras importantes ventajas como:</p>
+<ul>
+<li>Comisiones casi cero.</li>
+<li>Es descentralizado operando entre nodos conectados a través de canales.</li>
+<li>No admite censura, cualquier persona puede poner en marcha su propio nodo. Ver <a href="https://getumbrel.com/">www.getumbrel.com</a></li>
+<li>El requerimiento de hardware para instalar un nodo es de bajo costo, inclusive la mayoría utilizan un simple raspberry o algún computador en desuso con sistema operativo linux.</li>
+</ul>
+<p>En este post no voy a abordar cómo instalar un nodo y la complejidad de su gestión. Pero lo que si vamos a ver, es como podemos implementar un sistema de pago en LN utilizando el nodo de <a href="https://www.buda.com/">www.buda.com</a></p>
+<p>Algunos exchanges ya han implementado soluciones LN para brindarle servicios a sus clientes, y es probable que en el futuro inmediato sea el común. Buda ya hace tiempo dispone de su propio nodo y lo ha puesto al servicio de sus clientes, y lo mejor de todo es que tienen una <a href="https://api.buda.com/">API</a> con llamadas privadas para que podamos crear nuestros propios desarrollos.</p>
+<h2>Requisitos para implementar pagos web con LN</h2>
+<p>Si no eres desarrollador, no creo que puedas implementar el sistema. De todos modos si te interesa, lees y aprendes a programar, en un tiempo podrás hacerlo.</p>
+<p>Lo primero que necesitamos es tener una cuenta en BUDA y habilitar nuestras API Key y API Secret.</p>
+<blockquote>
+<p>Nota importante: no debes compartir con nadie ni exponer tus llaves privadas.</p>
+</blockquote>
+<p>Una vez que disponemos de nuestras llaves privadas te recomiendo que comiences a jugar haciendo llamadas a la API y verificar que todo funcione. Para facilitarlo existe un repositorio que maneja las promesas de la API. Inclusive yo colaboré con un PR (el primero de mi vida! 😀) agregando la función requerida para generar un invoice LN. El <a href="https://github.com/ajunge/buda-promise">repo</a> .</p>
+<p>Una vez que te familiarices con la API y leas la documentación, te voy a dar los pasos para generar un formulario de pago web con el que tus clientes / amigos pueden pagarte con bitcoin.</p>
+<h3>Creando nuestro Backend</h3>
+<blockquote>
+<p>Te recomiendo que todos los llamados que hagas a la API corran del lado del servidor, ya que si lo haces del lado del cliente, tus llaves quedan expuestas.</p>
+</blockquote>
+<p>En mi caso cree el backend en Node.js con Express y su objetivo es muy simple: resuelve dos endpoints para que uno genere el invoice y el otro verifique que la transferencia fue realizada. Acá puedes ver el <a href="https://github.com/nicosaporiti/buda-lightning-invoice">repo</a></p>
+<p>Para comenzar clonaremos el repositorio:</p>
+<pre><code>$ git clone https://github.com/nicosaporiti/buda-lightning-invoice.git
+</code></pre>
+<p>Instalaremos las dependencias</p>
+<pre><code>$ nmp install
+</code></pre>
+<p>Crearemos un archivo .env en la raíz del proyecto e ingresaremos nuestras llaves privadas :</p>
+<pre><code>PORT=3001
+BUDA_API_KEY='tu_buda_api_key'
+BUDA_API_SECRET='tu_buda_api_secret'
+</code></pre>
+<p>Ejecutaremos el proyecto</p>
+<pre><code>npm run dev
+</code></pre>
+<p>En modo desarrollo utilizaremos nodemon, es recomendable que lo instales a nivel global.</p>
+<p>Instalado y ejecutado nuestro back, utilizaremos <a href="https://www.postman.com/">Postman</a> para probar nuestras rutas.</p>
+<p><a href="http://localhost:3001/newinvoice">http://localhost:3001/newinvoice</a></p>
+<p>La función para obtener el invoice recibe dos parámetros, el monto en satoshis (unidad mínima de bitcoin) y un mensaje en formato string que se incluye en la transferencia. Al generar el invoice recibimos como respuesta la dirección del invoice que luego procesaremos en nuestro frontend para generar el QR con el cuál el usuario podrá escanearlo y realizar la tansferencia.</p>
+<p>Es un llamado del tipo POST y se envía en json, ejemplo:</p>
+<pre><code>{
+    "amount": 5000,
+    "msg": "Cuota del asado"
+}
+</code></pre>
+<p>Si la respuesta es correcta, recibimos la siguiente respuesta:</p>
+<pre><code>{
+    "invoice": "lnbc50...",
+    "amount": 5000,
+    "msg": "Cuota del asado"
+}
+</code></pre>
+<p>Los controladores de las rutas se encuentran validados con express-validator.</p>
+<p>Luego para cerrar el ciclo del proceso de pago, es importante que informemos al cliente que la transferencia fue un éxito. Para ello vamos a verificar que el invoice se encuentra pagado y para ello utlizamos la ruta <a href="http://localhost:3001/status">http://localhost:3001/status</a> donde enviamos un llamado tipo POST con el invoice en json como parámetro</p>
+<pre><code>{
+    "invoice": "lnbc50...",
+}
+</code></pre>
+<p>Si todo fue correcto, tendremos la siguiente respuesta:</p>
+<pre><code>{
+    "invoice": "lnbc50...",
+    "status": false
+}
+</code></pre>
+<p>En este caso el status para el invoice es <strong>false</strong> ya que no se encuentra pago, con lo que ya tenemos todo lo necesario para crear nuestro frontend e implementar el formulario de pago.</p>
+<p>Una vez que verifiquemos que el backend funciona, puedes subirlo a Heroku.</p>
+<p>Como nota, el servidor en Express  utiliza CORS ya que es requerido por la API de Buda. No realicé test, pero si quieres aportar con ello, agradecido.</p>
+<h3>Creando nuestro Frontend</h3>
+<p>Para el front utilicé create-react-app y lo primero que debes hacer es clonar el repo:</p>
+<pre><code>$ git clone https://github.com/nicosaporiti/ln-form.git
+</code></pre>
+<p>Luego instalar todas las dependencias:</p>
+<blockquote>
+<p>En nuestro frontend no debemos guardar ninguna llave privada ya que quedan expuestas.</p>
+</blockquote>
+<p>En este caso, ya tiene la conectividad con nuestro backend pero debemos crear el archivo .env para indicar los endpoint de nuestro servidor:</p>
+<pre><code>REACT_APP_API_URL_INVOICE='https://tuservidor.com/newinvoice'
+REACT_APP_API_URL_STATUS='https://tuservidor.com/status'
+</code></pre>
+<p>Ya resuelto todo, debes ejecutar npm run start y podrás ver el formulario en tu localhost y realizar pruebas. Para subir el proyecto, puedes utilizar <a href="https://www.netlify.com/">Netlify</a> y subir la carpeta build que generas con el comando npm run build.</p>
+<p>Aquí <a href="https://ln-form.netlify.app/">puedes ver el proyecto terminado y enviarme unos sat de prueba</a></p>
+<p><img src="https://i.imgur.com/c5xyiIF.png" alt="LN-Form"></p>
+<h2>Conclusiones</h2>
+<p>Como pudimos aprender Lightning Network es una tecnología que rápidamente nos permite implementar un sistema de pago sin censura y con funcionalidades completas. Quiénes tengan experiencia en implementar sistemas de pago sabrán lo complicado que es desde validar, proteger datos, etc. Inclusive antes de implementar un sistema de pago tradicional, se nos pide que llenemos un interminable papeleo.</p>
+<p>En el caso de LN todo queda resuelto de forma simple, por ejemplo el cliente mantiene sus llaves privadas y aprueba las transacciones. Del lado del servidor (nodo) contamos con una poderosa API para gestionar y podemos concentrarnos en desarrollar una experiencia de pago increible. Lo mejor de todo es que podemos recibir pagos a nivel global y al instante. Sin duda, los sistemas de pago tradicional con la mayor adopción de LN quedarán en el pasado.</p>
+<p>Aclaro que <strong>no todo en LN es una maravilla</strong>. Es una tecnología muy reciente y en desarrollo, por lo que existen fallos. Principlamente hay fallos de liquidez en los nodos ya que  se debe inmovilizar bitcoin. Un buen nodo debe tener muchos canales y a mayor cantidad de canales, más capital se requiere inmovilizar.</p>
+<p>Los pagos en LN están recomendados para montos pequeños, ya que por el problema de liquidez antes comentado pueden involucrar elevadas comisiones que cobran los nodos e incluso, puede que las transacciones fallen.</p>
+<p>Pero los pro son más que los contra y ya podemos palpar lo que significa la libertad financiera de bitcoin. Otro pro importante que tiene esta tecnología es que al ser pagos pequeños, la volatilidad en el precio del Bitcoin no afecta tanto, inclusive se podría generar un mercado secundario para liquidar los pagos una vez que los recibimos y en cuestión de segundos podrías dejar el pago convertido a la moneda fiat que prefieras.</p>
+<p>En este caso implementamos un sistema utilizando el nodo de un exchange, pero perfectamente podemos gestionar nuestro propio nodo, <em><strong>con lo que lograremos completa independencia y es algo que veremos en otro post</strong></em>.</p>
+]]></content:encoded>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+    <item>
+      <title>Aprender a programar</title>
+      <link>https://blog.saporiti.cl/posts/aprender-a-programar</link>
+      <guid>https://blog.saporiti.cl/posts/aprender-a-programar</guid>
+      <description>Si quieres vender, emplearte o crear, necesitas aunque sea conocimientos básicos de programación que permitan generar ese activo digital que represente todo lo que ofreces para alcanzar tus objetivos.</description>
+      <content:encoded><![CDATA[<h2>¿Por qué deberías aprender a programar?</h2>
+<p>Este 2020 comencé a estudiar programación aprovechando esos espacios que nos dejó la pandemia. Quizás no alcance un dominio profesional, pero al menos intento estudiar una hora todos los días y ha sido muy gratificante.</p>
+<p>Aclaro que no tengo formación en ciencias de la computación, estudié administración y finanzas, pero soy bastante disciplinado para estudiar o al menos dedicar algo de tiempo a aprender cosas que me gusten. Si hoy, luego de casi 6 meses de iniciar estudios en desarrollo web y JavaScript me preguntaran qué requisitos se necesitan, te diría que uno solo: <strong>"Que te guste resolver problemas"</strong></p>
+<blockquote>
+<p>El 2020 aceleró los procesos de transformación digital. Liderar este cambio implica el dominio de herramientas y habilidades que marcarán la diferencia entre formar parte o quedar excluidos como simples espectadores.</p>
+</blockquote>
+<p><strong>Programar</strong> <em>es un proceso utilizado para idear y ordenar acciones necesarias para realizar un proyecto. Preparar ciertas máquinas o aparatos para que empiecen a funcionar en el momento y en la forma deseados y  elaborar programas para su empleo en computadoras (1)</em>.</p>
+<p>Digamos que el proceso utilizado por un programador para solucionar un problema por medio de una aplicación no es muy distinto al que utiliza un profesional en su propio ámbito. Entonces: ¿Qué queda para los profesionales o personas que deben "programar "empresas o sus áreas para encontrar soluciones en un ámbito dominado por los datos y la información?</p>
+<p>Que te guste resolver problemas no significa que te apasionen las matemáticas. De hecho, la mayoría de las soluciones matemáticas en programación no son para nada complejas, algunas son tan sencillas como sumar o restar. <a href="https://www.youtube.com/watch?v=nKIu9yen5nc">Ver video</a></p>
+<p><img src="https://media.giphy.com/media/hrRJ41JB2zlgZiYcCw/giphy.gif" alt="MonoCodeando"></p>
+<p>Encuentro que <strong>resolver un problema es hacer algo simple, fácil y que te de como resultado un ahorro de tiempo</strong>, mucho tiempo. Los problemas son ese asunto en medio de un proceso que se necesita resolver para seguir avanzando. Lo bueno de la programación es que te permite resolver cosas en cualquier ámbito que imagines, inclusive en nuestra actividad diaria y bueno, quizás resolviendo esos "dolores" que tanto te incomodan, puedes encontrar la solución de un gran problema para muchísimas personas.</p>
+<p>La programación es un <strong>proceso creativo</strong> donde se aplican múltiples soluciones a un mismo problema. Su práctica nos permite forzar en algún modo nuestra propia creatividad, desarrollar habilidades en un entorno que por naturaleza es abierto, colaborativo y que constantemente se retroalimenta de pruebas y errores. Y esto es fantástico, porque cuándo te sientas a tratar de resolver una tarea, te das cuenta que otros programadores han encontrado una solución a lo que intentas con lo cuál puedes tomar ese código, aplicarlo y quizás mejorarlo para encontrar una solución a desafíos mayores.</p>
+<p>Creo que la mejor forma de aprender programación es <strong>comenzando con un reto que te apasione</strong>, todos tienen algo que les gustaría resolver. Si no lo tienes claro, puedes comenzar buscando problemas sencillos del día a día. Por ejemplo, a mi hijo se le rompió el bolillero para seleccionar los números de un juego de lotería y con un sencillo código creé un programa que le permitía seleccionar los números y todo quedó mucho más entretenido. Luego te das cuenta de que en internet hay miles de soluciones pero el proceso de identificar el problema y pensar código que lo resuelva te irá dando toda la lógica que necesitas para aprender a programar.</p>
+<p><img src="https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif" alt="Codeando"></p>
+<p>Los beneficios de aprender a programar son muchos, pero lo primordial es que <strong>nos predispone a resolver</strong> y eso es lo que se necesita para cualquier ámbito en el que nos podamos desempeñar. Si te pudiera dar cinco beneficios serían:</p>
+<ol>
+<li>
+<p>Te prepara para <strong>resolver problemas</strong> y cuándo los resuelves te entrega habilidades para encontrar soluciones simples.</p>
+</li>
+<li>
+<p>Programar es un <strong>proceso profundamente creativo</strong>, por lo que desarrollas habilidades que te permiten innovar y crear cosas de la nada.</p>
+</li>
+<li>
+<p>Programar no tiene nada que ver con un nerd ermitaño. Pasas mucho tiempo haciéndote preguntas y también le preguntas a otros. La comunidad es enorme y en los ámbitos que te imagines donde siempre puedes encontrar a alguien que te ayude o al que puedas ayudar. Desarrollas <strong>habilidades sociales y de comunicación</strong>.</p>
+</li>
+<li>
+<p>Te vuelves <strong>colaborativo</strong> porque tu código se resuelve a partir de la experiencia, de lo que dicen tus usuarios o el equipo con el cuál estás trabajando.</p>
+</li>
+<li>
+<p>Te enseña a <strong>hacer preguntas</strong>. Para encontrar un problema hay que saber formular una pregunta y quizás hacer una buena pregunta es la gran solución a los problemas. Aplicas el ciclo virtuoso de preguntar, analizar, debatir y decidir.</p>
+</li>
+</ol>
+<h3>¿Y el por qué?</h3>
+<p>Un mundo en plena digitalización exige habilidades en tecnología. No importa tu profesión, inclusive puedes no tener una carrera, pero debes dominar el uso y aplicación de tecnologías. Si quieres vender, emplearte o crear, necesitas, aunque sea conocimientos básicos de programación que permitan <strong>generar ese activo digital que represente todo lo que ofreces</strong> para alcanzar tus objetivos.</p>
+<p>La masificación de internet, el poder de cómputo y velocidad de conectividad está generando una revolución mayor que el impacto producido por la creación de la imprenta. En su momento se masificaron los libros y el conocimiento quedó al alcance de muchos, pero también se debió aprender a leer y escribir. En un mundo digitalizado tener conocimientos en programación potenciará tu arte y te transformará en un agente de cambio. Inténtalo y con empezar notarás los cambios.</p>
+<p>[^1]: Diccionario RAE <a href="https://dle.rae.es/programar?m=form">https://dle.rae.es/programar?m=form</a></p>
+]]></content:encoded>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+    <item>
+      <title>Salud Financiera</title>
+      <link>https://blog.saporiti.cl/posts/salud-financiera</link>
+      <guid>https://blog.saporiti.cl/posts/salud-financiera</guid>
+      <description>Utiliza esta herramienta para conocer tu libertad financiera.</description>
+      <content:encoded><![CDATA[<h1>Analiza tu salud financiera</h1>
+<p>Si quieres conocer tu salud financiera, te entrego una herramienta sencilla que puedes encontrar en un link al final de este post. La programé estudiando React.js y mi idea, al inciar estudios en programación, fue compartir todas las herramientas que desarrolle con otros. Espero que en algo sean útiles.</p>
+<h2>Analizando nuestro flujo</h2>
+<p>Lo primero que debes hacer es determinar cuáles son tus ingresos y egresos mensuales. En palabras sencillas lo que debemos determinar es si tienes ingresos suficientes para hacer frente a tus obligaciones y poder vivir.</p>
+<p>Los ingresos se dividen en aquellos que provienen de tu salario o actividad profesional, y otras rentas que incluyen arriendos, dividendos u otros ingresos que puedas tener de carácter pasivo.</p>
+<p>Los egresos contemplan gastos genéricos requeridos para nuestra subsistencia, esparcimiento y el cumplimiento de obligaciones con terceros como hipotecas o el pago de préstamos.</p>
+<p>Hay que prestar atención que no sólo es importante cubrir nuestras obligaciones, también debemos tener capacidad de ahorro y en lo posible una baja incidencia en el pago de créditos.</p>
+<p><strong>Ahorrar</strong> debe ser una prioridad casi de carácter obsesivo ya que a futuro esto determinará gran parte de nuestra salud financiera. El ahorro en finanzas personales equivale a los beneficios que brinda la actividad física a nuestra salud. Los ahorros no sólo permiten alcanzar nuestros objetivos (casa, auto o viajes), también cumplen como resguardo ante eventos inesperados. <em>¿ Te suena una pandemia de alcance global ?</em></p>
+<blockquote>
+<p><strong>Ratio de ahorro</strong>  determina el porcentaje de tus ingresos que puedes destinar a ahorro e inversiones, el ideal es superior al 10% pero un ratio del 25% es aún mejor, en especial cuando uno es  joven y puede destinar esa mayor capacidad de ahorro a invertir en instrumentos de mayor riesgo pero mejor retorno a largo plazo, como acciones.</p>
+</blockquote>
+<p><img src="https://i.imgur.com/uwwRyV3.jpg" alt="Monedas"></p>
+<p>El segundo ratio en importancia es nuestra <strong>carga financiera</strong> o el porcentaje de ingresos que destinamos al pago de obligaciones con terceros (banco, tarjeta de crédito, casas comerciales). Este ratio debe ser inferior al 40% que de por sí es un monto elevado. Tener mayor carga financiera implica también exponernos a mayor riesgo de quebranto ante la falta de ingresos porque incumplir trae consigo consecuencias legales o bien entrar en un círculo vicioso de refinanciamiento que carcome nuestra capacidad de ahorro y por ende, nuestra independencia.</p>
+<h2>Patrimonio personal</h2>
+<p>Nuestro patrimonio personal es la diferencia entre todos nuestros activos menos pasivos u obligaciones con terceros. Por el lado de nuestros activos, debemos analizarlos desde su grado de liquidez, es decir desde los más líquidos a los menos líquidos. Tus ahorros en depósitos a plazo o en un fondo money market tienen gran liquidez porque puedes disponer de ellos en el corto plazo, en el caso de tus activos de largo plazo como una propiedad, si quisieras disponer de liquidez deberías esperar un tiempo considerable a venderla.</p>
+<p>La forma en que distribuimos nuestros activos o como invertimos debe tener relación a nuestras necesidades de vida. Por ejemplo, si tenemos grandes gastos mensuales porque tenemos muchos hijos, no es recomendable que casi todas nuestras inversiones se encuentren en propiedades de baja liquidez. También si tienes muchas deudas, debes primero preocuparte en cancelarlas antes de invertir. Por ello tenemos que analizar nuestro <strong>ratio de liquidez</strong> que básicamente es dividir nuestros activos líquidos por nuestros egresos mensuales. Este ratio debe ser superior a 6 lo que significa que al menos debemos tener 6 meses de gastos mensuales ahorrados en instrumento de liquidez inmediata como depósitos a plazo o fondos de money market. Puedes incluir en estos ahorros de carácter especial el saldo que tengas en tu seguro de desempleo, pero lo recomendable es que la suma nunca sea menor a 6 meses.</p>
+<p>Luego el <strong>ratio de solvencia</strong> indica que porcentaje de nuestro patrimonio se encuentra libre de deuda. Puedes tener un departamento por valor de UF 4.000 pero si debes UF 3.200 eres dueño de sólo el 20% de tu propiedad, de ahí te sonará algo como el pie.</p>
+<p>Es importante tener un ratio de solvencia alto porque las obligaciones con terceros se retribuyen con intereses mucho más onerosos de los que podemos tener por nuestras inversiones. Sólo en el caso de que tus retornos por inversiones sean mayores a las tasas que pagas por créditos, es recomendable tener deuda mientras tenga destino a inversión.</p>
+<p>Y finalmente tenemos el <strong>ratio de deuda</strong> o como prefiero llamarlo, ratio de libertad. Mientras más cercano a cero sea, más libertad tendrás en tu vida financiera. Este ratio indica que porcentaje de tus activos en realidad es deuda y obligación con terceros. La libertad en finanzas implica poder disponer de tu tiempo y dinero para lo que más te gusta. <em>¿Acaso la riqueza es para quién más posee o menos debe?</em></p>
+<p>Espero que te animes a conocer tu <a href="https://salud-financiera.netlify.app/">salud financiera.</a></p>
+]]></content:encoded>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+    <item>
+      <title>Mi primer Post</title>
+      <link>https://blog.saporiti.cl/posts/mi-primer-post</link>
+      <guid>https://blog.saporiti.cl/posts/mi-primer-post</guid>
+      <description>Primer post de Blog creado en React + Next.js</description>
+      <content:encoded><![CDATA[<p>Hola 👋 estás leyendo mi primer Post! Este Blog lo desarrollé en React + Next.js utilizando el siguiente <a href="https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&#x26;utm_medium=nav-cta&#x26;utm_campaign=next-website">tutorial</a>.
+Si te interesa, puedes ver el repositorio en mi <a href="https://github.com/nicosaporiti/nextjs-blog">GitHub</a> y seguro tienes mejores aportes!</p>
+<p>Los post son escritos en Markdown, utilizo <a href="https://typora.io/">Typora</a> como editor que está muy bueno ya que es <strong>verdaderamente minimalista</strong>.</p>
+<p>El blog utiliza 2 dependencias esenciales para utilizar Markdown (MD) y luego procesarlos. La primera es <a href="https://www.npmjs.com/package/gray-matter">gray-matter</a> que parsea string a JSON. Por ejemplo este MD posee una cabecera con distintos datos como title, date, author e inclusive el link a imágenes que se utilizan en SEO.</p>
+<p>La otra dependencia importante es <a href="https://www.npmjs.com/package/remark">remark</a> que permite parsear y serializar los documentos MD a HTML y poder renderizarlos. Luego aplicando estilos globales en CSS puedes personalizar por completo tus documentos.</p>
+<blockquote>
+<p>La idea es disponer de un blog sencillo, estático, de gran perfomance para el usuario y utilizarlo como extensión de cualquier sitio web.</p>
+</blockquote>
+<p>Para instalar el proyecto debes:</p>
+<p>Copiar el repositorio de GitHub</p>
+<p><code>git clone https://github.com/nicosaporiti/nextjs-blog.git</code></p>
+<p>Instalar las dependencias</p>
+<p><code>npm install</code></p>
+<p>El proyecto está realizado en:</p>
+<ul>
+<li>React 17.0.1</li>
+<li>Next 10.0.0</li>
+<li>Dependencias date-fns, gray-matter y remark</li>
+</ul>
+<p>Comandos para modo desarrollo</p>
+<p><code>npm run dev</code></p>
+<h3>Realizar deploy del Blog</h3>
+<p>Te recomiendo que abras una cuenta en <a href="https://vercel.com/login">Vercel</a> y conectes el proyecto mediante GitHub para que cualquier deploy que realices en la rama principal se actualice directamente. Puedes redireccionar un subdominio de tu sitio a los servidores de Vercel y tener hosting del proyecto. El redireccionamiento es muy sencillo utilizando el administrador de DNS de tu hosting y creando un CNAME con los datos que te indica Vercel.</p>
+<p>Si quieres hacer deploy local y directamente subir tu proyecto a otros alojamientos como <a href="https://www.netlify.com/">Netlify</a> ejecuta el siguiente comando:</p>
+<p><code>npm run deploy</code></p>
+<p>Next creará una carpeta llamada <strong>out</strong> dentro de tu repositorio, lo único que debes hacer es arrastrarla a la creación de nuevos proyectos de Netlify y ya tendrás tu blog corriendo.</p>
+<p>Este proyecto utiliza getStaticProps y genera un SSG que básicamente es un sitio estático en HTML + JSON. Por lo tanto cada vez que crees un post, debes colocar los documentos en la carpeta posts y correr el comando de deploy para actualizar todo el blog.</p>
+<p>Poco a poco iré agregando algunos features, por ejemplo comencé con el contador de palabras que calcula el tiempo de lectura.</p>
+<h3>Esto es una imagen aleatoria de <a href="https://picsum.photos/">Lorem Picsum</a></h3>
+<p><img src="https://picsum.photos/400/300" alt="Imagen aleatoria"></p>
+<p>Gracias por leer! 😄</p>
+]]></content:encoded>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 GMT</pubDate>
+      <author>Nicolás Saporiti</author>
+    </item>
+  </channel>
+</rss>

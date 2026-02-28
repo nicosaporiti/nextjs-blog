@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/generate-rss.js && next build",
+    "generate-rss": "node scripts/generate-rss.js",
     "start": "next start"
   },
   "dependencies": {
