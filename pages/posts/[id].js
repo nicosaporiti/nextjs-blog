@@ -2,7 +2,7 @@ import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import Date from "../../components/date";
-import utilStyles from "../../styles/utils.module.css";
+import postStyles from "../../styles/post.module.css";
 import wordCounter from "../../components/wordCounter";
 import { tipButton as TipButton } from "../../components/tipButton";
 
@@ -25,19 +25,30 @@ export default function Post({ postData }) {
         <meta name="twitter:description" content={postData.resume} />
         <meta name="twitter:creator" content="@author_handle" />
       </Head>
-      <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={`${utilStyles.lightText} ${utilStyles.inline}`}>
-          <p>Por {postData.author} /&nbsp;</p>
-          <p>
-            <Date dateString={postData.date} />
-          </p>
+      <article className={postStyles.article}>
+        <div className={postStyles.meta}>
+          <span>Por {postData.author}</span>
+          <span><Date dateString={postData.date} /></span>
+          <span>Lectura de {readingTime} min</span>
         </div>
-        <div>
-        <TipButton post={postData.title} />
-          <p className={utilStyles.lightText}>Lectura de {readingTime} min</p>
+        <h1 className={postStyles.title}>{postData.title}</h1>
+        {postData.resume && (
+          <p className={postStyles.excerpt}>{postData.resume}</p>
+        )}
+        {postData.image && (
+          <img
+            src={postData.image}
+            alt={postData.title}
+            className={postStyles.heroImage}
+          />
+        )}
+        <div className={postStyles.actions}>
+          <TipButton />
         </div>
-        <div className="post-content" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div
+          className={`post-content ${postStyles.content}`}
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        />
       </article>
     </Layout>
   );

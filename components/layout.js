@@ -3,6 +3,7 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import Link from 'next/link';
 import Navbar from './navbar';
+import Footer from './footer';
 
 export const siteTitle = 'BLOG de Nicolás Saporiti';
 
@@ -29,31 +30,12 @@ export default function Layout({ children, home }) {
         </Head>
         <main>{children}</main>
         {!home && (
-          <>
-            <div className={styles.backToHome}>
-              <Link href='/'>← Volver al Home</Link>
-            </div>
-            <Link
-              href='/'
-              className={styles.backButton}
-              aria-label='Volver al Home'
-            >
-              <svg
-                width='20'
-                height='20'
-                viewBox='0 0 24 24'
-                fill='none'
-                stroke='currentColor'
-                strokeWidth='2'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-              >
-                <polyline points='15 18 9 12 15 6' />
-              </svg>
-            </Link>
-          </>
+          <div className={styles.backToHome}>
+            <Link href='/'>← Volver al Home</Link>
+          </div>
         )}
       </div>
+      <Footer />
     </>
   );
 }

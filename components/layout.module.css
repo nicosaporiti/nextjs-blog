@@ -1,52 +1,35 @@
 .container {
   max-width: 44rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  padding: 0 1.5rem;
+  margin: 5rem auto 2rem;
 }
 
 .containerHome {
-  max-width: 44rem;
-  padding: 0 1rem;
-  margin: 8rem auto 5rem;
+  max-width: 72rem;
+  padding: 0 1.5rem;
+  margin: 5rem auto 2rem;
 }
-
-@media (max-width: 600px) {
-  .containerHome {
-    margin: 1.5rem auto 4rem;
-  }
-}
-
 
 .backToHome {
   margin: 3rem 0 0;
 }
 
-.backButton {
-  position: fixed;
-  left: max(0.8rem, calc(25% - 11rem));
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #999;
-  transition: color 0.2s ease, background 0.2s ease;
-  z-index: 50;
+.backToHome a {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
 }
 
-.backButton:hover {
-  color: peru;
-  background: rgba(205, 133, 63, 0.1);
-  text-decoration: none;
+.backToHome a:hover {
+  color: var(--color-accent);
 }
 
 @media (max-width: 600px) {
-  .backButton {
-    display: none;
+  .container {
+    margin-top: 4rem;
+  }
+
+  .containerHome {
+    margin-top: 4rem;
   }
 }

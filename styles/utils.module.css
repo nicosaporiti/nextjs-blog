@@ -1,9 +1,10 @@
 .heading2Xl {
   font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.05em;
   margin: 1rem 0;
+  color: var(--color-text-primary);
 }
 
 @media (max-width: 600px) {
@@ -14,26 +15,29 @@
 
 .headingXl {
   font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.05em;
   margin: 1rem 0;
+  color: var(--color-text-primary);
 }
 
 .headingLg {
   font-size: 1.5rem;
-  line-height: 1.4;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   margin: 1rem 0;
 }
 
 .headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 @media (max-width: 600px) {
   .headingMd p {
-    font-size: smaller;
+    font-size: 0.95rem;
   }
 }
 
@@ -45,63 +49,14 @@
   color: inherit;
 }
 
-.padding1px {
-  padding-top: 1px;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.listItem {
-  margin: 0 0 1.25rem;
-}
-
-@media (max-width: 600px) {
-  .listItem {
-    font-size: smaller;
-  }
-
-  .listItem a {
-    padding: 0 !important;
-  }
-
-  .listItem a:hover {
-    background: none !important;
-    text-decoration: none;
-  }
-  .listItem small {
-    margin-left: 0 !important;
-  }
-}
-
-.listItem small {
-  margin-left: 0.5rem;
-}
-.listItem a {
-  padding: 0.5rem;
-  border-radius: 5px;
-}
-
-.listItem a:hover {
-  background: rgb(59, 59, 59);
-  text-decoration: none;
-}
-
-.listItem a {
-  transition: background 0.8s;
-}
-
 .lightText {
-  color: #999;
+  color: var(--color-text-secondary);
 }
 
 .inline {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  align-items: center;
 }
 
 .inline p {
