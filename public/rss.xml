@@ -525,8 +525,7 @@
       <guid>https://blog.saporiti.cl/posts/widget-indicadores-financieros</guid>
       <description>Widget para Scriptable (iOS) que muestra indicadores financieros con su rendimiento Year-to-Date (YTD). </description>
       <content:encoded><![CDATA[<h1>Widget YTD - Indicadores Financieros</h1>
-<p>Widget para Scriptable (iOS) que muestra indicadores financieros con su rendimiento Year-to-Date (YTD).
-<img src="https://i.imgur.com/qXHuxAX.png" alt=""></p>
+<p>Widget para Scriptable (iOS) que muestra indicadores financieros con su rendimiento Year-to-Date (YTD).</p>
 <h2>Indicadores</h2>
 <table>
 <thead>

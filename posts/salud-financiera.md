@@ -2,7 +2,7 @@
 title: "Salud Financiera"
 date: "2020-11-19"
 author: "Nicolás Saporiti"
-image: "https://i.imgur.com/uwwRyV3.jpg"
+image: "https://images.unsplash.com/photo-1616514197671-15d99ce7a6f8?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 resume: "Utiliza esta herramienta para conocer tu libertad financiera."
 ---
 # Analiza tu salud financiera

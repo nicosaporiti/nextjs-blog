@@ -2,7 +2,7 @@
 title: "Préstamos con Garantía de Bitcoin"
 date: "2026-01-04"
 author: "Nicolás Saporiti"
-image: "https://cdn.pixabay.com/photo/2021/02/17/13/47/bitcoin-6024248_1280.jpg"
+image: "https://images.unsplash.com/photo-1626162953675-544bf5a61ca6?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 resume: "Este informe presenta un análisis exhaustivo para validar la hipótesis de que los préstamos que utilizan bitcoin como colateral alcanzarán un estatus institucional en los próximos años."
 ---
 # **La Institucionalización de los Préstamos con Garantía de Bitcoin: Validación de un Nuevo Primitivo Financiero**
