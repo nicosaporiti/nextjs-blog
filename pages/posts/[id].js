@@ -1,6 +1,8 @@
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
+import Script from "next/script";
+import { useEffect, useRef } from "react";
 import Date from "../../components/date";
 import postStyles from "../../styles/post.module.css";
 import wordCounter from "../../components/wordCounter";
@@ -8,6 +10,17 @@ import { tipButton as TipButton } from "../../components/tipButton";
 
 export default function Post({ postData }) {
   const readingTime = wordCounter(postData.contentHtml);
+  const contentRef = useRef(null);
+  const hasTweetEmbed = postData.contentHtml.includes('class="twitter-tweet"');
+
+  useEffect(() => {
+    if (!hasTweetEmbed || !window.twttr?.widgets || !contentRef.current) {
+      return;
+    }
+
+    window.twttr.widgets.load(contentRef.current);
+  }, [hasTweetEmbed, postData.contentHtml]);
+
   return (
     <Layout>
       <Head>
@@ -25,6 +38,17 @@ export default function Post({ postData }) {
         <meta name="twitter:description" content={postData.resume} />
         <meta name="twitter:creator" content="@author_handle" />
       </Head>
+      {hasTweetEmbed && (
+        <Script
+          src="https://platform.twitter.com/widgets.js"
+          strategy="afterInteractive"
+          onLoad={() => {
+            if (contentRef.current) {
+              window.twttr?.widgets?.load(contentRef.current);
+            }
+          }}
+        />
+      )}
       <article className={postStyles.article}>
         <div className={postStyles.meta}>
           <span>Por {postData.author}</span>
@@ -46,6 +70,7 @@ export default function Post({ postData }) {
           <TipButton />
         </div>
         <div
+          ref={contentRef}
           className={`post-content ${postStyles.content}`}
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />

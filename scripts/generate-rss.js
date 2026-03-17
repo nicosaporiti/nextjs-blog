@@ -4,6 +4,66 @@ const matter = require('gray-matter');
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 const SITE_URL = 'https://blog.saporiti.cl';
+const TWEET_PLACEHOLDER_PREFIX = 'TWEET_EMBED::';
+
+function normalizeTweetUrl(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    const hostname = url.hostname.toLowerCase();
+    const isTwitterHost =
+      hostname === 'twitter.com' ||
+      hostname === 'www.twitter.com' ||
+      hostname === 'mobile.twitter.com' ||
+      hostname === 'x.com' ||
+      hostname === 'www.x.com';
+
+    if (!isTwitterHost) {
+      return null;
+    }
+
+    const statusMatch = url.pathname.match(/^\/([A-Za-z0-9_]+)\/status\/(\d+)\/?$/);
+    if (!statusMatch) {
+      return null;
+    }
+
+    const [, username, statusId] = statusMatch;
+    return `https://twitter.com/${username}/status/${statusId}`;
+  } catch {
+    return null;
+  }
+}
+
+function encodeTweetPlaceholder(tweetUrl) {
+  return `${TWEET_PLACEHOLDER_PREFIX}${encodeURIComponent(tweetUrl)}`;
+}
+
+function replaceTweetEmbedHtml(markdown) {
+  return markdown.replace(
+    /<blockquote[^>]*class=["'][^"']*twitter-tweet[^"']*["'][^>]*>[\s\S]*?<a[^>]*href=["']([^"']+)["'][^>]*>[\s\S]*?<\/blockquote>\s*(?:<script[^>]*src=["']https:\/\/platform\.twitter\.com\/widgets\.js["'][^>]*><\/script>)?/gi,
+    (_, rawUrl) => {
+      const tweetUrl = normalizeTweetUrl(rawUrl);
+      return tweetUrl ? `\n\n${encodeTweetPlaceholder(tweetUrl)}\n\n` : '';
+    }
+  );
+}
+
+function escapeHtmlAttribute(value) {
+  return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
+
+function renderTweetEmbeds(contentHtml) {
+  return contentHtml.replace(
+    new RegExp(`<p>${TWEET_PLACEHOLDER_PREFIX}([^<]+)<\\/p>`, 'g'),
+    (_, encodedUrl) => {
+      const tweetUrl = decodeURIComponent(encodedUrl);
+      return `<blockquote class="twitter-tweet"><a href="${escapeHtmlAttribute(tweetUrl)}"></a></blockquote>`;
+    }
+  );
+}
+
+function prepareMarkdownContent(markdown) {
+  return replaceTweetEmbedHtml(markdown);
+}
 
 async function getPostsWithContent() {
   const remark = (await import('remark')).default;
@@ -17,12 +77,13 @@ async function getPostsWithContent() {
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const matterResult = matter(fileContents);
+      const markdownContent = prepareMarkdownContent(matterResult.content);
 
       const processedContent = await remark()
         .use(gfm)
         .use(html)
-        .process(matterResult.content);
-      const contentHtml = processedContent.toString();
+        .process(markdownContent);
+      const contentHtml = renderTweetEmbeds(processedContent.toString());
 
       return { id, contentHtml, ...matterResult.data };
     })
