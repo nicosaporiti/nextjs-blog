@@ -1,17 +1,15 @@
 import React from 'react';
-import styles from './tipButton.module.css';
 
 export const tipButton = () => {
-  const url = process.env.NEXT_PUBLIC_BTC_URL;
-
   return (
     <div>
       <a
-        className={styles.btc_button}
-        href={'https://payments.saporiti.cl/'}
-        target='_blank'
+        className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-surface text-xs font-semibold uppercase tracking-wider rounded-full hover:opacity-80 transition-opacity"
+        href="https://payments.saporiti.cl/"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Donar Sats con LN ⚡
+        Donar Sats con LN
       </a>
     </div>
   );

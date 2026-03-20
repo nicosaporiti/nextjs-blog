@@ -4,6 +4,8 @@ date: "2022-11-29"
 author: "Nicolás Saporiti"
 image: "https://images.unsplash.com/photo-1654638827522-c22e830b8a82?q=80&w=2016&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 resume: "Todos reconocen la importancia de custodiar bitcoin, pero muchos delegan su lightning address (LA) en terceros."
+category: "Bitcoin"
+tags: ["Lightning Network", "Seguridad"]
 ---
 
 # No delegar tu lightning address

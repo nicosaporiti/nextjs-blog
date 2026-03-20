@@ -5,6 +5,8 @@ author: "Nicolás Saporiti"
 image: "https://images.unsplash.com/photo-1619462572411-f1377274cab4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 resume: "Widget para Scriptable (iOS) que muestra indicadores financieros con su rendimiento Year-to-Date (YTD).
 "
+category: "Programación"
+tags: ["JavaScript", "iOS", "Finanzas"]
 ---
 # Widget YTD - Indicadores Financieros
 

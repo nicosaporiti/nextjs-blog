@@ -1,66 +1,192 @@
 import React from 'react';
 import Head from 'next/head';
 import Layout from '../../components/layout';
-import styles from './about.module.css';
+import { projects } from '../../lib/projects';
 
-const About = () => {
+export default function About() {
+  const featuredProject = projects[0];
+  const secondaryProjects = projects.slice(1, 3);
+  const wideProject = projects[3];
+  const socialLinks = [
+    {
+      name: 'Twitter',
+      handle: 'nicosaporiti_',
+      href: 'https://x.com/nicosaporiti_',
+    },
+    {
+      name: 'GitHub',
+      handle: 'nicosaporiti',
+      href: 'https://github.com/nicosaporiti',
+    },
+    {
+      name: 'LinkedIn',
+      handle: 'Nicolás Saporiti',
+      href: 'https://www.linkedin.com/in/nicolas-jorge-saporiti-1619391a/',
+    },
+    { name: 'RSS', handle: 'rss.xml', href: '/rss.xml' },
+  ];
+
   return (
     <Layout>
       <Head>
-        <title>About - Nicolás Saporiti</title>
+        <title>Acerca de - Nicolás Saporiti</title>
       </Head>
-      <section className={styles.hero}>
-        <img
-          src="https://lh3.googleusercontent.com/a-/AOh14GgwKFzMdsAwOfBb9dRTM1ZNlRwQgX9Ow26ZPFRhxg=s96-c"
-          alt="Nicolás Saporiti"
-          className={styles.avatar}
-        />
-        <h1 className={styles.name}>Nicolás Saporiti</h1>
-        <p className={styles.role}>CEO de Agrominera · Chile</p>
-        <div className={styles.socials}>
-          <a href="https://github.com/nicosaporiti" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/nicolas-jorge-saporiti-1619391a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-          </a>
-          <a href="mailto:nicolas@saporiti.cl?subject=Contacto%20desde%20Blog" aria-label="Email">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="2" y="4" width="20" height="16" rx="2"/>
-              <path d="M22 7l-10 7L2 7"/>
-            </svg>
-          </a>
-        </div>
-      </section>
-      <section className={styles.bio}>
-        <p>
-          Hola!, soy <strong>Nicolás Saporiti</strong>. Nací en Mendoza, padre
-          de familia y desde el año 2005 vivo en Chile. Soy CEO de{' '}
-          <a href='https://www.agrominera.cl/' target='_blank' rel='noopener noreferrer'>
-            Agrominera
-          </a>
-          , de profesión Licenciado en Administración y Magister en Dirección
-          Financiera.
-        </p>
-        <p>
-          Creo que la tecnología nos ayuda a encontrar nuestra mejor versión.
-        </p>
-        <p>
-          Pensé compartir notas sobre mi experiencia personal aplicando
-          tecnología en distintos ámbitos. No pretendo generar artículos
-          técnicos, simplemente posteo reflexiones personales en este
-          largo proceso de aprendizaje.
-        </p>
-        <p>
-          <strong>Quizás alguna nota sea de tu interés!</strong>
-        </p>
-      </section>
+
+      <main className='max-w-5xl mx-auto px-6 pt-32 pb-24'>
+        <section className='mb-24 grid grid-cols-1 items-end gap-12 md:mb-32 md:grid-cols-12'>
+          <div className='md:col-span-8'>
+            <h1 className='mb-8 text-[3rem] font-bold leading-[1.1] tracking-[-0.04em] text-black md:text-[5rem] dark:text-white'>
+              Construyendo para siempre aprender.
+            </h1>
+            <p className='max-w-xl text-lg leading-relaxed text-on-surface-variant'>
+              Hola!, soy Nicolás Saporiti. Nací en Mendoza, padre de familia y
+              desde el año 2005 vivo en Chile. De profesión Licenciado en
+              Administración y Magister en Dirección Financiera.
+            </p>
+          </div>
+          <div className='flex md:col-span-4 md:justify-end'>
+            <div className='h-80 w-64 overflow-hidden rounded-lg bg-surface-container-low'>
+              <img
+                src='/images/nsaporiti.jpeg'
+                alt='Nicolás Saporiti'
+                className='h-full w-full object-cover grayscale'
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className='mb-24 grid grid-cols-1 gap-12 md:mb-32 md:grid-cols-12'>
+          <div className='md:col-span-4'>
+            <h2 className='text-xs font-bold uppercase tracking-widest text-on-surface-variant'>
+              Trayectoria
+            </h2>
+          </div>
+          <div className='md:col-span-8'>
+            <div className='max-w-2xl space-y-6 text-lg leading-relaxed text-on-surface'>
+              <p>
+                Soy CEO desde 2005 de una empresa industrial tradicional pero
+                siempre fui un apasionado por los avances tecnológicos. Creo que
+                la tecnología nos ayuda a encontrar nuestra mejor versión.
+              </p>
+              <p>
+                Pensé compartir notas sobre mi experiencia personal aplicando
+                soluciones digitales en distintos ámbitos. No pretendo generar
+                artículos técnicos, simplemente posteo reflexiones personales en
+                este largo proceso de aprendizaje. Quizás alguna nota sea de tu
+                interés!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className='mb-24 md:mb-32'>
+          <h2 className='mb-12 text-xs font-bold uppercase tracking-widest text-on-surface-variant'>
+            Proyectos seleccionados
+          </h2>
+          <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+            <a
+              href={featuredProject.href}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='group relative overflow-hidden rounded-xl bg-surface-container-low shadow-sm transition-all duration-500 hover:shadow-xl md:col-span-2 md:row-span-2 dark:shadow-[0_20px_40px_rgba(0,0,0,0.3)]'
+            >
+              <div className='p-8'>
+                <div className='mb-2 flex items-center justify-between'>
+                  <h3 className='text-2xl font-semibold tracking-tight text-black dark:text-white'>
+                    {featuredProject.name}
+                  </h3>
+                  <span className='rounded bg-surface-container-highest px-2 py-1 text-xs font-medium text-on-surface-variant'>
+                    {featuredProject.year}
+                  </span>
+                </div>
+                <p className='max-w-md text-on-surface-variant'>
+                  {featuredProject.description}
+                </p>
+              </div>
+            </a>
+
+            {secondaryProjects.map((project) => (
+              <a
+                key={project.name}
+                href={project.href}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='group overflow-hidden rounded-xl bg-surface-container-low transition-all duration-300'
+              >
+                <div className='p-6'>
+                  <h3 className='text-lg font-semibold text-black dark:text-white'>
+                    {project.name}
+                  </h3>
+                  <p className='mt-1 text-sm text-on-surface-variant'>
+                    {project.description}
+                  </p>
+                </div>
+              </a>
+            ))}
+
+            <a
+              href={wideProject.href}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='group flex flex-col overflow-hidden rounded-xl bg-surface-container-low md:col-span-3 md:flex-row'
+            >
+              <div className='flex-1 p-8 md:p-12'>
+                <h3 className='mb-4 text-2xl font-semibold text-black dark:text-white'>
+                  {wideProject.name}
+                </h3>
+                <p className='mb-6 max-w-sm text-on-surface-variant'>
+                  {wideProject.description}
+                </p>
+                <span className='inline-flex items-center gap-2 border-b border-primary pb-1 text-sm font-medium transition-all group-hover:gap-4'>
+                  Ver caso
+                  <svg
+                    width='16'
+                    height='16'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    strokeWidth='2'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                  >
+                    <path d='M5 12h14' />
+                    <path d='m12 5 7 7-7 7' />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section className='mb-24 md:mb-32'>
+          <h2 className='mb-12 text-xs font-bold uppercase tracking-widest text-on-surface-variant'>
+            Conectar y seguir
+          </h2>
+          <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
+            {socialLinks.map(({ name, handle, href }) => (
+              <a
+                key={name}
+                href={href}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='group flex flex-col rounded-lg bg-surface-container-low p-6 transition-colors hover:bg-surface-container-high'
+              >
+                <span className='mb-8 text-xs text-on-surface-variant'>
+                  {name}
+                </span>
+                <div className='flex items-center justify-between gap-3'>
+                  <span className='font-medium text-black dark:text-white'>
+                    {handle}
+                  </span>
+                  <span className='text-sm opacity-0 transition-opacity group-hover:opacity-100'>
+                    ↗
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      </main>
     </Layout>
   );
-};
-
-export default About;
+}

@@ -4,6 +4,8 @@ date: "2021-11-29"
 author: "Nicolás Saporiti"
 image: "https://i.imgur.com/ixihN2j.jpg"
 resume: "Te explico como implementar un sistema sencillo para recibir pagos web en Bitcoin utilizando lightning network."
+category: "Bitcoin"
+tags: ["Lightning Network", "Pagos"]
 ---
 # Recibir pagos web en Bitcoin con Lightning Network
 
