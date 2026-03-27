@@ -1,8 +1,8 @@
 {
-  "tag": "payRequest",
-  "callback": "https://ln.rayito.app/lnurlp/api/v1/lnurl/cb/7",
-  "minSendable": 1000,
+  "callback": "https://budaln.fly.dev/callback",
   "maxSendable": 100000000,
-  "metadata": "[[\"text/plain\", \"PayLink de Nicolas Saporiti\"]]",
+  "minSendable": 1000,
+  "metadata": "[[\"text/plain\",\"Pago Lightning a Nicolas Saporiti\"]]",
+  "tag": "payRequest",
   "commentAllowed": 140
 }
