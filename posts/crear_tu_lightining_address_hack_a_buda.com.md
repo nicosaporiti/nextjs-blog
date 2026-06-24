@@ -3,13 +3,13 @@ title: "Crea tu propia lightning address (Hack a Buda.com)"
 date: "2026-06-24"
 author: "Nicolás Saporiti"
 image: "https://images.unsplash.com/photo-1654638827522-c22e830b8a82?q=80&w=2016&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-resume: "Queria recibir pagos por Lightning sin tener que administrar un nodo propio, exponer credenciales en el frontend ni inventar un flujo raro para generar invoices. La idea era simple"
+resume: "Quería recibir pagos por Lightning sin tener que administrar un nodo propio, exponer credenciales en el frontend ni inventar un flujo raro para generar invoices. La idea era simple"
 category: "Bitcoin"
 tags: ["Lightning Network", "Seguridad"]
 ---
-# Como arme una Lightning Address usando Node.js, Express y la API de Buda
+# Cómo armé una Lightning Address usando Node.js, Express y la API de Buda
 
-Queria recibir pagos por Lightning sin tener que administrar un nodo propio, exponer credenciales en el frontend ni inventar un flujo raro para generar invoices. La idea era simple:
+Quería recibir pagos por Lightning sin tener que administrar un nodo propio, exponer credenciales en el frontend ni inventar un flujo raro para generar invoices. La idea era simple:
 
 ```text
 alguien paga a usuario@mi-dominio.com
@@ -20,9 +20,9 @@ la wallet del pagador paga esa invoice
 
 **Pero antes de seguir te dejo el [repositorio](https://github.com/nicosaporiti/buda-lightning-invoice) y si quieres probar, envía unos sats a nicolas@saporiti.cl**
 
-En la practica, eso significa implementar Lightning Address, que por debajo usa LNURL-pay. Lo interesante es que no hace falta construir toda una infraestructura Lightning desde cero. Si ya tenes una cuenta en Buda con acceso a su API, podes usarla como proveedor de invoices y dejar tu backend como una capa segura y controlada.
+En la práctica, eso significa implementar Lightning Address, que por debajo usa LNURL-pay. Lo interesante es que no hace falta construir toda una infraestructura Lightning desde cero. Si ya tenés una cuenta en Buda con acceso a su API, podés usarla como proveedor de invoices y dejar tu backend como una capa segura y controlada.
 
-Este post muestra el enfoque que use para construir esa API.
+Este post muestra el enfoque que usé para construir esa API.
 
 ## El problema
 
@@ -32,15 +32,15 @@ Una Lightning Address se ve como un email:
 nicolas@mi-dominio.com
 ```
 
-Pero no funciona como email. Cuando una wallet quiere pagar a esa direccion, primero busca un endpoint publico en tu dominio:
+Pero no funciona como email. Cuando una wallet quiere pagar a esa dirección, primero busca un endpoint público en tu dominio:
 
 ```text
 GET https://mi-dominio.com/.well-known/lnurlp/nicolas
 ```
 
-Ese endpoint devuelve informacion LNURL-pay: cuanto se puede pagar, cual es el callback para pedir una invoice y que metadata debe usar la wallet.
+Ese endpoint devuelve información LNURL-pay: cuánto se puede pagar, cuál es el callback para pedir una invoice y qué metadata debe usar la wallet.
 
-Despues, cuando el usuario elige el monto, la wallet llama al callback:
+Después, cuando el usuario elige el monto, la wallet llama al callback:
 
 ```text
 GET https://mi-dominio.com/callback?amount=5000000&comment=Gracias
@@ -61,11 +61,11 @@ El callback tiene que responder con una invoice BOLT11:
 }
 ```
 
-Ahi esta la clave: la wallet no necesita saber nada de Buda. Solo necesita un endpoint compatible con LNURL-pay.
+Ahí está la clave: la wallet no necesita saber nada de Buda. Solo necesita un endpoint compatible con LNURL-pay.
 
 ## La arquitectura
 
-La API quedo como un backend Node.js/Express que cumple dos roles:
+La API quedó como un backend Node.js/Express que cumple dos roles:
 
 1. Exponer endpoints simples para crear invoices y consultar pagos.
 2. Exponer endpoints compatibles con Lightning Address / LNURL-pay.
@@ -75,7 +75,7 @@ El flujo interno es este:
 ```text
 HTTP Request
   -> Express route
-  -> validacion con express-validator
+  -> validación con express-validator
   -> controller
   -> helper
   -> wrapper de Buda
@@ -83,7 +83,7 @@ HTTP Request
   -> HTTP Response
 ```
 
-La decision mas importante fue que las credenciales de Buda viven solamente en el backend:
+La decisión más importante fue que las credenciales de Buda viven solamente en el backend:
 
 ```env
 PORT=3001
@@ -96,13 +96,13 @@ El frontend, la wallet o cualquier consumidor externo nunca ven esas claves. Sol
 
 ## Crear una invoice Lightning
 
-La primera pieza fue un endpoint comun para crear invoices:
+La primera pieza fue un endpoint común para crear invoices:
 
 ```http
 POST /newinvoice
 ```
 
-Con un body asi:
+Con un body así:
 
 ```json
 {
@@ -111,9 +111,9 @@ Con un body asi:
 }
 ```
 
-`amount` esta expresado en satoshis y `msg` se usa como memo de la invoice.
+`amount` está expresado en satoshis y `msg` se usa como memo de la invoice.
 
-El helper que habla con Buda es chico a proposito:
+El helper que habla con Buda es chico a propósito:
 
 ```js
 const getInvoice = (amount, msg) => {
@@ -143,7 +143,7 @@ Buda.prototype.lightning_network_invoices = function(amount, currency, memo, exp
 };
 ```
 
-La API responde algo asi:
+La API responde algo así:
 
 ```json
 {
@@ -153,11 +153,11 @@ La API responde algo asi:
 }
 ```
 
-Con eso ya tenia la parte basica: pedir una invoice Lightning desde mi backend.
+Con eso ya tenía la parte básica: pedir una invoice Lightning desde mi backend.
 
 ## Verificar si una invoice fue pagada
 
-Despues agregue un endpoint para consultar estado:
+Después agregué un endpoint para consultar estado:
 
 ```http
 POST /status
@@ -171,7 +171,7 @@ Body:
 }
 ```
 
-La verificacion busca la invoice entre los deposits BTC de Buda y solo devuelve `true` si el estado es `confirmed`:
+La verificación busca la invoice entre los deposits BTC de Buda y solo devuelve `true` si el estado es `confirmed`:
 
 ```js
 const getPaymentConfirmation = (invoice) => {
@@ -201,11 +201,11 @@ Respuesta:
 }
 ```
 
-Esto sirve para integraciones propias, dashboards o flujos donde quiero saber si una invoice especifica ya fue pagada.
+Esto sirve para integraciones propias, dashboards o flujos donde quiero saber si una invoice específica ya fue pagada.
 
 ## Convertir la API en una Lightning Address
 
-La parte mas interesante fue agregar LNURL-pay.
+La parte más interesante fue agregar LNURL-pay.
 
 Para que una wallet pueda resolver una Lightning Address como:
 
@@ -241,12 +241,12 @@ const lnurlp = (req, res = response) => {
 Algunos detalles importantes:
 
 - `tag: 'payRequest'` le dice a la wallet que esto es LNURL-pay.
-- `minSendable` y `maxSendable` estan en millisatoshis.
-- `callback` es el endpoint que la wallet va a llamar despues para pedir una invoice.
+- `minSendable` y `maxSendable` están en millisatoshis.
+- `callback` es el endpoint que la wallet va a llamar después para pedir una invoice.
 - `metadata` describe el pago y tiene que viajar como string JSON.
 - `commentAllowed` permite que la wallet mande un comentario de hasta 140 caracteres.
 
-Una respuesta real se ve asi:
+Una respuesta real se ve así:
 
 ```json
 {
@@ -261,7 +261,7 @@ Una respuesta real se ve asi:
 
 ## El callback: de millisatoshis a invoice BOLT11
 
-Cuando la wallet ya sabe cuanto quiere pagar, llama al callback:
+Cuando la wallet ya sabe cuánto quiere pagar, llama al callback:
 
 ```http
 GET /callback?amount=5000000&comment=Gracias
@@ -315,7 +315,7 @@ En ese momento, para el usuario final, la experiencia es transparente: escribe u
 
 ## Validaciones
 
-Use `express-validator` para cortar requests invalidas antes de llegar a los controllers.
+Usé `express-validator` para cortar requests inválidas antes de llegar a los controllers.
 
 Para crear invoices normales:
 
@@ -335,11 +335,11 @@ check('amount', 'Ingrese un número entero mayor a 1000 msats')
   .isInt({ min: 1000 });
 ```
 
-Esto ultimo es importante porque LNURL-pay trabaja en millisatoshis. `1000` msats equivale a `1` satoshi, que es el minimo que la API acepta para generar una invoice.
+Esto último es importante porque LNURL-pay trabaja en millisatoshis. `1000` msats equivale a `1` satoshi, que es el mínimo que la API acepta para generar una invoice.
 
 ## Deploy
 
-Lo desplegue en Fly.io. La app escucha en el puerto `8080` por defecto, que coincide con la configuracion de `fly.toml`:
+Lo desplegué en Fly.io. La app escucha en el puerto `8080` por defecto, que coincide con la configuración de `fly.toml`:
 
 ```toml
 [http_service]
@@ -363,26 +363,26 @@ https://mi-dominio.com/.well-known/lnurlp/nicolas
 
 Si eso devuelve el JSON de LNURL-pay, la Lightning Address ya tiene la primera mitad resuelta.
 
-Despues probe el callback:
+Después probé el callback:
 
 ```text
 https://mi-dominio.com/callback?amount=5000000&comment=Test
 ```
 
-Si responde con un `pr` que empieza con `lnbc`, ya esta generando invoices Lightning reales.
+Si responde con un `pr` que empieza con `lnbc`, ya está generando invoices Lightning reales.
 
-## Lo que aprendi
+## Lo que aprendí
 
-La parte dificil no fue crear una API enorme. Fue respetar bien los contratos:
+La parte difícil no fue crear una API enorme. Fue respetar bien los contratos:
 
 - Lightning Address necesita el endpoint `/.well-known/lnurlp/:username`.
 - LNURL-pay usa millisatoshis, no satoshis.
 - El callback tiene que devolver `pr`, no `invoice`.
 - Las credenciales de Buda nunca deben salir del backend.
 - La metadata debe enviarse como string JSON.
-- El dominio publico importa: las wallets tienen que poder llamar esos endpoints por HTTPS.
+- El dominio público importa: las wallets tienen que poder llamar esos endpoints por HTTPS.
 
-Tambien me gusto que la solucion queda bastante modular. Si mañana cambio el proveedor que genera invoices, la superficie publica podria seguir siendo la misma: `/newinvoice`, `/status`, `/.well-known/lnurlp/:username` y `/callback`.
+También me gustó que la solución queda bastante modular. Si mañana cambio el proveedor que genera invoices, la superficie pública podría seguir siendo la misma: `/newinvoice`, `/status`, `/.well-known/lnurlp/:username` y `/callback`.
 
 ## Cierre
 
@@ -395,8 +395,8 @@ LNURL-pay para hablar con wallets
 Fly.io para tener HTTPS publico
 ```
 
-El resultado es una direccion simple para recibir pagos, pero con un backend propio que mantiene control sobre credenciales, validaciones y logica de negocio.
+El resultado es una dirección simple para recibir pagos, pero con un backend propio que mantiene control sobre credenciales, validaciones y lógica de negocio.
 
 No tuve que correr un nodo Lightning ni meter claves privadas en el frontend. Solo tuve que entender el contrato LNURL-pay y conectar bien el callback con la API de Buda.
 
-Para mi, esa fue la parte mas linda del proyecto: convertir una API chica en una experiencia que del lado del usuario se siente tan simple como pagar a un email.
+Para mí, esa fue la parte más linda del proyecto: convertir una API chica en una experiencia que del lado del usuario se siente tan simple como pagar a un email.
